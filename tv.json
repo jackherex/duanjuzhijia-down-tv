@@ -1,0 +1,28 @@
+{
+  "version": "1.0.9+10",
+  "versionName": "1.0.9",
+  "build": 10,
+  "versionCode": 10009,
+  "minVersion": "",
+  "force": false,
+  "publishedAt": "2026-10-01T07:51:37Z",
+  "notes": "**TV 版 1.0.9**\n\n- 修：掉帧 —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式\n- 新：「关于」页显示实际帧率与丢帧数，盒子上直接能看，不用再连电脑抓日志\n- 修：遥控器焦点 —— 详情页选集、追剧列表、设置页、更新弹窗以前按方向键没反应，现在都能上下左右移动\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.9-10",
+  "assets": [
+    {
+      "edition": "duanjuzhijiatv",
+      "abi": "armeabi-v7a",
+      "name": "duanjuzhijiatv-1.0.9+10-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.9-10/duanjuzhijiatv-1.0.9%2B10-armeabi-v7a.apk",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.9-10/duanjuzhijiatv-1.0.9%2B10-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.9-10/duanjuzhijiatv-1.0.9%2B10-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.9-10/duanjuzhijiatv-1.0.9%2B10-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.9-10/duanjuzhijiatv-1.0.9%2B10-armeabi-v7a.apk"
+      ],
+      "size": 40102706,
+      "sha256": "b2a83f586e397c82f2ccfd8e2cb62dacb7d3255ecb1640f4b6c0cf8ab9ca0d2a",
+      "notes": "**TV 版 1.0.9**\n\n- 修：掉帧 —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式\n- 新：「关于」页显示实际帧率与丢帧数，盒子上直接能看，不用再连电脑抓日志\n- 修：遥控器焦点 —— 详情页选集、追剧列表、设置页、更新弹窗以前按方向键没反应，现在都能上下左右移动\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响"
+    }
+  ]
+}
