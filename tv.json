@@ -1,28 +1,28 @@
 {
-  "version": "1.0.11+12",
-  "versionName": "1.0.11",
-  "build": 12,
-  "versionCode": 10011,
+  "version": "1.0.12+13",
+  "versionName": "1.0.12",
+  "build": 13,
+  "versionCode": 10012,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-02T11:25:34Z",
-  "notes": "**TV 版 1.0.11+12**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电视这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，选「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**遥控器焦点** —— 补齐了设置页、站源页、更新弹窗的落点，以前按方向键没反应的地方现在都能上下左右移动。\n- 修：**掉帧** —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式。\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.11-12",
+  "publishedAt": "2026-10-02T12:34:00Z",
+  "notes": "**TV 版 1.0.12+13**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电视这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，选「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 新：**预约入口显示「已预约 N 部」** —— 不再用红色数字角标（太抢眼），改成跟界面同色系的一枚标签，一眼看清约了几部。\n- 修：**取消预约能跨设备同步了** —— 以前在手机上取消预约，电视同步时不但取消不过来，还会把这部再上传一次，两边来回\"复活\"。现在取消是一项可同步的更改，取消后同步到哪台，哪台就真的取消。\n- 修：**换集时进度条闪回 0:00** —— 换下一集的一瞬间进度条会跳到 `0:00 / 0:00` 再跳回来。原因是「顶住旧读数」的那道闸门比新画面首帧早一步撤掉。现在改成等新画面真的开始播再撤。\n- 修：**遥控器焦点** —— 补齐了设置页、站源页、更新弹窗的落点，以前按方向键没反应的地方现在都能上下左右移动。\n- 修：**掉帧** —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式。\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.12-13",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.11+12-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.11-12/duanjuzhijiatv-1.0.11%2B12-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.12+13-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.12-13/duanjuzhijiatv-1.0.12%2B13-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.11-12/duanjuzhijiatv-1.0.11%2B12-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.11-12/duanjuzhijiatv-1.0.11%2B12-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.11-12/duanjuzhijiatv-1.0.11%2B12-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.11-12/duanjuzhijiatv-1.0.11%2B12-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.12-13/duanjuzhijiatv-1.0.12%2B13-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.12-13/duanjuzhijiatv-1.0.12%2B13-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.12-13/duanjuzhijiatv-1.0.12%2B13-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.12-13/duanjuzhijiatv-1.0.12%2B13-armeabi-v7a.apk"
       ],
-      "size": 40144430,
-      "sha256": "c03ae104b9caacda9bbf4e2ff3c43b3703066ed84f4f617a2da17aca337cbf00",
-      "notes": "**TV 版 1.0.11+12**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电视这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，选「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**遥控器焦点** —— 补齐了设置页、站源页、更新弹窗的落点，以前按方向键没反应的地方现在都能上下左右移动。\n- 修：**掉帧** —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式。\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40146766,
+      "sha256": "f8d4266c5fc100747f3511cd5d04d41511332bc23990437b884d177bc0a7aca5",
+      "notes": "**TV 版 1.0.12+13**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电视这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，选「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 新：**预约入口显示「已预约 N 部」** —— 不再用红色数字角标（太抢眼），改成跟界面同色系的一枚标签，一眼看清约了几部。\n- 修：**取消预约能跨设备同步了** —— 以前在手机上取消预约，电视同步时不但取消不过来，还会把这部再上传一次，两边来回\"复活\"。现在取消是一项可同步的更改，取消后同步到哪台，哪台就真的取消。\n- 修：**换集时进度条闪回 0:00** —— 换下一集的一瞬间进度条会跳到 `0:00 / 0:00` 再跳回来。原因是「顶住旧读数」的那道闸门比新画面首帧早一步撤掉。现在改成等新画面真的开始播再撤。\n- 修：**遥控器焦点** —— 补齐了设置页、站源页、更新弹窗的落点，以前按方向键没反应的地方现在都能上下左右移动。\n- 修：**掉帧** —— 解码器零拷贝模式在机顶盒上会丢帧（画面像只有 10 帧），已改用拷贝模式。\n- 改：在线更新走独立的 TV 下载通道，与手机版 / 电脑版分开，各自更新、版本号互不影响。\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
