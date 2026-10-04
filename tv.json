@@ -1,28 +1,28 @@
 {
-  "version": "1.0.15+16",
-  "versionName": "1.0.15",
-  "build": 16,
-  "versionCode": 10015,
+  "version": "1.0.17+18",
+  "versionName": "1.0.17",
+  "build": 18,
+  "versionCode": 10017,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T14:59:43Z",
-  "notes": "**TV 版 1.0.15+16**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动\n- 修：遥控器焦点补齐设置页、站源页、更新弹窗的落点\n- 修：机顶盒掉帧（解码器改用拷贝模式）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.15-16",
+  "publishedAt": "2026-10-04T12:41:53Z",
+  "notes": "**TV 版 1.0.17+18**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 改：15 个页面的顶栏统一成自绘样式，字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.17-18",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.15+16-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.15-16/duanjuzhijiatv-1.0.15%2B16-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.17+18-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.15-16/duanjuzhijiatv-1.0.15%2B16-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.15-16/duanjuzhijiatv-1.0.15%2B16-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.15-16/duanjuzhijiatv-1.0.15%2B16-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.15-16/duanjuzhijiatv-1.0.15%2B16-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk"
       ],
-      "size": 40069166,
-      "sha256": "8a20e3c6831f306ad0f0fc21b0f3f0c4902a3720c435e6ac015ee4624343572b",
-      "notes": "**TV 版 1.0.15+16**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动\n- 修：遥控器焦点补齐设置页、站源页、更新弹窗的落点\n- 修：机顶盒掉帧（解码器改用拷贝模式）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40090642,
+      "sha256": "9d6a28ca07b51b52427fe9f5659e2c987bebfad1463844fefa3d80bb5b6e736f",
+      "notes": "**TV 版 1.0.17+18**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 改：15 个页面的顶栏统一成自绘样式，字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
