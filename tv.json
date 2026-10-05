@@ -1,28 +1,28 @@
 {
-  "version": "1.0.20+21",
-  "versionName": "1.0.20",
-  "build": 21,
-  "versionCode": 10020,
+  "version": "1.0.22+23",
+  "versionName": "1.0.22",
+  "build": 23,
+  "versionCode": 10022,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-05T13:26:57Z",
-  "notes": "**TV 版 1.0.20+21**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.20-21",
+  "publishedAt": "2026-10-05T15:02:35Z",
+  "notes": "**TV 版 1.0.22+23**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.22-23",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.20+21-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.22+23-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.22-23/duanjuzhijiatv-1.0.22%2B23-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.22-23/duanjuzhijiatv-1.0.22%2B23-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.22-23/duanjuzhijiatv-1.0.22%2B23-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.22-23/duanjuzhijiatv-1.0.22%2B23-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.22-23/duanjuzhijiatv-1.0.22%2B23-armeabi-v7a.apk"
       ],
-      "size": 40099046,
-      "sha256": "68b06e456231aefea67122fa80d670ae81e1b5263423470e6c8c64bd25ddfd71",
-      "notes": "**TV 版 1.0.20+21**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40100630,
+      "sha256": "06e69e409ba7e5becfe775c9d843b1ec5a4b8fb14838ee8efb8d468edcc16bfe",
+      "notes": "**TV 版 1.0.22+23**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
