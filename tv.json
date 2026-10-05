@@ -1,28 +1,28 @@
 {
-  "version": "1.0.17+18",
-  "versionName": "1.0.17",
-  "build": 18,
-  "versionCode": 10017,
+  "version": "1.0.20+21",
+  "versionName": "1.0.20",
+  "build": 21,
+  "versionCode": 10020,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-04T12:41:53Z",
-  "notes": "**TV 版 1.0.17+18**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 改：15 个页面的顶栏统一成自绘样式，字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.17-18",
+  "publishedAt": "2026-10-05T13:26:57Z",
+  "notes": "**TV 版 1.0.20+21**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.20-21",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.17+18-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.20+21-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.17-18/duanjuzhijiatv-1.0.17%2B18-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.20-21/duanjuzhijiatv-1.0.20%2B21-armeabi-v7a.apk"
       ],
-      "size": 40090642,
-      "sha256": "9d6a28ca07b51b52427fe9f5659e2c987bebfad1463844fefa3d80bb5b6e736f",
-      "notes": "**TV 版 1.0.17+18**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 改：15 个页面的顶栏统一成自绘样式，字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40099046,
+      "sha256": "68b06e456231aefea67122fa80d670ae81e1b5263423470e6c8c64bd25ddfd71",
+      "notes": "**TV 版 1.0.20+21**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
