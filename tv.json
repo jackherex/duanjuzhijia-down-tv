@@ -1,43 +1,43 @@
 {
-  "version": "1.0.32+33",
-  "versionName": "1.0.32",
-  "build": 33,
-  "versionCode": 10032,
+  "version": "1.0.34+35",
+  "versionName": "1.0.34",
+  "build": 35,
+  "versionCode": 10034,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T10:25:47Z",
-  "notes": "**TV 版 1.0.32+33**\n\n- 改：**首页右上角多了一个带字的「手机遥控」按钮**，一眼能看到；点一下弹出二维码小窗，**手机扫上连好之后小窗自己关掉**（带一个连接成功的动画）\n- 修：**扫码的网址可能是错的网段、手机连不上** —— 电视盒子常有多张网卡，之前可能挑到 Wi-Fi Direct / VPN 那种虚拟网卡（显示成 172.x），现在优先挑 192.168 这类真实地址\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.32-33",
+  "publishedAt": "2026-10-06T10:36:52Z",
+  "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.34-35",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.32+33-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.34+35-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk"
       ],
-      "size": 31687154,
-      "sha256": "3b16c330d87b367667376e0301a09ff68526a168dbe720780ab845db57d545de",
-      "notes": "**TV 版 1.0.32+33**\n\n- 改：**首页右上角多了一个带字的「手机遥控」按钮**，一眼能看到；点一下弹出二维码小窗，**手机扫上连好之后小窗自己关掉**（带一个连接成功的动画）\n- 修：**扫码的网址可能是错的网段、手机连不上** —— 电视盒子常有多张网卡，之前可能挑到 Wi-Fi Direct / VPN 那种虚拟网卡（显示成 172.x），现在优先挑 192.168 这类真实地址\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31687802,
+      "sha256": "fde26a85b65163efe79996939b7ac9c9e7d7c13bd626d3b0a794cf4523454be7",
+      "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.32+33-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.34+35-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.32-33/duanjuzhijiatv-1.0.32%2B33-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk"
       ],
-      "size": 40239082,
-      "sha256": "789c94793de785d30c3cc737f18c2715f8a6791fe822564c058b7da8e72c45bd",
-      "notes": "**TV 版 1.0.32+33**\n\n- 改：**首页右上角多了一个带字的「手机遥控」按钮**，一眼能看到；点一下弹出二维码小窗，**手机扫上连好之后小窗自己关掉**（带一个连接成功的动画）\n- 修：**扫码的网址可能是错的网段、手机连不上** —— 电视盒子常有多张网卡，之前可能挑到 Wi-Fi Direct / VPN 那种虚拟网卡（显示成 172.x），现在优先挑 192.168 这类真实地址\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40238546,
+      "sha256": "776f834302e36b837533ecac1ff0c3c8a6080165597eb2bd683d5a35edf31673",
+      "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
