@@ -2,7 +2,7 @@
 
 在电视盒子或智能电视上用遥控器找剧、接着上次看。支持搜索、收藏、选集、倍速、自动连播，也能和手机版、电脑版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 1.0.23+24**
+**免费使用 · 当前版本 1.0.24+25**
 
 [**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
 
@@ -41,10 +41,10 @@ TV 版是**轻量版**：为了在配置较低的盒子上跑得动，刻意去�
 
 ## 下载与安装说明
 
-安装包 `duanjuzhijiatv-1.0.23+24-armeabi-v7a.apk`，大小 `40100682` 字节。SHA-256：
+安装包 `duanjuzhijiatv-1.0.24+25-armeabi-v7a.apk`，大小 `40101546` 字节。SHA-256：
 
 ```
-df790b127ee23b0d70192039f5b5bd8a4a85c7b9dbe827e414d14b0b6a3b10dc
+2e6fc38851b19c97d4ef114edbb192c101707433486de1d53d8711610d9409ea
 ```
 
 这串数字用来核对文件有没有下载完整，**不能代替身份认证**。
