@@ -1,43 +1,43 @@
 {
-  "version": "1.0.40+41",
-  "versionName": "1.0.40",
-  "build": 41,
-  "versionCode": 10040,
+  "version": "1.0.41+42",
+  "versionName": "1.0.41",
+  "build": 42,
+  "versionCode": 10041,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T14:50:45Z",
-  "notes": "**TV 版 1.0.40+41**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 修：**网页里点进剧集详情一片空白** —— 现在能正常看到封面、简介和选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动** —— 输入框一拿到焦点就弹键盘挡住下面的按钮；现在按 OK 才弹输入框\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.40-41",
+  "publishedAt": "2026-10-06T15:47:00Z",
+  "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.41-42",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.40+41-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.41+42-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk"
       ],
-      "size": 31700362,
-      "sha256": "c69d945b0a1058b0430b62547c054f4ea7522d77201d52060a3d9f9116c31fef",
-      "notes": "**TV 版 1.0.40+41**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 修：**网页里点进剧集详情一片空白** —— 现在能正常看到封面、简介和选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动** —— 输入框一拿到焦点就弹键盘挡住下面的按钮；现在按 OK 才弹输入框\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31702606,
+      "sha256": "b8150a0d308ad5156fdefbc5fed909ced1a10c1aa5f89cac84f4fab5abe6f9fc",
+      "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.40+41-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.41+42-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.40-41/duanjuzhijiatv-1.0.40%2B41-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk"
       ],
-      "size": 40253318,
-      "sha256": "6835140aefd91f691bf411c9465dda71a18d345be58cc8617a9220791e373d89",
-      "notes": "**TV 版 1.0.40+41**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 修：**网页里点进剧集详情一片空白** —— 现在能正常看到封面、简介和选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动** —— 输入框一拿到焦点就弹键盘挡住下面的按钮；现在按 OK 才弹输入框\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40256610,
+      "sha256": "8126cede198ffc4836d50873f4a126bc3129a0ef71b883e1c4d6a5b7c2d315a2",
+      "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
