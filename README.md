@@ -52,7 +52,7 @@ df790b127ee23b0d70192039f5b5bd8a4a85c7b9dbe827e414d14b0b6a3b10dc
 > ⚠️ 上面这组校验值对应的是**本次说明写就时的最新版**。如果下载页上已经有更新的版本，
 > 请以页面上的为准（按钮永远指向最新版）。
 
-[本次版本说明](https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.23-24) · [全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
+[全部版本与更新内容](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
 
 ## 关于本仓库
 
