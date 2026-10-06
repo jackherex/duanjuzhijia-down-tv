@@ -4,16 +4,16 @@
 
 **免费使用 · 当前版本 1.0.23+24**
 
-[**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.23-24/duanjuzhijiatv-1.0.23%2B24-armeabi-v7a.apk)　｜　[三步安装](#三步开始使用)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
+[**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
 
 适用于**安卓电视盒子 / 智能电视**（安卓 8.0 及以上），安装包约 **38.2 MB**。
 普通使用**只需要下载 `.apk`**，不需要下载页面里的其它文件。
 
-> 想确认有没有更新版本？[看最新版](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)。装好之后软件自己也会提示更新。
+> 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
 
 ## 三步开始使用
 
-1. 用电脑或手机点上面的按钮，下载 `duanjuzhijiatv-1.0.23+24-armeabi-v7a.apk`。
+1. 用电脑或手机点上面的按钮，打开最新版下载页，下载带 `.apk` 的那个文件（别的不用管）。
 2. 把它拷到 U 盘，插到电视或盒子上，用设备自带的「文件管理」打开安装。
    也可以在设备上装一个应用商店（如当贝市场），用它的「U 盘安装」功能。
 3. 装好后在电视的「应用」列表里找到「短剧之家 TV」打开，用遥控器操作。
@@ -48,6 +48,9 @@ df790b127ee23b0d70192039f5b5bd8a4a85c7b9dbe827e414d14b0b6a3b10dc
 ```
 
 这串数字用来核对文件有没有下载完整，**不能代替身份认证**。
+
+> ⚠️ 上面这组校验值对应的是**本次说明写就时的最新版**。如果下载页上已经有更新的版本，
+> 请以页面上的为准（按钮永远指向最新版）。
 
 [本次版本说明](https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.23-24) · [全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
 
