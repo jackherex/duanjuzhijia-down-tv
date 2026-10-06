@@ -1,43 +1,43 @@
 {
-  "version": "1.0.34+35",
-  "versionName": "1.0.34",
-  "build": 35,
-  "versionCode": 10034,
+  "version": "1.0.37+38",
+  "versionName": "1.0.37",
+  "build": 38,
+  "versionCode": 10037,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T10:36:52Z",
-  "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.34-35",
+  "publishedAt": "2026-10-06T11:06:46Z",
+  "notes": "**TV 版 1.0.37+38**\n\n- 新：**网页可以「加到手机桌面」了** —— 加完从桌面图标点开就直接能用，不用每次扫码\n- 新：**网页会记住你搜过什么** —— 下次打开输入框下面就列着，点一下直接搜\n- 新：**拖动播放进度时会显示拖到了几分几秒** —— 之前只有一根进度条，不知道拖到哪\n- 修：在网页的榜单/追剧里点剧不会跳到详情页 —— 现在从哪儿点都能直接打开，返回也回原来那栏\n- 修：WebDAV 的扫码配置扫不开、总提示「会话已结束」—— 二维码里编错了令牌\n- 修：首页右上角的「手机遥控」按钮在电视上不显示 —— 电视用的是另一套布局\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.37-38",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.34+35-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.37+38-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-arm64-v8a.apk"
       ],
-      "size": 31687802,
-      "sha256": "fde26a85b65163efe79996939b7ac9c9e7d7c13bd626d3b0a794cf4523454be7",
-      "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31688738,
+      "sha256": "e73b1f4f799f3283d84e0a5641f19a8c924c41a7d19ed66424ddf74d8a272136",
+      "notes": "**TV 版 1.0.37+38**\n\n- 新：**网页可以「加到手机桌面」了** —— 加完从桌面图标点开就直接能用，不用每次扫码\n- 新：**网页会记住你搜过什么** —— 下次打开输入框下面就列着，点一下直接搜\n- 新：**拖动播放进度时会显示拖到了几分几秒** —— 之前只有一根进度条，不知道拖到哪\n- 修：在网页的榜单/追剧里点剧不会跳到详情页 —— 现在从哪儿点都能直接打开，返回也回原来那栏\n- 修：WebDAV 的扫码配置扫不开、总提示「会话已结束」—— 二维码里编错了令牌\n- 修：首页右上角的「手机遥控」按钮在电视上不显示 —— 电视用的是另一套布局\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.34+35-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.37+38-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.34-35/duanjuzhijiatv-1.0.34%2B35-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.37-38/duanjuzhijiatv-1.0.37%2B38-armeabi-v7a.apk"
       ],
-      "size": 40238546,
-      "sha256": "776f834302e36b837533ecac1ff0c3c8a6080165597eb2bd683d5a35edf31673",
-      "notes": "**TV 版 1.0.34+35**\n\n- 改：**WebDAV 页面的「用手机扫码输入」入口挪到输入框正上方了** —— 之前只在右上角有个小图标，藏得太远；现在一进页面就能看到，点一下弹二维码，手机扫了在网页里填地址和密码\n- 新：二维码窗口里多显示一行「本机地址」，扫码连不上时可以看出盒子上有哪些地址\n- 改：首页右上角带字的「手机遥控」按钮 —— 点了弹二维码小窗，手机连上后小窗自己关掉（带成功动画）\n- 修：扫码网址优先挑 192.168 这类真实局域网地址\n- 新：电视上点搜索，框里多了「手机扫码搜」\n- 新：网页遥控 —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的（含历史与预约）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40238554,
+      "sha256": "14d9533073340d6d5874d78a17db4fbe7a1f8557137fddd9cf36220129d41d68",
+      "notes": "**TV 版 1.0.37+38**\n\n- 新：**网页可以「加到手机桌面」了** —— 加完从桌面图标点开就直接能用，不用每次扫码\n- 新：**网页会记住你搜过什么** —— 下次打开输入框下面就列着，点一下直接搜\n- 新：**拖动播放进度时会显示拖到了几分几秒** —— 之前只有一根进度条，不知道拖到哪\n- 修：在网页的榜单/追剧里点剧不会跳到详情页 —— 现在从哪儿点都能直接打开，返回也回原来那栏\n- 修：WebDAV 的扫码配置扫不开、总提示「会话已结束」—— 二维码里编错了令牌\n- 修：首页右上角的「手机遥控」按钮在电视上不显示 —— 电视用的是另一套布局\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
