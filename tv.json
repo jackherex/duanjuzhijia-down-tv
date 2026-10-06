@@ -1,43 +1,43 @@
 {
-  "version": "1.0.29+30",
-  "versionName": "1.0.29",
-  "build": 30,
-  "versionCode": 10029,
+  "version": "1.0.30+31",
+  "versionName": "1.0.30",
+  "build": 31,
+  "versionCode": 10030,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T09:33:26Z",
-  "notes": "**TV 版 1.0.29+30**\n\n- 新：**网页遥控功能补齐了** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表** —— 你追的剧都在网页上，有更新会显示「新 N 集」\n- 新：**榜单** —— 各站源的排行榜，带名次，可以翻页看更多\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**TV 同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.29-30",
+  "publishedAt": "2026-10-06T09:54:31Z",
+  "notes": "**TV 版 1.0.30+31**\n\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名，手机扫一下就能在网页上搜、选、直接播\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.30-31",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.29+30-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.30+31-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-arm64-v8a.apk"
       ],
-      "size": 31685338,
-      "sha256": "aa44318850e646d251a732493d6094e94a40772fc143623d3bbe1bdaeb5b5e7e",
-      "notes": "**TV 版 1.0.29+30**\n\n- 新：**网页遥控功能补齐了** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表** —— 你追的剧都在网页上，有更新会显示「新 N 集」\n- 新：**榜单** —— 各站源的排行榜，带名次，可以翻页看更多\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**TV 同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31685602,
+      "sha256": "fb9a90fb8599d19491cd6813bf0620b06b50889b33eb7443ac06b8d08a46c713",
+      "notes": "**TV 版 1.0.30+31**\n\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名，手机扫一下就能在网页上搜、选、直接播\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.29+30-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.30+31-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.29-30/duanjuzhijiatv-1.0.29%2B30-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.30-31/duanjuzhijiatv-1.0.30%2B31-armeabi-v7a.apk"
       ],
-      "size": 40230970,
-      "sha256": "44a36da29c48ea84060dd41574c0fcea1bb4e0e11148746a8d4d79ddae7644a2",
-      "notes": "**TV 版 1.0.29+30**\n\n- 新：**网页遥控功能补齐了** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表** —— 你追的剧都在网页上，有更新会显示「新 N 集」\n- 新：**榜单** —— 各站源的排行榜，带名次，可以翻页看更多\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**TV 同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40231770,
+      "sha256": "eff36e0a60ca1dccb620ef943eb3c311e0ec1fb781631e9e88ce7db09c281ce5",
+      "notes": "**TV 版 1.0.30+31**\n\n- 新：**电视上点搜索，框里多了「手机扫码搜」** —— 不用再用遥控器一个字一个字输剧名，手机扫一下就能在网页上搜、选、直接播\n- 新：**网页遥控功能补齐** —— 底部四个页签：搜索 / 追剧 / 榜单 / 我的\n- 新：**「我的」里能看历史播放**（看到第几集、百分之几）**和预约中的剧**\n- 新：**追剧列表和榜单** —— 追的剧有更新会显示「新 N 集」；榜单带名次、可翻页\n- 新：**网页整体重新设计** —— 底部标签栏、卡片、骨架屏加载、深色配色统一\n- 新：**同时提供 64 位 / 32 位两种安装包** —— 装哪个都行，64 位包更小\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
