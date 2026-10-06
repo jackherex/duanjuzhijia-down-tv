@@ -1,28 +1,28 @@
 {
-  "version": "1.0.24+25",
-  "versionName": "1.0.24",
-  "build": 25,
-  "versionCode": 10024,
+  "version": "1.0.25+26",
+  "versionName": "1.0.25",
+  "build": 26,
+  "versionCode": 10025,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T06:45:25Z",
-  "notes": "**TV 版 1.0.24+25**\n\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说（电视上若没有浏览器，会把群链接复制下来）\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.24-25",
+  "publishedAt": "2026-10-06T07:40:40Z",
+  "notes": "**TV 版 1.0.25+26**\n\n- 新：**手机遥控** —— 设置里点「手机遥控」，电视上会出现一个二维码；手机扫一下就能用网页搜剧、选剧、控制播放（手机要和电视连同一个 Wi-Fi）\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说（电视上若没有浏览器，会把群链接复制下来）\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.25-26",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.24+25-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.24-25/duanjuzhijiatv-1.0.24%2B25-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.25+26-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.25-26/duanjuzhijiatv-1.0.25%2B26-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.24-25/duanjuzhijiatv-1.0.24%2B25-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.24-25/duanjuzhijiatv-1.0.24%2B25-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.24-25/duanjuzhijiatv-1.0.24%2B25-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.24-25/duanjuzhijiatv-1.0.24%2B25-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.25-26/duanjuzhijiatv-1.0.25%2B26-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.25-26/duanjuzhijiatv-1.0.25%2B26-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.25-26/duanjuzhijiatv-1.0.25%2B26-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.25-26/duanjuzhijiatv-1.0.25%2B26-armeabi-v7a.apk"
       ],
-      "size": 40101546,
-      "sha256": "2e6fc38851b19c97d4ef114edbb192c101707433486de1d53d8711610d9409ea",
-      "notes": "**TV 版 1.0.24+25**\n\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说（电视上若没有浏览器，会把群链接复制下来）\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40209314,
+      "sha256": "3abe1b4da9462ff10713732f1da0406c1f745fc315dc00ffeca9a0a471834d81",
+      "notes": "**TV 版 1.0.25+26**\n\n- 新：**手机遥控** —— 设置里点「手机遥控」，电视上会出现一个二维码；手机扫一下就能用网页搜剧、选剧、控制播放（手机要和电视连同一个 Wi-Fi）\n- 新：设置页新增「加入官方群」—— 有问题、想提建议都可以进群说（电视上若没有浏览器，会把群链接复制下来）\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 已修好\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
