@@ -1,43 +1,43 @@
 {
-  "version": "1.0.41+42",
-  "versionName": "1.0.41",
-  "build": 42,
-  "versionCode": 10041,
+  "version": "1.0.48+49",
+  "versionName": "1.0.48",
+  "build": 49,
+  "versionCode": 10048,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-06T15:47:00Z",
-  "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.41-42",
+  "publishedAt": "2026-10-07T07:22:50Z",
+  "notes": "**TV 版 1.0.48+49**\n\n- 新：首页改成「**一行一个分类**」的横滑轨道（热门剧 / 漫剧 / 真人剧 / AI 剧 …），一路按方向键就能逛完整站，不用再一页页翻\n- 改：**焦点（遥控器停在哪）一眼就能看清** —— 「选中的」和「正在操作的」不再长得一样：选中是**填色**，焦点是**外面一圈 + 整张卡放大**；**剧名跟着一起放大**，并且**居中**\n- 改：**焦点永远停在屏幕正中** —— 上下各露出相邻那一行的半张封面，一眼知道前后还有内容\n- 改：**分类标题加大**（继续观看 / 漫剧 / 真人剧 / AI 剧 / 其他推荐）\n- 改：「继续播放」换成**横版缩略图**，并显示「第 N 集 · 剩余 X 分钟」\n- 改：**手机遥控**入口挪到左上角，并写上了「手机遥控」四个字（原来是个看不出是什么的图标）\n- 新：**再按一次「返回」才退出应用** —— 避免遥控器误按就退出去\n- 修：顶栏的**搜索按钮点了没反应**；以及**往下滑时画面会弹一下**\n\n> 本次已在机顶盒上装机跑过主要流程；如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.48-49",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.41+42-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.48+49-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-arm64-v8a.apk"
       ],
-      "size": 31702606,
-      "sha256": "b8150a0d308ad5156fdefbc5fed909ced1a10c1aa5f89cac84f4fab5abe6f9fc",
-      "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31726166,
+      "sha256": "8de9743bb6638337217914871a040a5c770043712d02b526653deecd57520a42",
+      "notes": "**TV 版 1.0.48+49**\n\n- 新：首页改成「**一行一个分类**」的横滑轨道（热门剧 / 漫剧 / 真人剧 / AI 剧 …），一路按方向键就能逛完整站，不用再一页页翻\n- 改：**焦点（遥控器停在哪）一眼就能看清** —— 「选中的」和「正在操作的」不再长得一样：选中是**填色**，焦点是**外面一圈 + 整张卡放大**；**剧名跟着一起放大**，并且**居中**\n- 改：**焦点永远停在屏幕正中** —— 上下各露出相邻那一行的半张封面，一眼知道前后还有内容\n- 改：**分类标题加大**（继续观看 / 漫剧 / 真人剧 / AI 剧 / 其他推荐）\n- 改：「继续播放」换成**横版缩略图**，并显示「第 N 集 · 剩余 X 分钟」\n- 改：**手机遥控**入口挪到左上角，并写上了「手机遥控」四个字（原来是个看不出是什么的图标）\n- 新：**再按一次「返回」才退出应用** —— 避免遥控器误按就退出去\n- 修：顶栏的**搜索按钮点了没反应**；以及**往下滑时画面会弹一下**\n\n> 本次已在机顶盒上装机跑过主要流程；如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.41+42-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.48+49-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.41-42/duanjuzhijiatv-1.0.41%2B42-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.48-49/duanjuzhijiatv-1.0.48%2B49-armeabi-v7a.apk"
       ],
-      "size": 40256610,
-      "sha256": "8126cede198ffc4836d50873f4a126bc3129a0ef71b883e1c4d6a5b7c2d315a2",
-      "notes": "**TV 版 1.0.41+42**\n\n- 修：**播放卡顿** —— 机顶盒上原来只有 13 帧/秒，现在能跑满 30 帧/秒（手机一直没这问题）\n- 修：**手机遥控的网页会打不开** —— 电视切后台、或手机浏览器切后台再回来，网页会一直转圈；现在能自己恢复，随便切后台都不影响\n- 新：网页「正在播放」条重做 —— 进度条好拖了、左右直接显示时间，**多了音量调节**，点剧名就能进详情页选集\n- 新：网页「我的」里点**继续观看**，会直接定位到你上次看到的那一集（长剧不用再自己翻）\n- 新：网页多了「**预约**」页签；进详情页不再自动查其他季，想看再点按钮\n- 修：**WebDAV 同步页在电视上按不动**；以及**网页里点进剧集详情一片空白**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40279650,
+      "sha256": "ee046b65daff5ce5f67d0366b227dacfdd8216dac3b01645f4381bdbbde88724",
+      "notes": "**TV 版 1.0.48+49**\n\n- 新：首页改成「**一行一个分类**」的横滑轨道（热门剧 / 漫剧 / 真人剧 / AI 剧 …），一路按方向键就能逛完整站，不用再一页页翻\n- 改：**焦点（遥控器停在哪）一眼就能看清** —— 「选中的」和「正在操作的」不再长得一样：选中是**填色**，焦点是**外面一圈 + 整张卡放大**；**剧名跟着一起放大**，并且**居中**\n- 改：**焦点永远停在屏幕正中** —— 上下各露出相邻那一行的半张封面，一眼知道前后还有内容\n- 改：**分类标题加大**（继续观看 / 漫剧 / 真人剧 / AI 剧 / 其他推荐）\n- 改：「继续播放」换成**横版缩略图**，并显示「第 N 集 · 剩余 X 分钟」\n- 改：**手机遥控**入口挪到左上角，并写上了「手机遥控」四个字（原来是个看不出是什么的图标）\n- 新：**再按一次「返回」才退出应用** —— 避免遥控器误按就退出去\n- 修：顶栏的**搜索按钮点了没反应**；以及**往下滑时画面会弹一下**\n\n> 本次已在机顶盒上装机跑过主要流程；如仍有异常请反馈现象。"
     }
   ]
 }
