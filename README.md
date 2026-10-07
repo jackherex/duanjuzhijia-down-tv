@@ -2,7 +2,7 @@
 
 在电视盒子或智能电视上用遥控器找剧、接着上次看。支持搜索、收藏、选集、倍速、自动连播，也能和手机版、电脑版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 1.0.55+56**
+**免费使用 · 当前版本 1.0.56+57**
 
 [**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
 
@@ -41,20 +41,20 @@ TV 版是**轻量版**：为了在配置较低的盒子上跑得动，刻意去�
 
 ## 下载与安装说明
 
-### `duanjuzhijiatv-1.0.55+56-arm64-v8a.apk`
+### `duanjuzhijiatv-1.0.56+57-arm64-v8a.apk`
 
-大小 `31739698` 字节。SHA-256：
-
-```
-365ed9530e66b8ca0f28996f927ffd8d6caa22710c970cc71cb500d87c08fe73
-```
-
-### `duanjuzhijiatv-1.0.55+56-armeabi-v7a.apk`
-
-大小 `40292334` 字节。SHA-256：
+大小 `31739634` 字节。SHA-256：
 
 ```
-7f4b40ec11d2a9cf588b9159ad7b31925c18867df67f142cdef522c7abb86714
+e183ede5db0e68c1c1c2307abc72b4897ed83ea208f2baf555d934fcede9f0aa
+```
+
+### `duanjuzhijiatv-1.0.56+57-armeabi-v7a.apk`
+
+大小 `40292282` 字节。SHA-256：
+
+```
+f22a8a89f19a471bb0007245bf80d5753ed1b2e314700035117d68cd0d4173fe
 ```
 
 这串数字用来核对文件有没有下载完整，**不能代替身份认证**。
