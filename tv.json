@@ -1,43 +1,43 @@
 {
-  "version": "1.0.55+56",
-  "versionName": "1.0.55",
-  "build": 56,
-  "versionCode": 10055,
+  "version": "1.0.56+57",
+  "versionName": "1.0.56",
+  "build": 57,
+  "versionCode": 10056,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T11:47:36Z",
-  "notes": "**TV 版 1.0.55+56**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.55-56",
+  "publishedAt": "2026-10-07T12:43:51Z",
+  "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.56-57",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.55+56-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.56+57-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk"
       ],
-      "size": 31739698,
-      "sha256": "365ed9530e66b8ca0f28996f927ffd8d6caa22710c970cc71cb500d87c08fe73",
-      "notes": "**TV 版 1.0.55+56**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31739634,
+      "sha256": "e183ede5db0e68c1c1c2307abc72b4897ed83ea208f2baf555d934fcede9f0aa",
+      "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.55+56-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.56+57-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.55-56/duanjuzhijiatv-1.0.55%2B56-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk"
       ],
-      "size": 40292334,
-      "sha256": "7f4b40ec11d2a9cf588b9159ad7b31925c18867df67f142cdef522c7abb86714",
-      "notes": "**TV 版 1.0.55+56**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40292282,
+      "sha256": "f22a8a89f19a471bb0007245bf80d5753ed1b2e314700035117d68cd0d4173fe",
+      "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
