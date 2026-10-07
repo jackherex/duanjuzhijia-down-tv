@@ -1,43 +1,43 @@
 {
-  "version": "1.0.53+54",
-  "versionName": "1.0.53",
-  "build": 54,
-  "versionCode": 10053,
+  "version": "1.0.54+55",
+  "versionName": "1.0.54",
+  "build": 55,
+  "versionCode": 10054,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T08:34:16Z",
-  "notes": "**TV 版 1.0.53+54**\n\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.53-54",
+  "publishedAt": "2026-10-07T08:49:57Z",
+  "notes": "**TV 版 1.0.54+55**\n\n- 修：**播放页面里的进度条和焦点框是红色的**，和界面其它地方的白色不是一套 —— 现在统一成白色\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.54-55",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.53+54-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.54+55-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-arm64-v8a.apk"
       ],
-      "size": 31735202,
-      "sha256": "cae0acdfd8340c4db5873f079bb7a7b8f45cdf8301ef2452797c08b609332ae1",
-      "notes": "**TV 版 1.0.53+54**\n\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。"
+      "size": 31735866,
+      "sha256": "755f75045ab905defc01841659a2608364fe8b8c7bc5ba054311f68a45cf1f1e",
+      "notes": "**TV 版 1.0.54+55**\n\n- 修：**播放页面里的进度条和焦点框是红色的**，和界面其它地方的白色不是一套 —— 现在统一成白色\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.53+54-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.54+55-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.53-54/duanjuzhijiatv-1.0.53%2B54-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.54-55/duanjuzhijiatv-1.0.54%2B55-armeabi-v7a.apk"
       ],
-      "size": 40287438,
-      "sha256": "11642760a666d142d13854fb8456e7f6700502576a2408e6f691b3dcb49a7b77",
-      "notes": "**TV 版 1.0.53+54**\n\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。"
+      "size": 40287118,
+      "sha256": "a894d488342d32feb9bfd48391bbe194592cd80a085d5f7ad5409e3149a91a03",
+      "notes": "**TV 版 1.0.54+55**\n\n- 修：**播放页面里的进度条和焦点框是红色的**，和界面其它地方的白色不是一套 —— 现在统一成白色\n- 修：**投影仪 / 不同分辨率的设备上，界面会变得特别大**（一屏只放得下一行封面、顶栏也巨大）—— 现在会按屏幕自动适配，和机顶盒上看起来一致\n- 修：**部分设备（投影仪）播放时画面一直闪** —— 已修好；这类设备会自动改用更稳的播放方式\n- 新：设置里多了「**解码方式**」（自动 / 兼容 / 软件）。万一遇到画面闪烁、花屏或黑屏，可以自己换一档试试\n- 改：**「播放设置」页重做** —— 遥控器焦点清楚可见（之前几乎看不出停在哪），倍速/画质/开关/滑条都能一眼操作\n- 改：**扫码配置同步的网页上加了「图文配置教程」入口** —— 坚果云、群晖、OpenList 分别怎么填，手机上点开就能看\n\n> 本次已在机顶盒与投影仪上装机跑过主要流程；如仍有异常请反馈现象。"
     }
   ]
 }
