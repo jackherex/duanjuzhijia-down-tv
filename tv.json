@@ -1,43 +1,43 @@
 {
-  "version": "1.0.56+57",
-  "versionName": "1.0.56",
-  "build": 57,
-  "versionCode": 10056,
+  "version": "1.0.57+58",
+  "versionName": "1.0.57",
+  "build": 58,
+  "versionCode": 10057,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T12:43:51Z",
-  "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.56-57",
+  "publishedAt": "2026-10-08T12:25:19Z",
+  "notes": "**TV 版 1.0.57+58**\n\n- 修：**播放设置里的「弹幕」「自动连播」以前遥控器选不中** —— 现在能正常选中并切换了\n- 加：**弹幕字号、不透明度、显示区域**三项，现在在电视的播放设置里也能直接调（左右键增减）\n- 加：**手机遥控网页的播放进度条旁边多了一个设置按钮** —— 点开是播放设置小窗，倍速、清晰度、自动连播、下一集预加载、弹幕开关与字号都在里面，手机上随手就能改\n- 加：**手机遥控网页多了一个「设置」页** —— 电视上的播放设置和界面设置都能在手机上改，还能**检测更新**；改完立刻生效，电视上不用再操作\n- 改：**手机上配置同步（WebDAV）现在会先测试再保存** —— 连得上直接告诉你「连接成功」并自动跳回控制页，连不上会说明原因，不用再回电视上看\n- 改：**电视上的同步配置页，二维码直接显示出来了** —— 不用再点右上角，进页面就能扫\n- 加：**手机遥控网页的「追剧」加了分类** —— 全部 / 想看 / 在看 / 上次最后播放\n- 修：**追剧列表里的集数不对** —— 以前会显示成「共 127 集 · 看到第 127 集」（其实只是总集数），现在显示的是**你实际看到第几集**\n- 修：**从追剧点进剧集详情，现在会自动定位到你正在看的那一集**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.57-58",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.56+57-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.57+58-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-arm64-v8a.apk"
       ],
-      "size": 31739634,
-      "sha256": "e183ede5db0e68c1c1c2307abc72b4897ed83ea208f2baf555d934fcede9f0aa",
-      "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 31755898,
+      "sha256": "eae279efe6854c7a4cc431f8fb8a0f88829b427868174b882c285a8cec646389",
+      "notes": "**TV 版 1.0.57+58**\n\n- 修：**播放设置里的「弹幕」「自动连播」以前遥控器选不中** —— 现在能正常选中并切换了\n- 加：**弹幕字号、不透明度、显示区域**三项，现在在电视的播放设置里也能直接调（左右键增减）\n- 加：**手机遥控网页的播放进度条旁边多了一个设置按钮** —— 点开是播放设置小窗，倍速、清晰度、自动连播、下一集预加载、弹幕开关与字号都在里面，手机上随手就能改\n- 加：**手机遥控网页多了一个「设置」页** —— 电视上的播放设置和界面设置都能在手机上改，还能**检测更新**；改完立刻生效，电视上不用再操作\n- 改：**手机上配置同步（WebDAV）现在会先测试再保存** —— 连得上直接告诉你「连接成功」并自动跳回控制页，连不上会说明原因，不用再回电视上看\n- 改：**电视上的同步配置页，二维码直接显示出来了** —— 不用再点右上角，进页面就能扫\n- 加：**手机遥控网页的「追剧」加了分类** —— 全部 / 想看 / 在看 / 上次最后播放\n- 修：**追剧列表里的集数不对** —— 以前会显示成「共 127 集 · 看到第 127 集」（其实只是总集数），现在显示的是**你实际看到第几集**\n- 修：**从追剧点进剧集详情，现在会自动定位到你正在看的那一集**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.56+57-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.57+58-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.56-57/duanjuzhijiatv-1.0.56%2B57-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.57-58/duanjuzhijiatv-1.0.57%2B58-armeabi-v7a.apk"
       ],
-      "size": 40292282,
-      "sha256": "f22a8a89f19a471bb0007245bf80d5753ed1b2e314700035117d68cd0d4173fe",
-      "notes": "**TV 版 1.0.56+57**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 40307750,
+      "sha256": "abc3070e90540120d777101e667012e437d613c863941d65683124b11f06de92",
+      "notes": "**TV 版 1.0.57+58**\n\n- 修：**播放设置里的「弹幕」「自动连播」以前遥控器选不中** —— 现在能正常选中并切换了\n- 加：**弹幕字号、不透明度、显示区域**三项，现在在电视的播放设置里也能直接调（左右键增减）\n- 加：**手机遥控网页的播放进度条旁边多了一个设置按钮** —— 点开是播放设置小窗，倍速、清晰度、自动连播、下一集预加载、弹幕开关与字号都在里面，手机上随手就能改\n- 加：**手机遥控网页多了一个「设置」页** —— 电视上的播放设置和界面设置都能在手机上改，还能**检测更新**；改完立刻生效，电视上不用再操作\n- 改：**手机上配置同步（WebDAV）现在会先测试再保存** —— 连得上直接告诉你「连接成功」并自动跳回控制页，连不上会说明原因，不用再回电视上看\n- 改：**电视上的同步配置页，二维码直接显示出来了** —— 不用再点右上角，进页面就能扫\n- 加：**手机遥控网页的「追剧」加了分类** —— 全部 / 想看 / 在看 / 上次最后播放\n- 修：**追剧列表里的集数不对** —— 以前会显示成「共 127 集 · 看到第 127 集」（其实只是总集数），现在显示的是**你实际看到第几集**\n- 修：**从追剧点进剧集详情，现在会自动定位到你正在看的那一集**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
     }
   ]
 }
