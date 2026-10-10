@@ -1,43 +1,43 @@
 {
-  "version": "1.0.66+67",
-  "versionName": "1.0.66",
-  "build": 67,
-  "versionCode": 10066,
+  "version": "2.0.0+1",
+  "versionName": "2.0.0",
+  "build": 1,
+  "versionCode": 20000,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-10T08:24:26Z",
-  "notes": "**TV 版 1.0.66+67**\n- 修：**切下一集不再弹加载圈** —— 之前每次换集都会闪一下转圈遮罩（约 1 秒）。特别是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 修：**设置页的焦点框看不清** —— 在设置、WebDAV 同步、设备互联、用户管理、下载、合并、冲突处理这些列表页里，看不清焦点停在哪一行。现在**每一行都会套一个贴身的亮边框**，一眼就能看见哪个被选中（封面卡片维持原样）\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.66-67",
+  "publishedAt": "2026-10-10T16:21:00Z",
+  "notes": "**TV 版 2.0.0+1**\n\n> ⚠️ **本次是大版本更新**：界面按 Flow（Android TV · Jellyfin 客户端）重新对齐。\n> 装完后界面会和之前**明显不一样**，这是预期的。\n\n**界面（对齐 Flow）**\n- 新：**背景色改成 `#0D0D0E`** —— 不再是纯黑，比纯黑亮一档，暗部细节更清楚\n- 新：**焦点环重做** —— 纯白、3dp 宽，聚焦时**从 300ms 淡入、失焦 500ms 淡出**，并带**呼吸**（1.0→0.2、周期 1200ms、缓入缓出）\n- 新：**聚焦放大改成 1.1 倍**（原来 1.15）—— 和 Flow 一致，更克制\n- 新：**文字层级统一** —— 主标题纯白 / 次级 `#9A9A9A` / 弱化 `#6C6C6C`\n- 新：**卡片元信息居中**（原来靠左）\n- 新：**hero（顶部大图）** —— 28dp 圆角、背景铺满、信息压左下\n\n**修**\n- 修：**设置页的焦点框顶到屏幕边缘** —— 整行放大 1.09 倍后比屏幕还宽，两侧溢出。现在**满宽的行不再放大**，焦点框回到内边距以内\n- 修：**播放进度条的焦点框同样溢出** —— 同一原因，一并修好\n- 修：**设置页的左侧分组栏** —— 恢复到左侧竖排（此前一版曾改成顶部横排，会显示异常）\n- 修：**播放控件显隐更柔和** —— 从 180ms 改成 **250ms + 缓动曲线**（对齐 Flow）\n\n**其它**\n- 版本号从 1.0.x 进位到 **2.0.0**（versionCode 21000），**可直接覆盖升级**，进度、设置、下载都不会丢\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）\n\n> ⚠️ 如遇异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v2.0.0-1",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.66+67-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-2.0.0+1-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-arm64-v8a.apk"
       ],
-      "size": 31785946,
-      "sha256": "ba78ec7af326288eb3d2147fc3ac76c0e17e2066c1892a469c0a5a618ba83cae",
-      "notes": "**TV 版 1.0.66+67**\n- 修：**切下一集不再弹加载圈** —— 之前每次换集都会闪一下转圈遮罩（约 1 秒）。特别是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 修：**设置页的焦点框看不清** —— 在设置、WebDAV 同步、设备互联、用户管理、下载、合并、冲突处理这些列表页里，看不清焦点停在哪一行。现在**每一行都会套一个贴身的亮边框**，一眼就能看见哪个被选中（封面卡片维持原样）\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
+      "size": 31785194,
+      "sha256": "bf04ff2b1954598dc8b318f7376cfb2d29b4cef00ab1c97b9f6b2c5c3c8b77b3",
+      "notes": "**TV 版 2.0.0+1**\n\n> ⚠️ **本次是大版本更新**：界面按 Flow（Android TV · Jellyfin 客户端）重新对齐。\n> 装完后界面会和之前**明显不一样**，这是预期的。\n\n**界面（对齐 Flow）**\n- 新：**背景色改成 `#0D0D0E`** —— 不再是纯黑，比纯黑亮一档，暗部细节更清楚\n- 新：**焦点环重做** —— 纯白、3dp 宽，聚焦时**从 300ms 淡入、失焦 500ms 淡出**，并带**呼吸**（1.0→0.2、周期 1200ms、缓入缓出）\n- 新：**聚焦放大改成 1.1 倍**（原来 1.15）—— 和 Flow 一致，更克制\n- 新：**文字层级统一** —— 主标题纯白 / 次级 `#9A9A9A` / 弱化 `#6C6C6C`\n- 新：**卡片元信息居中**（原来靠左）\n- 新：**hero（顶部大图）** —— 28dp 圆角、背景铺满、信息压左下\n\n**修**\n- 修：**设置页的焦点框顶到屏幕边缘** —— 整行放大 1.09 倍后比屏幕还宽，两侧溢出。现在**满宽的行不再放大**，焦点框回到内边距以内\n- 修：**播放进度条的焦点框同样溢出** —— 同一原因，一并修好\n- 修：**设置页的左侧分组栏** —— 恢复到左侧竖排（此前一版曾改成顶部横排，会显示异常）\n- 修：**播放控件显隐更柔和** —— 从 180ms 改成 **250ms + 缓动曲线**（对齐 Flow）\n\n**其它**\n- 版本号从 1.0.x 进位到 **2.0.0**（versionCode 21000），**可直接覆盖升级**，进度、设置、下载都不会丢\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）\n\n> ⚠️ 如遇异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.66+67-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-2.0.0+1-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.66-67/duanjuzhijiatv-1.0.66%2B67-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.0-1/duanjuzhijiatv-2.0.0%2B1-armeabi-v7a.apk"
       ],
-      "size": 40338622,
-      "sha256": "dd3a979d0f1105e37e0b0d6ef2b73b10e644653bbda362978678a1cabff1f45c",
-      "notes": "**TV 版 1.0.66+67**\n- 修：**切下一集不再弹加载圈** —— 之前每次换集都会闪一下转圈遮罩（约 1 秒）。特别是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 修：**设置页的焦点框看不清** —— 在设置、WebDAV 同步、设备互联、用户管理、下载、合并、冲突处理这些列表页里，看不清焦点停在哪一行。现在**每一行都会套一个贴身的亮边框**，一眼就能看见哪个被选中（封面卡片维持原样）\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
+      "size": 40338430,
+      "sha256": "cb7203b2396cda3ae85c12a7e045749c4ce473b7ca523e6fab380bc1ea274810",
+      "notes": "**TV 版 2.0.0+1**\n\n> ⚠️ **本次是大版本更新**：界面按 Flow（Android TV · Jellyfin 客户端）重新对齐。\n> 装完后界面会和之前**明显不一样**，这是预期的。\n\n**界面（对齐 Flow）**\n- 新：**背景色改成 `#0D0D0E`** —— 不再是纯黑，比纯黑亮一档，暗部细节更清楚\n- 新：**焦点环重做** —— 纯白、3dp 宽，聚焦时**从 300ms 淡入、失焦 500ms 淡出**，并带**呼吸**（1.0→0.2、周期 1200ms、缓入缓出）\n- 新：**聚焦放大改成 1.1 倍**（原来 1.15）—— 和 Flow 一致，更克制\n- 新：**文字层级统一** —— 主标题纯白 / 次级 `#9A9A9A` / 弱化 `#6C6C6C`\n- 新：**卡片元信息居中**（原来靠左）\n- 新：**hero（顶部大图）** —— 28dp 圆角、背景铺满、信息压左下\n\n**修**\n- 修：**设置页的焦点框顶到屏幕边缘** —— 整行放大 1.09 倍后比屏幕还宽，两侧溢出。现在**满宽的行不再放大**，焦点框回到内边距以内\n- 修：**播放进度条的焦点框同样溢出** —— 同一原因，一并修好\n- 修：**设置页的左侧分组栏** —— 恢复到左侧竖排（此前一版曾改成顶部横排，会显示异常）\n- 修：**播放控件显隐更柔和** —— 从 180ms 改成 **250ms + 缓动曲线**（对齐 Flow）\n\n**其它**\n- 版本号从 1.0.x 进位到 **2.0.0**（versionCode 21000），**可直接覆盖升级**，进度、设置、下载都不会丢\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）\n\n> ⚠️ 如遇异常请反馈现象。"
     }
   ]
 }
