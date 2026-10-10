@@ -1,43 +1,43 @@
 {
-  "version": "1.0.62+63",
-  "versionName": "1.0.62",
-  "build": 63,
-  "versionCode": 10062,
+  "version": "1.0.64+65",
+  "versionName": "1.0.64",
+  "build": 65,
+  "versionCode": 10064,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-10T06:14:23Z",
-  "notes": "**TV 版 1.0.62+63**\n\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.62-63",
+  "publishedAt": "2026-10-10T07:23:38Z",
+  "notes": "**TV 版 1.0.64+65**\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v1.0.64-65",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-1.0.62+63-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-1.0.64+65-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-arm64-v8a.apk"
       ],
-      "size": 31779098,
-      "sha256": "d885254ae71842e59d586a13bb557481040b446e8d311ff65d7005f3f763c62b",
-      "notes": "**TV 版 1.0.62+63**\n\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
+      "size": 31784642,
+      "sha256": "06a5e380c6aef81795a27f6710c5ac31a4e960f0dba382ebcddb6160dc2ef03d",
+      "notes": "**TV 版 1.0.64+65**\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-1.0.62+63-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-1.0.64+65-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.62-63/duanjuzhijiatv-1.0.62%2B63-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v1.0.64-65/duanjuzhijiatv-1.0.64%2B65-armeabi-v7a.apk"
       ],
-      "size": 40326870,
-      "sha256": "45a41c145b931c476567b2033c396c9af9da45527710af15500fab94a42ad7a7",
-      "notes": "**TV 版 1.0.62+63**\n\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
+      "size": 40333366,
+      "sha256": "8e4c542a1ba667dbf9a3e0a66a763383edf318a3e031d978d90a93d26b4ef2a6",
+      "notes": "**TV 版 1.0.64+65**\n- 新：**播放设置里能换播放方式了** —— 看片卡顿的话，按遥控器菜单进「播放设置」，里面多了「解码方式」（自动 / 兼容 / 软件），每档都写了什么情况选它。**选中后会自动重新开始播放，进度不丢**\n- 新：**详情页也加了「播放卡顿？」** —— 就在底部「立即播放」旁边那颗，进片之前可以先选好；片里想马上换，就用上面的「播放设置」。以后不用再翻到设置页去找了\n- 修：**「自动同步周期」按 OK 没反应** —— 遥控器把焦点移到这一行、按 OK 弹不出选项。原因是这一行本身没有响应点击，按键被外层吃掉了，里面的下拉框收不到；已改成**点整行弹出选项**，选中即生效\n- 新：**播放设置改成小弹窗** —— 按出齿轮时不再整屏铺满，而是在画面中间弹出一张小卡片，四周还能看见正在播的剧，**边看边调**\n- 新：**调设置时视频不暂停**，接着往下播（倍速、清晰度、弹幕字号/透明度/区域都是即时生效）\n- ✅ **保留「预加载下一集」**：播放时就把下一集整集提前存到本地，播完自动切集，连播顺畅、不用等\n- 修：**播放不再卡顿** —— 之前为消除切集短暂黑屏加的画面冻结逻辑已整体撤掉，实测那个方案拖累了播放流畅度\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**，静默处理\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做完整真机验证，如仍有异常请反馈现象。"
     }
   ]
 }
