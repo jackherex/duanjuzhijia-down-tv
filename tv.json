@@ -1,43 +1,43 @@
 {
-  "version": "2.0.6+7",
-  "versionName": "2.0.6",
-  "build": 7,
-  "versionCode": 20006,
+  "version": "3.0.0+8",
+  "versionName": "3.0.0",
+  "build": 8,
+  "versionCode": 30000,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-15T10:38:53Z",
-  "notes": "**TV 版 2.0.6+7**\n\n**改进**\n- 修：**修复播放错误问题**\n- 改：**弹幕可以调得更慢了** —— 原来最慢只到 0.50x，现在能调到 **0.25x**。\n  85 吋这类大屏如果还嫌弹幕跑得快，可以一直往慢调到底。\n  （播放页 → 点画面中央 → 播放设置 → 弹幕速度，遥控器左右键调节）\n- 改：**档位更细腻** —— 每按一次只变一点点，从默认速度往慢调要按 5 下才到底，\n  方便停在看着最舒服的那一档。\n\n**修复**\n- 修：**弹幕调慢后会有两条字压在一起** —— 速度调慢以后，系统仍按原来的节奏放行，\n  结果前一条还没走完、后一条就出来了，字就叠上了。现在按实际快慢安排，\n  从慢到快各档都不会再叠。\n\n**说明**\n- **不调速度的话，观感和以前完全一样**（默认档位与原来逐帧一致，已逐条核对）。\n- 版本号 2.0.5 → **2.0.6**，**可直接覆盖升级**，进度、设置、下载都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n\n> 如遇异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v2.0.6-7",
+  "publishedAt": "2026-10-16T15:04:35Z",
+  "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.0-8",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-2.0.6+7-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.0+8-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk"
       ],
-      "size": 31792782,
-      "sha256": "c2092e8dede107387c36263dec7d064ceecedd98aaa81fe3b2417c1269e136f3",
-      "notes": "**TV 版 2.0.6+7**\n\n**改进**\n- 修：**修复播放错误问题**\n- 改：**弹幕可以调得更慢了** —— 原来最慢只到 0.50x，现在能调到 **0.25x**。\n  85 吋这类大屏如果还嫌弹幕跑得快，可以一直往慢调到底。\n  （播放页 → 点画面中央 → 播放设置 → 弹幕速度，遥控器左右键调节）\n- 改：**档位更细腻** —— 每按一次只变一点点，从默认速度往慢调要按 5 下才到底，\n  方便停在看着最舒服的那一档。\n\n**修复**\n- 修：**弹幕调慢后会有两条字压在一起** —— 速度调慢以后，系统仍按原来的节奏放行，\n  结果前一条还没走完、后一条就出来了，字就叠上了。现在按实际快慢安排，\n  从慢到快各档都不会再叠。\n\n**说明**\n- **不调速度的话，观感和以前完全一样**（默认档位与原来逐帧一致，已逐条核对）。\n- 版本号 2.0.5 → **2.0.6**，**可直接覆盖升级**，进度、设置、下载都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n\n> 如遇异常请反馈现象。"
+      "size": 31816110,
+      "sha256": "4a97573bb760199c4d51cf02ca24bf1a14dcc4de9cd499e53a82e7bc6a542a8d",
+      "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-2.0.6+7-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.0+8-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v2.0.6-7/duanjuzhijiatv-2.0.6%2B7-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk"
       ],
-      "size": 40345886,
-      "sha256": "3e4ed00d39aa9378bc2cbd277448f5674b19190cb9ef06b2e3d8a3e28c2380f1",
-      "notes": "**TV 版 2.0.6+7**\n\n**改进**\n- 修：**修复播放错误问题**\n- 改：**弹幕可以调得更慢了** —— 原来最慢只到 0.50x，现在能调到 **0.25x**。\n  85 吋这类大屏如果还嫌弹幕跑得快，可以一直往慢调到底。\n  （播放页 → 点画面中央 → 播放设置 → 弹幕速度，遥控器左右键调节）\n- 改：**档位更细腻** —— 每按一次只变一点点，从默认速度往慢调要按 5 下才到底，\n  方便停在看着最舒服的那一档。\n\n**修复**\n- 修：**弹幕调慢后会有两条字压在一起** —— 速度调慢以后，系统仍按原来的节奏放行，\n  结果前一条还没走完、后一条就出来了，字就叠上了。现在按实际快慢安排，\n  从慢到快各档都不会再叠。\n\n**说明**\n- **不调速度的话，观感和以前完全一样**（默认档位与原来逐帧一致，已逐条核对）。\n- 版本号 2.0.5 → **2.0.6**，**可直接覆盖升级**，进度、设置、下载都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n\n> 如遇异常请反馈现象。"
+      "size": 40367866,
+      "sha256": "6eac6b2b6c59c93e9df6349f8269f57d42132aa847cbf29dae9e1d3d8db9cbef",
+      "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。"
     }
   ]
 }
