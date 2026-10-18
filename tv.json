@@ -1,43 +1,43 @@
 {
-  "version": "3.0.0+8",
+  "version": "3.0.0+9",
   "versionName": "3.0.0",
-  "build": 8,
+  "build": 9,
   "versionCode": 30000,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-16T15:04:35Z",
-  "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.0-8",
+  "publishedAt": "2026-10-18T15:29:30Z",
+  "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.0-9",
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.0+8-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.0+9-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk"
       ],
-      "size": 31816110,
-      "sha256": "4a97573bb760199c4d51cf02ca24bf1a14dcc4de9cd499e53a82e7bc6a542a8d",
-      "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。"
+      "size": 31828206,
+      "sha256": "2e7ef8bf7b1aeb6e62c6d035eb14412e04191231830d14229dc615c0f9cb66f3",
+      "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.0+8-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.0+9-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-8/duanjuzhijiatv-3.0.0%2B8-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk"
       ],
-      "size": 40367866,
-      "sha256": "6eac6b2b6c59c93e9df6349f8269f57d42132aa847cbf29dae9e1d3d8db9cbef",
-      "notes": "**TV 版 3.0.0**\n\n**新增**\n- **播放条可以收起了** —— 播放条左上角新增收起箭头，收起后只留一行\n  （箭头 + 封面 + 标题 + 播放/暂停），不再一直占掉半屏；再点箭头即可展开。\n- **列表页、设置页、WebDAV 页都有了返回键** —— 顶栏左侧新增与详情页同款的\n  圆形返回键。从首页点「查看全部」进列表、或进设置页后，可以直接返回，\n  不用先退回首页。\n\n**改进**\n- **首页大图更清晰** —— 首页顶部大图与详情页大图的背景模糊度明显降低\n  （模糊 5 档降到 2 档），封面上的画面能看清更多。\n- **底部导航选中态更明显** —— 当前页签有了浅色药丸底色，一眼能看出在哪一页。\n\n**修复**\n- **修复首页第一张卡片贴着屏幕左边的问题** —— 首页轨道的第一张卡之前会\n  吸到屏幕最左沿、看不到留白，现在与后面的卡片对齐，左右留有统一边距。\n- **左右边距统一收紧** —— 首页、列表、详情、设置等主要界面的左右边距\n  统一收紧为 16px，一屏能看下更多内容。\n\n**说明**\n- 版本号 2.0.6 → **3.0.0**（新的大版本起点），**可直接覆盖升级**，\n  观看进度、设置、下载内容都不会丢。\n- 包名与应用名不变（`com.duanju.duanju_app.tv` / 短剧之家 TV）。\n- 升级完成后，如果遥控页面还是旧样子，**在浏览器里刷新一下页面**即可。\n\n> 如遇异常请反馈现象。"
+      "size": 40381686,
+      "sha256": "74378b201351bcf8b531dcbd36c3f5578dffc34e683d0f5ec1a9406536928a22",
+      "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳"
     }
   ]
 }
