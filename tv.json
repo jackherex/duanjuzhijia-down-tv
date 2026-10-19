@@ -1,43 +1,50 @@
 {
-  "version": "3.0.0+9",
-  "versionName": "3.0.0",
-  "build": 9,
-  "versionCode": 30000,
+  "version": "3.0.1+10",
+  "versionName": "3.0.1",
+  "build": 10,
+  "versionCode": 30001,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-18T15:29:30Z",
-  "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.0-9",
+  "publishedAt": "2026-10-19T03:20:20Z",
+  "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.1-10",
+  "gate": {
+    "salt": "djzj-2026-10-19-4f1a",
+    "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
+    "iterations": 2000,
+    "group": "https://t.me/duanjuzhijia",
+    "hint": "4 位数字"
+  },
   "assets": [
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.0+9-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.1+10-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk"
       ],
-      "size": 31828206,
-      "sha256": "2e7ef8bf7b1aeb6e62c6d035eb14412e04191231830d14229dc615c0f9cb66f3",
-      "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳"
+      "size": 31728078,
+      "sha256": "678575178eee9184a833aea1bdcccb7ed3bab4e280353a9ea020cebc237b8588",
+      "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.0+9-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.1+10-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.0-9/duanjuzhijiatv-3.0.0%2B9-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk"
       ],
-      "size": 40381686,
-      "sha256": "74378b201351bcf8b531dcbd36c3f5578dffc34e683d0f5ec1a9406536928a22",
-      "notes": "**TV 版 3.0.0+9**\n\n- 修：**遥控器停在顶栏「榜单 / 排序」上会莫名切页、按钮跟着消失** —— 现在停上去直接切换，两颗常驻顶栏\n- 修：**榜单页按上下键完全没反应** —— 现在能正常滚动\n- 修：**遥控网页封面加载失败时显示白底破图** —— 现在换成「无图」占位图标，宽卡里也不会被放大\n- 新：**遥控网页详情页加了「追剧」，播放条加了「退出播放」** —— 手机上也能追剧、退出播放\n- 新：**连续掉帧会提示切换解码** —— 一键切「兼容解码」，低配盒子更稳"
+      "size": 40280434,
+      "sha256": "9eec9a8c8498d35877e568a368537de21a76d9d58d5d7afeaa207a2c84e79931",
+      "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     }
   ]
 }
