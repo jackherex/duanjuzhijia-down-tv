@@ -1,13 +1,13 @@
 {
-  "version": "3.0.1+10",
-  "versionName": "3.0.1",
-  "build": 10,
-  "versionCode": 30001,
+  "version": "3.0.2+11",
+  "versionName": "3.0.2",
+  "build": 11,
+  "versionCode": 30002,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T03:20:20Z",
-  "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.1-10",
+  "publishedAt": "2026-10-19T13:45:49Z",
+  "notes": "**TV 版 3.0.2+11**\n\n- 修：**3.0.1+10 的界面错误地退回成了旧版浅色主题**（白底）。这一版恢复正常深色界面，版式、字号、遥控焦点全部回到原来那套\n- 保留：在线更新的进群密钥仍是云端下发，换密钥不用等新版\n- 说明：本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.2-11",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.1+10-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.2+11-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-arm64-v8a.apk"
       ],
-      "size": 31728078,
-      "sha256": "678575178eee9184a833aea1bdcccb7ed3bab4e280353a9ea020cebc237b8588",
-      "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
+      "size": 31838038,
+      "sha256": "19a7a4d60b4ac23a5bbbc159b9759eb071de8fca846807aa99e656e014b8a2c6",
+      "notes": "**TV 版 3.0.2+11**\n\n- 修：**3.0.1+10 的界面错误地退回成了旧版浅色主题**（白底）。这一版恢复正常深色界面，版式、字号、遥控焦点全部回到原来那套\n- 保留：在线更新的进群密钥仍是云端下发，换密钥不用等新版\n- 说明：本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.1+10-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.2+11-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.1-10/duanjuzhijiatv-3.0.1%2B10-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.2-11/duanjuzhijiatv-3.0.2%2B11-armeabi-v7a.apk"
       ],
-      "size": 40280434,
-      "sha256": "9eec9a8c8498d35877e568a368537de21a76d9d58d5d7afeaa207a2c84e79931",
-      "notes": "**TV 版 3.0.1+10**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
+      "size": 40396606,
+      "sha256": "805585f9bb7f89eaf09e39f45433c7b4af5ce38ed59abfc7051e26dcb1dbd90b",
+      "notes": "**TV 版 3.0.2+11**\n\n- 修：**3.0.1+10 的界面错误地退回成了旧版浅色主题**（白底）。这一版恢复正常深色界面，版式、字号、遥控焦点全部回到原来那套\n- 保留：在线更新的进群密钥仍是云端下发，换密钥不用等新版\n- 说明：本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     }
   ]
 }
