@@ -1,13 +1,13 @@
 {
-  "version": "3.0.7+19",
+  "version": "3.0.7+21",
   "versionName": "3.0.7",
-  "build": 19,
+  "build": 21,
   "versionCode": 30007,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-20T11:05:28Z",
-  "notes": "**TV 版 3.0.7+19**\n\n- 分类改为先选择真人剧、漫剧或 AI 剧，再选择对应题材；打开分类菜单不预加载剧集，选择题材后再加载并分页。\n- 手机遥控网页的“全部剧集”和“推荐”移到题材列表之后，分类层级更清楚。\n- 修复首次启动时红果部分目录接口不可用仍有内容时弹出打断式错误提示的问题；手动刷新、搜索、指定分类及分页失败仍会提示。\n- 保留在线更新进群密钥由云端下发；本软件全免费，无捐赠、无隐藏收费。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.7-19",
+  "publishedAt": "2026-10-21T04:05:34Z",
+  "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.7-21",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.7+19-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.7+21-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk"
       ],
-      "size": 31839078,
-      "sha256": "d718c53259cc19029dbfe8d4e2e320e99277e9e8de1c50f4ecbea30234c8e449",
-      "notes": "**TV 版 3.0.7+19**\n\n- 分类改为先选择真人剧、漫剧或 AI 剧，再选择对应题材；打开分类菜单不预加载剧集，选择题材后再加载并分页。\n- 手机遥控网页的“全部剧集”和“推荐”移到题材列表之后，分类层级更清楚。\n- 修复首次启动时红果部分目录接口不可用仍有内容时弹出打断式错误提示的问题；手动刷新、搜索、指定分类及分页失败仍会提示。\n- 保留在线更新进群密钥由云端下发；本软件全免费，无捐赠、无隐藏收费。"
+      "size": 31847698,
+      "sha256": "a4bfedc611b43a2110afef819bac726f7e405532ae294a2ab13321744470904d",
+      "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.7+19-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.7+21-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-19/duanjuzhijiatv-3.0.7%2B19-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk"
       ],
-      "size": 40397934,
-      "sha256": "93c0b61d1ad23d2735b216d651caa8f378a11140d494181fab677c6f96d10505",
-      "notes": "**TV 版 3.0.7+19**\n\n- 分类改为先选择真人剧、漫剧或 AI 剧，再选择对应题材；打开分类菜单不预加载剧集，选择题材后再加载并分页。\n- 手机遥控网页的“全部剧集”和“推荐”移到题材列表之后，分类层级更清楚。\n- 修复首次启动时红果部分目录接口不可用仍有内容时弹出打断式错误提示的问题；手动刷新、搜索、指定分类及分页失败仍会提示。\n- 保留在线更新进群密钥由云端下发；本软件全免费，无捐赠、无隐藏收费。"
+      "size": 40408318,
+      "sha256": "9c617f83b5a313888960bf6f63ea13649aafcb0aa291ba39baa1aeb1d9424bb1",
+      "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
