@@ -1,13 +1,13 @@
 {
-  "version": "3.0.7+21",
-  "versionName": "3.0.7",
-  "build": 21,
-  "versionCode": 30007,
+  "version": "3.0.9+23",
+  "versionName": "3.0.9",
+  "build": 23,
+  "versionCode": 30009,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-21T04:05:34Z",
-  "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.7-21",
+  "publishedAt": "2026-10-22T03:18:01Z",
+  "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.9-23",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.7+21-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.9+23-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-arm64-v8a.apk"
       ],
-      "size": 31847698,
-      "sha256": "a4bfedc611b43a2110afef819bac726f7e405532ae294a2ab13321744470904d",
-      "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31941318,
+      "sha256": "1b7c66b5e955d59030d4569a74e7d4baa31cccca5ce16e29812f16dff5c645c0",
+      "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.7+21-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.9+23-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.7-21/duanjuzhijiatv-3.0.7%2B21-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.9-23/duanjuzhijiatv-3.0.9%2B23-armeabi-v7a.apk"
       ],
-      "size": 40408318,
-      "sha256": "9c617f83b5a313888960bf6f63ea13649aafcb0aa291ba39baa1aeb1d9424bb1",
-      "notes": "**TV 版 3.0.7+21**\n\n- 修：**分类里能用遥控器翻剧了** —— 点进题材后的剧集列表原来整页没有一个能聚焦的控件，按方向键毫无反应；现在每张海报都有焦点，方向键换卡、上下换行，滚到底会自动加载下一页。\n- 修：**推荐页也能用遥控器** —— 先选剧种，再用方向键在封面网格里走。\n- 修：**顶栏不再“移过去就消失”** —— 从「最近观看」往右能走到「分类」，从「发现」往右能走到「手机遥控」；「分类」入口常驻，不会因为换了页签就没了。\n- 改：**整页列表按整行滚动** —— 最上面那一行不再被切掉一半（之前看着像被顶栏压住）。\n- 保留：分类先选真人剧、漫剧或 AI 剧，再选对应题材；打开分类菜单不预加载，选题材后才加载并分页。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40511386,
+      "sha256": "6ceb4895ad196c2ffbe965b09ded10b299655331ab6ec3a37cc6fb5e9d8b1ecf",
+      "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
