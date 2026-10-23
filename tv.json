@@ -1,13 +1,13 @@
 {
-  "version": "3.0.14+28",
-  "versionName": "3.0.14",
-  "build": 28,
-  "versionCode": 30014,
+  "version": "3.0.15+29",
+  "versionName": "3.0.15",
+  "build": 29,
+  "versionCode": 30015,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T10:25:27Z",
-  "notes": "**TV 版 3.0.14+28**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：搜索框里按「下」，会先到**搜索历史**，再按「下」才到「搜索」按钮。上一版只把「下」接到了「搜索」，把中间的历史整段跳过去了。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.14-28",
+  "publishedAt": "2026-10-23T11:21:46Z",
+  "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.15-29",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.14+28-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.15+29-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk"
       ],
-      "size": 31948734,
-      "sha256": "70d358f4e0d2309ee5c37a1dae990b92a1710480792a6646ee9b382e868b788b",
-      "notes": "**TV 版 3.0.14+28**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：搜索框里按「下」，会先到**搜索历史**，再按「下」才到「搜索」按钮。上一版只把「下」接到了「搜索」，把中间的历史整段跳过去了。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31950254,
+      "sha256": "a2d3824a10c3fbcf69f141e0118208293f3eafd786c0ecd778a9848fc2d28874",
+      "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.14+28-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.15+29-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.14-28/duanjuzhijiatv-3.0.14%2B28-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk"
       ],
-      "size": 40515990,
-      "sha256": "1c82fe1a0745878033d9cc74b2ddb12b51ab4175a9fc9bb7366771c4dd498e49",
-      "notes": "**TV 版 3.0.14+28**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：搜索框里按「下」，会先到**搜索历史**，再按「下」才到「搜索」按钮。上一版只把「下」接到了「搜索」，把中间的历史整段跳过去了。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40521390,
+      "sha256": "0a73ef20da03188b57fb5e74c6155ffa021f2474cfd99c778d6630744b3419a3",
+      "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
