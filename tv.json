@@ -1,13 +1,13 @@
 {
-  "version": "3.0.11+25",
-  "versionName": "3.0.11",
-  "build": 25,
-  "versionCode": 30011,
+  "version": "3.0.12+26",
+  "versionName": "3.0.12",
+  "build": 26,
+  "versionCode": 30012,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T02:51:28Z",
-  "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.11-25",
+  "publishedAt": "2026-10-23T03:31:24Z",
+  "notes": "**TV 版 3.0.12+26**\n\n- 修：**电视上用遥控器搜不了剧** —— 打开搜索框之后，方向键只能停在输入框里，「取消 / 清空 / 搜索」那三个按钮一个都按不到，只能退出去用手机遥控搜。现在按「下」直接跳到「搜索」按钮，左右在三个按钮之间走，「上」回到输入框继续打字。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.12-26",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.11+25-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.12+26-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-arm64-v8a.apk"
       ],
-      "size": 31943690,
-      "sha256": "b68c367c38909df06f86dc74874d3558c7e8a0eff13dd309b1961da5b4d2c961",
-      "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。"
+      "size": 31944250,
+      "sha256": "872def12ee7feb23f03b723e82bccaacd20c9c2a41de7963d303724bfcec2dc6",
+      "notes": "**TV 版 3.0.12+26**\n\n- 修：**电视上用遥控器搜不了剧** —— 打开搜索框之后，方向键只能停在输入框里，「取消 / 清空 / 搜索」那三个按钮一个都按不到，只能退出去用手机遥控搜。现在按「下」直接跳到「搜索」按钮，左右在三个按钮之间走，「上」回到输入框继续打字。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.11+25-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.12+26-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.12-26/duanjuzhijiatv-3.0.12%2B26-armeabi-v7a.apk"
       ],
-      "size": 40514014,
-      "sha256": "738a58fbbe9b48faafbc4a4510f941e5fa755eb45df203ab142740ec651f7f5c",
-      "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。"
+      "size": 40513686,
+      "sha256": "25f115c6ef159cba4e51dc1cca69d5617dc4c7f49b20e865c95c28f326b3be99",
+      "notes": "**TV 版 3.0.12+26**\n\n- 修：**电视上用遥控器搜不了剧** —— 打开搜索框之后，方向键只能停在输入框里，「取消 / 清空 / 搜索」那三个按钮一个都按不到，只能退出去用手机遥控搜。现在按「下」直接跳到「搜索」按钮，左右在三个按钮之间走，「上」回到输入框继续打字。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
