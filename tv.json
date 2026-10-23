@@ -1,13 +1,13 @@
 {
-  "version": "3.0.15+29",
-  "versionName": "3.0.15",
-  "build": 29,
-  "versionCode": 30015,
+  "version": "3.0.16+30",
+  "versionName": "3.0.16",
+  "build": 30,
+  "versionCode": 30016,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T11:21:46Z",
-  "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.15-29",
+  "publishedAt": "2026-10-23T11:35:36Z",
+  "notes": "**TV 版 3.0.16+30**\n\n- 修：**部分设备播放时只有声音没有画面**（SHIELD 2019 Pro、以及部分盒子）。这个问题跟解码没关系 —— 「关于」页里解码方式显示 `mediacodec-copy`、实际帧率跟源帧率一样（30.0 fps），说明解码和取帧都是好的，卡在把画面贴到屏幕上那一步。这版把画面渲染方式换成另一套（Skia），这类 GPU 上就能出画面了。\n- 说明：如果更新后画面正常但感觉界面没以前跟手，跟我说一声，我再想办法按设备区分。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.16-30",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.15+29-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.16+30-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-arm64-v8a.apk"
       ],
-      "size": 31950254,
-      "sha256": "a2d3824a10c3fbcf69f141e0118208293f3eafd786c0ecd778a9848fc2d28874",
-      "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31950246,
+      "sha256": "c13848502dd0faf8368964cf099f11386f4c0ee5bae3c38b0b870ec81043acc2",
+      "notes": "**TV 版 3.0.16+30**\n\n- 修：**部分设备播放时只有声音没有画面**（SHIELD 2019 Pro、以及部分盒子）。这个问题跟解码没关系 —— 「关于」页里解码方式显示 `mediacodec-copy`、实际帧率跟源帧率一样（30.0 fps），说明解码和取帧都是好的，卡在把画面贴到屏幕上那一步。这版把画面渲染方式换成另一套（Skia），这类 GPU 上就能出画面了。\n- 说明：如果更新后画面正常但感觉界面没以前跟手，跟我说一声，我再想办法按设备区分。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.15+29-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.16+30-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.15-29/duanjuzhijiatv-3.0.15%2B29-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.16-30/duanjuzhijiatv-3.0.16%2B30-armeabi-v7a.apk"
       ],
-      "size": 40521390,
-      "sha256": "0a73ef20da03188b57fb5e74c6155ffa021f2474cfd99c778d6630744b3419a3",
-      "notes": "**TV 版 3.0.15+29**\n\n- 修：**搜索历史选错词**。上一版给历史按钮换的那套控件，焦点框和真正选中的不是同一个，看着停在「归墟」上、选出来却是「全球」。现在换成跟其它地方一样的那套控件。\n- 修：搜索框下面弹出的**联想词列表**，遥控器进不去了。现在按「下」能进列表，上下在列表里走，最后一项再按「下」到搜索历史。\n- 修：**搜索偶尔提示「综合搜索暂不可用」**。源站那个搜索接口会间歇性抽风（连着几次返回错误、隔一下又好了），程序原来撞上就没辙了，退回旧写法只能给出「名字差不多」的结果。现在会多试几轮，这种抖动基本不会再漏出来。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40521346,
+      "sha256": "623fb8ca1386e5ec95c47e1d58f317f69c5aa910b8a774606b155142d0b5f4b5",
+      "notes": "**TV 版 3.0.16+30**\n\n- 修：**部分设备播放时只有声音没有画面**（SHIELD 2019 Pro、以及部分盒子）。这个问题跟解码没关系 —— 「关于」页里解码方式显示 `mediacodec-copy`、实际帧率跟源帧率一样（30.0 fps），说明解码和取帧都是好的，卡在把画面贴到屏幕上那一步。这版把画面渲染方式换成另一套（Skia），这类 GPU 上就能出画面了。\n- 说明：如果更新后画面正常但感觉界面没以前跟手，跟我说一声，我再想办法按设备区分。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
