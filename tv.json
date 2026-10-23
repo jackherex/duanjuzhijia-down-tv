@@ -1,13 +1,13 @@
 {
-  "version": "3.0.10+24",
-  "versionName": "3.0.10",
-  "build": 24,
-  "versionCode": 30010,
+  "version": "3.0.11+25",
+  "versionName": "3.0.11",
+  "build": 25,
+  "versionCode": 30011,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-22T10:19:41Z",
-  "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.10-24",
+  "publishedAt": "2026-10-23T02:51:28Z",
+  "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.11-25",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.10+24-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.11+25-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-arm64-v8a.apk"
       ],
-      "size": 31943294,
-      "sha256": "d796a8980ccf3ab014a0e7ac65617d075768a8745898282a89e97c3103fb7f7b",
-      "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31943690,
+      "sha256": "b68c367c38909df06f86dc74874d3558c7e8a0eff13dd309b1961da5b4d2c961",
+      "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.10+24-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.11+25-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.10-24/duanjuzhijiatv-3.0.10%2B24-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.11-25/duanjuzhijiatv-3.0.11%2B25-armeabi-v7a.apk"
       ],
-      "size": 40513798,
-      "sha256": "e8c659a4f64fd81948fb10a29942f04678147f3248b68943caeb01e8239ce166",
-      "notes": "**TV 版 3.0.9+23**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），电视关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页顶栏一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：预约页每一条都会标出云端状态：**仅本机检测** / **待上报** / **云端托管**。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。在电视上点「云预约」会弹出输入框，框里直接显示进群领密码的二维码，手机扫一下就行。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次从后台切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 保留：分类里能用遥控器翻剧、推荐页也能用遥控器、顶栏不会「移过去就消失」、整页列表按整行滚动（最上面那行不再被切掉一半）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40514014,
+      "sha256": "738a58fbbe9b48faafbc4a4510f941e5fa755eb45df203ab142740ec651f7f5c",
+      "notes": "**TV 版 3.0.11+25**\n\n- 修：**电视盒子「只有声音、没有画面」** —— 这是本次的重点。上一版「解码方式」的「自动」档把**零拷贝**硬解排在了首选，而零拷贝在部分 GPU（Amlogic / Rockchip / NVIDIA Tegra 等）上会「解码器正常启动、帧也正常提交，但画出来全黑」。现已把「自动」档改回**兼容模式**（`mediacodec-copy`），零拷贝彻底从候选列表移除。受影响的盒子升级后直接恢复正常，不用手动改设置。\n- 修：**老盒子自动关闭 Impeller 渲染** —— 没有 Vulkan 支持的设备（如 Mali-450 那类老芯片）会自动退回 OpenGL 渲染，避免启动闪退或整屏黑。\n- 修：**同一部剧的其它季被藏起来** —— 站源把长寿命系列写成「基础名 + 第 N 季 + ：副标题」（例如「抽象三国第四季：群雄乱斗」），旧规则会把副标题当成剧名的一部分，导致兄弟季匹配不上。现在会正确归到同一部剧下。\n- 改：电视上播放器默认启用 `profile=fast`，换集与起播更快（只影响电视，手机/电脑不变）。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n如果升级后**仍然只有声音没有画面**，请在「播放设置 → 解码方式」里手动切到「兼容」再试一次；若「兼容」「软件」两档都还是黑屏，请把 `adb logcat` 日志发到 issue 里，那是另一个问题，会继续跟进。"
     }
   ]
 }
