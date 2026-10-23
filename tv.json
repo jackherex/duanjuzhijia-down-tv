@@ -1,13 +1,13 @@
 {
-  "version": "3.0.17+31",
-  "versionName": "3.0.17",
-  "build": 31,
-  "versionCode": 30017,
+  "version": "3.0.18+32",
+  "versionName": "3.0.18",
+  "build": 32,
+  "versionCode": 30018,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T12:36:26Z",
-  "notes": "**TV 版 3.0.17+31**\n\n- 修：**搜索的联想词列表，遥控器按「下」没反应**（上一版我改坏的）。原因是我把联想词放进了浮层，而那种列表控件在遥控器模式下根本拿不到焦点，所以焦点送不进去 —— 看着就是「按下没反应」。\n- 改：联想词列表改成**直接排在输入框下面**，不再浮在上面。这样「取消 / 清空 / 搜索」那一行不会再被它压掉；按「下」能进列表、上下能在列表里走，最后一项再按「下」就到搜索按钮。\n- 说明：上一版那条「画面渲染换成 Skia」的改动还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.17-31",
+  "publishedAt": "2026-10-23T13:36:59Z",
+  "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.18-32",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.17+31-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.18+32-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk"
       ],
-      "size": 31953122,
-      "sha256": "0f393cb2fa3fe7e16ab7224d3393466ea0b88504b5928a3cfd1a77ea9c978938",
-      "notes": "**TV 版 3.0.17+31**\n\n- 修：**搜索的联想词列表，遥控器按「下」没反应**（上一版我改坏的）。原因是我把联想词放进了浮层，而那种列表控件在遥控器模式下根本拿不到焦点，所以焦点送不进去 —— 看着就是「按下没反应」。\n- 改：联想词列表改成**直接排在输入框下面**，不再浮在上面。这样「取消 / 清空 / 搜索」那一行不会再被它压掉；按「下」能进列表、上下能在列表里走，最后一项再按「下」就到搜索按钮。\n- 说明：上一版那条「画面渲染换成 Skia」的改动还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31955042,
+      "sha256": "b72641ea15b67a07c37ef92bf6e6a41a18d09c784a8f1957a045c651be44567f",
+      "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.17+31-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.18+32-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.17-31/duanjuzhijiatv-3.0.17%2B31-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk"
       ],
-      "size": 40522854,
-      "sha256": "8bfda837eac23e0c11aaa0c6d149077885437b67f84dd97ba610ead644189eb7",
-      "notes": "**TV 版 3.0.17+31**\n\n- 修：**搜索的联想词列表，遥控器按「下」没反应**（上一版我改坏的）。原因是我把联想词放进了浮层，而那种列表控件在遥控器模式下根本拿不到焦点，所以焦点送不进去 —— 看着就是「按下没反应」。\n- 改：联想词列表改成**直接排在输入框下面**，不再浮在上面。这样「取消 / 清空 / 搜索」那一行不会再被它压掉；按「下」能进列表、上下能在列表里走，最后一项再按「下」就到搜索按钮。\n- 说明：上一版那条「画面渲染换成 Skia」的改动还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40526758,
+      "sha256": "0e1c6fb9829b05afde27e6f1b39724c951cd574355ee013f65aa31d51cc66783",
+      "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
