@@ -1,13 +1,13 @@
 {
-  "version": "3.0.18+32",
-  "versionName": "3.0.18",
-  "build": 32,
-  "versionCode": 30018,
+  "version": "3.0.19+33",
+  "versionName": "3.0.19",
+  "build": 33,
+  "versionCode": 30019,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T13:36:59Z",
-  "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.18-32",
+  "publishedAt": "2026-10-23T13:57:58Z",
+  "notes": "**TV 版 3.0.19+33**\n\n- 修：**投影仪播放变卡**（MediaTek 芯片的投影仪 / 一体机）。上一版为了修「只有声音没有画面」，把最省事的那档解码从所有电视设备上去掉了 —— 但投影仪这块芯片恰好是**留着它才流畅**的那一类，去掉之后就从「正常」掉到十几帧。现在改成**按芯片分别对待**：MediaTek 的机器用回那档，其它机器维持上一版的稳妥设置。**升级后直接恢复正常，不用手动改设置**。\n- 说明：如果你之前在「播放设置 → 解码方式」里手动选过「兼容」或「软件」，那一档还是按你选的来；想用回自动，切回「自动」即可。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n- 说明：上一版那几条（画面渲染换成 Skia、联想词不再浮在上面、看得见几条就能走几条）都还在，不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.19-33",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.18+32-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.19+33-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-arm64-v8a.apk"
       ],
-      "size": 31955042,
-      "sha256": "b72641ea15b67a07c37ef92bf6e6a41a18d09c784a8f1957a045c651be44567f",
-      "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31955506,
+      "sha256": "651724facd12bd1f88f3c53ad0669464345ec8604c9f1d3f29743aa521c25e4d",
+      "notes": "**TV 版 3.0.19+33**\n\n- 修：**投影仪播放变卡**（MediaTek 芯片的投影仪 / 一体机）。上一版为了修「只有声音没有画面」，把最省事的那档解码从所有电视设备上去掉了 —— 但投影仪这块芯片恰好是**留着它才流畅**的那一类，去掉之后就从「正常」掉到十几帧。现在改成**按芯片分别对待**：MediaTek 的机器用回那档，其它机器维持上一版的稳妥设置。**升级后直接恢复正常，不用手动改设置**。\n- 说明：如果你之前在「播放设置 → 解码方式」里手动选过「兼容」或「软件」，那一档还是按你选的来；想用回自动，切回「自动」即可。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n- 说明：上一版那几条（画面渲染换成 Skia、联想词不再浮在上面、看得见几条就能走几条）都还在，不受影响。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.18+32-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.19+33-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.18-32/duanjuzhijiatv-3.0.18%2B32-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.19-33/duanjuzhijiatv-3.0.19%2B33-armeabi-v7a.apk"
       ],
-      "size": 40526758,
-      "sha256": "0e1c6fb9829b05afde27e6f1b39724c951cd574355ee013f65aa31d51cc66783",
-      "notes": "**TV 版 3.0.18+32**\n\n- 修：搜索联想词**只显示 3 条、里面其实有 10 条**，按「下」会一直在看不见的行里走，永远到不了「取消 / 清空 / 搜索」那一行。现在**看得见几条就能走几条**，走完这 3 条再按「下」就到历史 / 按钮行了。\n- 修：在按钮行按「下」会把焦点送回输入框，安卓就弹输入法。现在按钮行按「下」原地不动。\n- 说明：上一版那两条（画面渲染换成 Skia、联想词不再浮在上面）都还在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40527258,
+      "sha256": "6eb6f610a087d70161d508ef0da333aeee5a1aa607a2c217f345dca676f1f379",
+      "notes": "**TV 版 3.0.19+33**\n\n- 修：**投影仪播放变卡**（MediaTek 芯片的投影仪 / 一体机）。上一版为了修「只有声音没有画面」，把最省事的那档解码从所有电视设备上去掉了 —— 但投影仪这块芯片恰好是**留着它才流畅**的那一类，去掉之后就从「正常」掉到十几帧。现在改成**按芯片分别对待**：MediaTek 的机器用回那档，其它机器维持上一版的稳妥设置。**升级后直接恢复正常，不用手动改设置**。\n- 说明：如果你之前在「播放设置 → 解码方式」里手动选过「兼容」或「软件」，那一档还是按你选的来；想用回自动，切回「自动」即可。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n- 说明：上一版那几条（画面渲染换成 Skia、联想词不再浮在上面、看得见几条就能走几条）都还在，不受影响。"
     }
   ]
 }
