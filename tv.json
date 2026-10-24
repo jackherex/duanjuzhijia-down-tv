@@ -1,13 +1,13 @@
 {
-  "version": "3.0.21+35",
-  "versionName": "3.0.21",
-  "build": 35,
-  "versionCode": 30021,
+  "version": "3.0.22+36",
+  "versionName": "3.0.22",
+  "build": 36,
+  "versionCode": 30022,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T15:44:47Z",
-  "notes": "**TV 版 3.0.21+35**\n\n- 修复：搜索框里的**搜索历史**用遥控器上下键走不通 —— 停在第一条按「下」会直接跳到「搜索」按钮，到不了第二条；从「搜索」按「上」也只回到最后一条，再按就跳回输入框，回不到前面几条。现在上下键会在历史里一条一条地走，走到头才进出，来去对称。\n- 新增：搜索历史每一行右边多了一个「×」，按「右」进到它、按确定就删掉那一条。以前只能整块清空，看完的剧想单独删一条做不到。\n- 说明：搜索历史从「一排小标签」改成了**一行一条**，上下走更顺手，也才放得下每行的「×」。\n- 说明：上一版手机遥控页的「反馈问题 / 收集诊断信息」，以及更早那条「投影仪播放变卡」的修复都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.21-35",
+  "publishedAt": "2026-10-24T01:23:45Z",
+  "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.22-36",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.21+35-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.22+36-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk"
       ],
-      "size": 31972166,
-      "sha256": "98c01c4c66920be5497cc43805519523f3db2b376a4321d542cadd7e377ac02e",
-      "notes": "**TV 版 3.0.21+35**\n\n- 修复：搜索框里的**搜索历史**用遥控器上下键走不通 —— 停在第一条按「下」会直接跳到「搜索」按钮，到不了第二条；从「搜索」按「上」也只回到最后一条，再按就跳回输入框，回不到前面几条。现在上下键会在历史里一条一条地走，走到头才进出，来去对称。\n- 新增：搜索历史每一行右边多了一个「×」，按「右」进到它、按确定就删掉那一条。以前只能整块清空，看完的剧想单独删一条做不到。\n- 说明：搜索历史从「一排小标签」改成了**一行一条**，上下走更顺手，也才放得下每行的「×」。\n- 说明：上一版手机遥控页的「反馈问题 / 收集诊断信息」，以及更早那条「投影仪播放变卡」的修复都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31973966,
+      "sha256": "3ab21596b25969c718c5ff597f3bd127b3c91143b9f7824b31060fb441d6c24a",
+      "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.21+35-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.22+36-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.21-35/duanjuzhijiatv-3.0.21%2B35-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk"
       ],
-      "size": 40548854,
-      "sha256": "1816d8a7235f36e4e646a438e696e3294a2a42a47e75c637aecb7d94cf776468",
-      "notes": "**TV 版 3.0.21+35**\n\n- 修复：搜索框里的**搜索历史**用遥控器上下键走不通 —— 停在第一条按「下」会直接跳到「搜索」按钮，到不了第二条；从「搜索」按「上」也只回到最后一条，再按就跳回输入框，回不到前面几条。现在上下键会在历史里一条一条地走，走到头才进出，来去对称。\n- 新增：搜索历史每一行右边多了一个「×」，按「右」进到它、按确定就删掉那一条。以前只能整块清空，看完的剧想单独删一条做不到。\n- 说明：搜索历史从「一排小标签」改成了**一行一条**，上下走更顺手，也才放得下每行的「×」。\n- 说明：上一版手机遥控页的「反馈问题 / 收集诊断信息」，以及更早那条「投影仪播放变卡」的修复都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40550194,
+      "sha256": "ae18d4032c5f77e419a8f7842b81619a79bd8ed4dd7bb9f87abafb58cfdaac1a",
+      "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
