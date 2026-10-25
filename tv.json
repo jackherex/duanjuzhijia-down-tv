@@ -1,13 +1,13 @@
 {
-  "version": "3.0.22+36",
-  "versionName": "3.0.22",
-  "build": 36,
-  "versionCode": 30022,
+  "version": "3.0.25+39",
+  "versionName": "3.0.25",
+  "build": 39,
+  "versionCode": 30025,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-24T01:23:45Z",
-  "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.22-36",
+  "publishedAt": "2026-10-25T13:39:47Z",
+  "notes": "**TV 版 3.0.25+39**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL 那类 Realtek 芯片的机器）。这些机器之前被当成「不认识的设备」，一直在走「拷贝回内存」那条解码路，画面能出，但很吃 CPU，所以卡。现在跟 MediaTek 一样走零拷贝。\n- 修复：**「我的追剧」和「最近观看」两页的海报大小调不动**。那个滑条原来只对「发现」页生效，这两页走的是另一套网格，尺寸是写死的。现在两边都认这个值，调多少就是多少。\n- 修改：**海报最大能调到 240%**（原来最多 160%），最疏的时候一行两张。\n- 修改：首页顶部推荐横幅自动翻页从 6 秒放慢到 8 秒。\n- 新增：设置里加了「**接收测试版**」开关，默认关着。打开之后我发的测试包会一起出现在「检查更新」里；不想折腾就别管它，不影响正式版。\n- 修改：「打开下载页」改成打开 Release 页面，不再是安装包直链 —— 想下 portable 或者别的版本能自己挑。\n- 说明：这台电视要是播起来还是卡，去播放页 → 播放设置 → 解码方式，切「兼容」试试，那条是原来的路。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.25-39",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.22+36-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.25+39-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-arm64-v8a.apk"
       ],
-      "size": 31973966,
-      "sha256": "3ab21596b25969c718c5ff597f3bd127b3c91143b9f7824b31060fb441d6c24a",
-      "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 31975054,
+      "sha256": "2578068105d93d2a9579813e9208e875586e68f0e639437c64e28d3f736ab390",
+      "notes": "**TV 版 3.0.25+39**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL 那类 Realtek 芯片的机器）。这些机器之前被当成「不认识的设备」，一直在走「拷贝回内存」那条解码路，画面能出，但很吃 CPU，所以卡。现在跟 MediaTek 一样走零拷贝。\n- 修复：**「我的追剧」和「最近观看」两页的海报大小调不动**。那个滑条原来只对「发现」页生效，这两页走的是另一套网格，尺寸是写死的。现在两边都认这个值，调多少就是多少。\n- 修改：**海报最大能调到 240%**（原来最多 160%），最疏的时候一行两张。\n- 修改：首页顶部推荐横幅自动翻页从 6 秒放慢到 8 秒。\n- 新增：设置里加了「**接收测试版**」开关，默认关着。打开之后我发的测试包会一起出现在「检查更新」里；不想折腾就别管它，不影响正式版。\n- 修改：「打开下载页」改成打开 Release 页面，不再是安装包直链 —— 想下 portable 或者别的版本能自己挑。\n- 说明：这台电视要是播起来还是卡，去播放页 → 播放设置 → 解码方式，切「兼容」试试，那条是原来的路。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.22+36-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.25+39-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.22-36/duanjuzhijiatv-3.0.22%2B36-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.25-39/duanjuzhijiatv-3.0.25%2B39-armeabi-v7a.apk"
       ],
-      "size": 40550194,
-      "sha256": "ae18d4032c5f77e419a8f7842b81619a79bd8ed4dd7bb9f87abafb58cfdaac1a",
-      "notes": "**TV 版 3.0.22+36**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是「暂时无法加载」**（提示「红果 App 接口未返回有效数据」），真人剧却是好的。原因是红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 修改：搜索框下面那个「清空」改名叫「**清空输入**」。它清的一直是你已经打进去的字，不是搜索历史 —— 名字太容易看错，顺手改了。删搜索历史还是每行右边的「×」。\n- 说明：上一版的搜索历史「上下逐条走 + 每行「×」删单条」，以及更早的「投影仪播放变卡」「手机遥控页收集诊断信息」都在，不受影响。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40552734,
+      "sha256": "59e4e32478f45287aed26af43daa08cc0137193b88686c544f08426d91a31e5f",
+      "notes": "**TV 版 3.0.25+39**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL 那类 Realtek 芯片的机器）。这些机器之前被当成「不认识的设备」，一直在走「拷贝回内存」那条解码路，画面能出，但很吃 CPU，所以卡。现在跟 MediaTek 一样走零拷贝。\n- 修复：**「我的追剧」和「最近观看」两页的海报大小调不动**。那个滑条原来只对「发现」页生效，这两页走的是另一套网格，尺寸是写死的。现在两边都认这个值，调多少就是多少。\n- 修改：**海报最大能调到 240%**（原来最多 160%），最疏的时候一行两张。\n- 修改：首页顶部推荐横幅自动翻页从 6 秒放慢到 8 秒。\n- 新增：设置里加了「**接收测试版**」开关，默认关着。打开之后我发的测试包会一起出现在「检查更新」里；不想折腾就别管它，不影响正式版。\n- 修改：「打开下载页」改成打开 Release 页面，不再是安装包直链 —— 想下 portable 或者别的版本能自己挑。\n- 说明：这台电视要是播起来还是卡，去播放页 → 播放设置 → 解码方式，切「兼容」试试，那条是原来的路。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
