@@ -1,13 +1,13 @@
 {
-  "version": "3.0.26+40",
-  "versionName": "3.0.26",
-  "build": 40,
-  "versionCode": 30026,
+  "version": "3.0.27+41",
+  "versionName": "3.0.27",
+  "build": 41,
+  "versionCode": 30027,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-26T12:56:28Z",
-  "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.26-40-beta",
+  "publishedAt": "2026-10-26T13:23:38Z",
+  "notes": "**TV 版 3.0.27+41**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、电视上离得远根本看不清；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行，坐在沙发上也能读。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」那一行右边多了一个「观看统计」按钮，遥控器往右按到底就是。\n- 保留：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，电视上看了多久、手机上看了多久会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.27-41-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.26+40-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.27+41-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-arm64-v8a.apk"
       ],
-      "size": 32006094,
-      "sha256": "24bf78d606b88a740619b1b04895cd77035b2e8a3dd1e489235c7c9cf8cfb292",
-      "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 32011618,
+      "sha256": "8dea1c55eecc37d2c65e3b19a9593c62cf8f83bcd1c16a06ce625128ab5ed485",
+      "notes": "**TV 版 3.0.27+41**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、电视上离得远根本看不清；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行，坐在沙发上也能读。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」那一行右边多了一个「观看统计」按钮，遥控器往右按到底就是。\n- 保留：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，电视上看了多久、手机上看了多久会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.26+40-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.27+41-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.27-41-beta/duanjuzhijiatv-3.0.27%2B41-armeabi-v7a.apk"
       ],
-      "size": 40584730,
-      "sha256": "9c4f77533dac0de6cbb0070b05bc457dab83d61b86168a1e94c0a1ac88d135e1",
-      "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40588374,
+      "sha256": "b19627d30b174c8f2f9f16059e17f2b02d69137bb23b92ae9de799723000e0e6",
+      "notes": "**TV 版 3.0.27+41**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、电视上离得远根本看不清；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行，坐在沙发上也能读。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」那一行右边多了一个「观看统计」按钮，遥控器往右按到底就是。\n- 保留：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，电视上看了多久、手机上看了多久会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
