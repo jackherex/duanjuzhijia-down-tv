@@ -1,16 +1,16 @@
 {
-  "version": "3.0.24+38",
-  "versionName": "3.0.24",
-  "build": 38,
-  "versionCode": 30024,
+  "version": "3.0.26+40",
+  "versionName": "3.0.26",
+  "build": 40,
+  "versionCode": 30026,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-25T13:15:54Z",
-  "notes": "**TV 版 3.0.23+37（测试版）**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL / Realtek 芯片那类机器）。这类芯片之前被当成「不认识」的设备，一直在用「拷贝回内存」那条解码路，画面能出但很卡。现在改走零拷贝，应该会顺不少。这一条特别需要你帮忙确认 —— 我手上只有一台 MediaTek 的投影仪，Realtek 这台是按你给的诊断信息推出来的，没在真机上验过。\n- 修改：首页顶部那个推荐横幅，自动翻页从 6 秒放慢到 8 秒。\n- 修改：**海报最大能调到 240%**（原来最多 160%）。电视远看 160% 确实没什么变化，这次往上放开了一档，最疏的时候一行两张。\n- 说明：这是**测试版**，先发给你一个人试，没走正式更新。试完觉得可以我再转正式版。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.24-38-beta",
+  "publishedAt": "2026-10-26T12:56:28Z",
+  "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.26-40-beta",
   "gate": {
-    "salt": "djzj-2026-10-19-4f1a",
-    "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
+    "salt": "djzj-2115cfea85b3",
+    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
     "iterations": 2000,
     "group": "https://t.me/duanjuzhijia",
     "hint": "4 位数字"
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.24+38-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.26+40-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-arm64-v8a.apk"
       ],
-      "size": 31975078,
-      "sha256": "f5de55917df9472662c5f84fdc6add8aa8e56a0a7608886622d85dee16553b18",
-      "notes": "**TV 版 3.0.23+37（测试版）**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL / Realtek 芯片那类机器）。这类芯片之前被当成「不认识」的设备，一直在用「拷贝回内存」那条解码路，画面能出但很卡。现在改走零拷贝，应该会顺不少。这一条特别需要你帮忙确认 —— 我手上只有一台 MediaTek 的投影仪，Realtek 这台是按你给的诊断信息推出来的，没在真机上验过。\n- 修改：首页顶部那个推荐横幅，自动翻页从 6 秒放慢到 8 秒。\n- 修改：**海报最大能调到 240%**（原来最多 160%）。电视远看 160% 确实没什么变化，这次往上放开了一档，最疏的时候一行两张。\n- 说明：这是**测试版**，先发给你一个人试，没走正式更新。试完觉得可以我再转正式版。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 32006094,
+      "sha256": "24bf78d606b88a740619b1b04895cd77035b2e8a3dd1e489235c7c9cf8cfb292",
+      "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.24+38-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.26+40-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.24-38-beta/duanjuzhijiatv-3.0.24%2B38-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.26-40-beta/duanjuzhijiatv-3.0.26%2B40-armeabi-v7a.apk"
       ],
-      "size": 40552782,
-      "sha256": "b1a45d6765df039b3bf162ad7218e094ac579b2b109c7ddf6b7912090f014153",
-      "notes": "**TV 版 3.0.23+37（测试版）**\n\n- 修复：**部分电视播 hevc 会卡顿**（TCL / Realtek 芯片那类机器）。这类芯片之前被当成「不认识」的设备，一直在用「拷贝回内存」那条解码路，画面能出但很卡。现在改走零拷贝，应该会顺不少。这一条特别需要你帮忙确认 —— 我手上只有一台 MediaTek 的投影仪，Realtek 这台是按你给的诊断信息推出来的，没在真机上验过。\n- 修改：首页顶部那个推荐横幅，自动翻页从 6 秒放慢到 8 秒。\n- 修改：**海报最大能调到 240%**（原来最多 160%）。电视远看 160% 确实没什么变化，这次往上放开了一档，最疏的时候一行两张。\n- 说明：这是**测试版**，先发给你一个人试，没走正式更新。试完觉得可以我再转正式版。\n- 说明：包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40584730,
+      "sha256": "9c4f77533dac0de6cbb0070b05bc457dab83d61b86168a1e94c0a1ac88d135e1",
+      "notes": "**TV 版 3.0.26+40**\n\n- 新增：**观看统计**。设置里进了「设备与同步 → 观看统计」，能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 电视、手机、电脑各自看了多久都分开算。\n- 新增：**遥控器能翻能看明细**。统计页每张卡片都能用方向键选中（选中会自动滚到可见位置），按「确定」弹出这张卡的完整明细，比如「点开观看日历 → 10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，电视上看了多久、手机上看了多久，会合到一起。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；手机投屏过来的时长记在这台电视上，手机那边不会重复算。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置与观看记录都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
