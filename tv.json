@@ -1,13 +1,13 @@
 {
-  "version": "3.0.31+45",
-  "versionName": "3.0.31",
-  "build": 45,
-  "versionCode": 30031,
+  "version": "3.0.32+46",
+  "versionName": "3.0.32",
+  "build": 46,
+  "versionCode": 30032,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T09:58:33Z",
-  "notes": "**TV 版 3.0.31+45**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.31-45",
+  "publishedAt": "2026-10-27T10:53:27Z",
+  "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.32-46",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.31+45-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.32+46-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk"
       ],
-      "size": 32148834,
-      "sha256": "35f2c865cd48cc8c0b8a4bdb8903cba50a7a768b99d22a4ae2603b6c4a2c5ebb",
-      "notes": "**TV 版 3.0.31+45**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 32154314,
+      "sha256": "19b33d87fc001b8270f67da24aee0da1caf1d823d23dd5ce75e4281e530bbd0a",
+      "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.31+45-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.32+46-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.31-45/duanjuzhijiatv-3.0.31%2B45-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk"
       ],
-      "size": 40730122,
-      "sha256": "f0506f1c35bdb7c503074d7e09f2d3ae9a99b7093e8abc57c5a1c76e88a569aa",
-      "notes": "**TV 版 3.0.31+45**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 40737554,
+      "sha256": "29d03b0fd9f71400260d0fa3c083db4b701034dd21b3bcc1a94ebd4c4aa6ea3e",
+      "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     }
   ]
 }
