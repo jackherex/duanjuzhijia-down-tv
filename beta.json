@@ -1,13 +1,13 @@
 {
-  "version": "3.0.28+42",
-  "versionName": "3.0.28",
-  "build": 42,
-  "versionCode": 30028,
+  "version": "3.0.29+43",
+  "versionName": "3.0.29",
+  "build": 43,
+  "versionCode": 30029,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-26T13:51:36Z",
-  "notes": "**TV 版 3.0.28+42**\n\n- 修复：**自动切下一集时偶尔弹出「暂时无法播放」**。现象是正播着、一集结束自动跳下一集，突然盖住一个错误框，写着「App 接口未返回有效数据；网页取流失败：hongguoduanju.com HTTP 404；备用取流失败：未返回该集可用的媒体和密钥」，点一下「重试播放」又立刻正常。\n- 原因：取播放地址有三条通道（App 接口 → 网页播放页 → 备用播放接口）互为备份。切集那一刻三条**同时**抽风 —— App 接口回 200 但正文是空的、播放页回 404、备用接口回空的密钥列表 —— 而几秒后同样的请求又全部正常。原来的代码**只试一次**，一次失败就直接把错误弹给用户，等于把上游的瞬时抖动当成了「这一集没有了」。\n- 改法：取地址失败后**自动重试**（最多 3 轮，间隔 0.6 秒、1.8 秒）。绝大多数情况下你只会看到切集稍慢一两秒，不会再看到那个错误框；真的取不到才会照旧提示。\n- 改法：**下一集的提前准备**也调了重试节奏。原来预加载失败一次就要等 30 秒才再试，而短剧一集才两三分钟，等于这半集都没有预备地址，切集只能现取 —— 正好撞上上面那个抖动窗口。现在改成 3 秒、8 秒、20 秒递增重试，能更早把下一集备好。\n- 保留：上一版的**观看统计页新版式**（今天时长独占一行、近 14 天柱状图、日历加星期刻度、常看剧集与设备各占一张卡），入口仍在顶部「分类」那一行最右边的「观看统计」按钮。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.28-42-beta",
+  "publishedAt": "2026-10-27T01:38:28Z",
+  "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.29-43-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.28+42-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.29+43-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk"
       ],
-      "size": 32012630,
-      "sha256": "3899d72ef66de2665bd46df2c8b76971c7323cd4e3e308cc19f56f8599c28328",
-      "notes": "**TV 版 3.0.28+42**\n\n- 修复：**自动切下一集时偶尔弹出「暂时无法播放」**。现象是正播着、一集结束自动跳下一集，突然盖住一个错误框，写着「App 接口未返回有效数据；网页取流失败：hongguoduanju.com HTTP 404；备用取流失败：未返回该集可用的媒体和密钥」，点一下「重试播放」又立刻正常。\n- 原因：取播放地址有三条通道（App 接口 → 网页播放页 → 备用播放接口）互为备份。切集那一刻三条**同时**抽风 —— App 接口回 200 但正文是空的、播放页回 404、备用接口回空的密钥列表 —— 而几秒后同样的请求又全部正常。原来的代码**只试一次**，一次失败就直接把错误弹给用户，等于把上游的瞬时抖动当成了「这一集没有了」。\n- 改法：取地址失败后**自动重试**（最多 3 轮，间隔 0.6 秒、1.8 秒）。绝大多数情况下你只会看到切集稍慢一两秒，不会再看到那个错误框；真的取不到才会照旧提示。\n- 改法：**下一集的提前准备**也调了重试节奏。原来预加载失败一次就要等 30 秒才再试，而短剧一集才两三分钟，等于这半集都没有预备地址，切集只能现取 —— 正好撞上上面那个抖动窗口。现在改成 3 秒、8 秒、20 秒递增重试，能更早把下一集备好。\n- 保留：上一版的**观看统计页新版式**（今天时长独占一行、近 14 天柱状图、日历加星期刻度、常看剧集与设备各占一张卡），入口仍在顶部「分类」那一行最右边的「观看统计」按钮。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 32009262,
+      "sha256": "53a207a17b7483d9f8d7beb275cc585ec9caa297bd7894a694c4a6212a2d3084",
+      "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.28+42-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.29+43-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.28-42-beta/duanjuzhijiatv-3.0.28%2B42-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk"
       ],
-      "size": 40590114,
-      "sha256": "11cf0bfb8269f0945920f3c5a8f5526568da7b9b3da0b0893338f8c37a11c1b7",
-      "notes": "**TV 版 3.0.28+42**\n\n- 修复：**自动切下一集时偶尔弹出「暂时无法播放」**。现象是正播着、一集结束自动跳下一集，突然盖住一个错误框，写着「App 接口未返回有效数据；网页取流失败：hongguoduanju.com HTTP 404；备用取流失败：未返回该集可用的媒体和密钥」，点一下「重试播放」又立刻正常。\n- 原因：取播放地址有三条通道（App 接口 → 网页播放页 → 备用播放接口）互为备份。切集那一刻三条**同时**抽风 —— App 接口回 200 但正文是空的、播放页回 404、备用接口回空的密钥列表 —— 而几秒后同样的请求又全部正常。原来的代码**只试一次**，一次失败就直接把错误弹给用户，等于把上游的瞬时抖动当成了「这一集没有了」。\n- 改法：取地址失败后**自动重试**（最多 3 轮，间隔 0.6 秒、1.8 秒）。绝大多数情况下你只会看到切集稍慢一两秒，不会再看到那个错误框；真的取不到才会照旧提示。\n- 改法：**下一集的提前准备**也调了重试节奏。原来预加载失败一次就要等 30 秒才再试，而短剧一集才两三分钟，等于这半集都没有预备地址，切集只能现取 —— 正好撞上上面那个抖动窗口。现在改成 3 秒、8 秒、20 秒递增重试，能更早把下一集备好。\n- 保留：上一版的**观看统计页新版式**（今天时长独占一行、近 14 天柱状图、日历加星期刻度、常看剧集与设备各占一张卡），入口仍在顶部「分类」那一行最右边的「观看统计」按钮。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40585542,
+      "sha256": "9c242306e3cc0266702bc2c9b695094d3053a06c76cd98de7c45968fc7ba0c29",
+      "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
     }
   ]
 }
