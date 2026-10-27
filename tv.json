@@ -1,13 +1,13 @@
 {
-  "version": "3.0.32+46",
-  "versionName": "3.0.32",
-  "build": 46,
-  "versionCode": 30032,
+  "version": "3.0.33+47",
+  "versionName": "3.0.33",
+  "build": 47,
+  "versionCode": 30033,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T10:53:27Z",
-  "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.32-46",
+  "publishedAt": "2026-10-27T14:41:17Z",
+  "notes": "**TV 版 3.0.33+47**\n\n这一版补上**评论**、**剧评**、**相关作品**。\n\n---\n\n### 1. 相关作品直接铺在详情页\n\n不像手机那样收进弹窗 —— 电视上遥控器多一层弹窗就多一次按键。现在详情页**分集列表下面**就是「相关作品」：\n\n- 一排横向卡片，左右键翻；\n- 已上线的按确定键直接换到那一部；\n- **待上线的标成「待上线 · 只能预约」**，卡片是灰的，按不动（还没播，进去也放不了）。\n\n### 2. 评论 / 查看剧评\n\n操作行里多了两颗按钮（都在「收藏到红果」旁边）：\n\n- **评论** —— 本集评论，可翻页，首屏 20 条；\n- **查看剧评** —— 直接落在剧评标签页，带整剧评分。\n\n面板里可以用方向键上下翻，返回键关掉，播放不中断。\n\n### 3. 顺手修的一个丢字段\n\n服务端给相关作品标了「待上线」，界面这一层之前没读这个字段，到手上就没了 —— 看起来像一条能点的普通作品。这次补上了。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版同版本已发。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.33-47",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.32+46-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.33+47-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-arm64-v8a.apk"
       ],
-      "size": 32154314,
-      "sha256": "19b33d87fc001b8270f67da24aee0da1caf1d823d23dd5ce75e4281e530bbd0a",
-      "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 32217598,
+      "sha256": "73853d796035d21dde2c0f13750ac3894c5742eb53fb053c7f743854d9d60d88",
+      "notes": "**TV 版 3.0.33+47**\n\n这一版补上**评论**、**剧评**、**相关作品**。\n\n---\n\n### 1. 相关作品直接铺在详情页\n\n不像手机那样收进弹窗 —— 电视上遥控器多一层弹窗就多一次按键。现在详情页**分集列表下面**就是「相关作品」：\n\n- 一排横向卡片，左右键翻；\n- 已上线的按确定键直接换到那一部；\n- **待上线的标成「待上线 · 只能预约」**，卡片是灰的，按不动（还没播，进去也放不了）。\n\n### 2. 评论 / 查看剧评\n\n操作行里多了两颗按钮（都在「收藏到红果」旁边）：\n\n- **评论** —— 本集评论，可翻页，首屏 20 条；\n- **查看剧评** —— 直接落在剧评标签页，带整剧评分。\n\n面板里可以用方向键上下翻，返回键关掉，播放不中断。\n\n### 3. 顺手修的一个丢字段\n\n服务端给相关作品标了「待上线」，界面这一层之前没读这个字段，到手上就没了 —— 看起来像一条能点的普通作品。这次补上了。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版同版本已发。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.32+46-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.33+47-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.32-46/duanjuzhijiatv-3.0.32%2B46-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.33-47/duanjuzhijiatv-3.0.33%2B47-armeabi-v7a.apk"
       ],
-      "size": 40737554,
-      "sha256": "29d03b0fd9f71400260d0fa3c083db4b701034dd21b3bcc1a94ebd4c4aa6ea3e",
-      "notes": "**TV 版 3.0.32+46**\n\n这一版给**手机遥控**加了红果账号：电视上打开遥控二维码，手机扫码进网页之后，可以直接在手机上登录红果、翻红果的观看历史和收藏。\n\n- 新增：遥控网页里的**红果账号**入口。位置在网页右上角菜单（点左上角图标）里的「红果账号」，以及底部「收藏」页顶部那张卡片。\n- 新增：**扫码登录**。点「扫码登录」网页上直接出二维码，用红果 App 扫一下，网页会自己刷新成已登录，不用手动退出重进。\n- 新增：**红果历史**和**红果收藏**两个列表。历史带进度（看到第几集、还剩多久），点任意一行直接进详情页选集播放。\n- 说明：网页这边**只读**，能看历史、看收藏、退出登录，但不在网页上改收藏 —— 手机上误触的代价太高，要加收藏去电视上点。\n- 说明：遥控网页和电视共用**同一个登录态**。在手机上扫码登录之后，电视上那个「红果账号」页也是已登录，反过来也一样。\n- 说明：包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 40807450,
+      "sha256": "d02477b7695e32f13ecd58433a2b2ab3fbdb0d8eb352b3a0d81307edff5a22a2",
+      "notes": "**TV 版 3.0.33+47**\n\n这一版补上**评论**、**剧评**、**相关作品**。\n\n---\n\n### 1. 相关作品直接铺在详情页\n\n不像手机那样收进弹窗 —— 电视上遥控器多一层弹窗就多一次按键。现在详情页**分集列表下面**就是「相关作品」：\n\n- 一排横向卡片，左右键翻；\n- 已上线的按确定键直接换到那一部；\n- **待上线的标成「待上线 · 只能预约」**，卡片是灰的，按不动（还没播，进去也放不了）。\n\n### 2. 评论 / 查看剧评\n\n操作行里多了两颗按钮（都在「收藏到红果」旁边）：\n\n- **评论** —— 本集评论，可翻页，首屏 20 条；\n- **查看剧评** —— 直接落在剧评标签页，带整剧评分。\n\n面板里可以用方向键上下翻，返回键关掉，播放不中断。\n\n### 3. 顺手修的一个丢字段\n\n服务端给相关作品标了「待上线」，界面这一层之前没读这个字段，到手上就没了 —— 看起来像一条能点的普通作品。这次补上了。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版同版本已发。\n- 覆盖安装即可，登录态、观看记录、收藏都保留。"
     }
   ]
 }
