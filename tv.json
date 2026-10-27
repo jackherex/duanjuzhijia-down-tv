@@ -1,13 +1,13 @@
 {
-  "version": "3.0.35+49",
-  "versionName": "3.0.35",
-  "build": 49,
-  "versionCode": 30035,
+  "version": "3.0.36+50",
+  "versionName": "3.0.36",
+  "build": 50,
+  "versionCode": 30036,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T15:34:44Z",
-  "notes": "**TV 版 3.0.35+49**\n\n这一版补上**手机号 + 验证码登录**（电视端 + 手机遥控网页），并修掉网页上的一个隐私问题。\n\n---\n\n### 1. 电视上：红果账号页多了「手机号 + 验证码登录」\n\n跟手机版一样，扫码旁边多一颗按钮。\n\n输入框和登录按钮**一直都在**，不藏在「下一步」后面 —— 因为**发码基本发不出去**（红果那边固定拦），实际流程是：\n\n1. 打开手机上的红果 App，在账号安全里取一条验证码；\n2. 在电视上选好区号、填手机号和这条码；\n3. 点登录。\n\n### 2. 手机遥控网页：同样支持\n\n电视上打开遥控二维码，手机扫码进网页 →「设置」→「红果账号」→ 现在有**扫码登录**和**手机号登录**两颗。\n\n网页上的流程更顺：\n\n- 先选区号，再填号码 →「下一步」拿到登录会话；\n- 「发验证码」会试一次自动发，**发不出去也不影响**，页面会提示你去红果 App 取码；\n- 把码填进来点「登录」。\n\n### 3. 区号改成下拉选择\n\n之前网页上把示例号码写死成 `+60 …`，等于把使用者的所在地写给别人看。现在：\n\n- 区号是**下拉选择**，跟手机版同一份列表；\n- 默认**中国大陆 +86**；\n- 输入框提示只写「手机号」，不带任何国家示例；\n- 选过一次会**记住**，下次打开自动回到上次的区号。\n\n如果你自己直接在号码前面打了 `+`，就按你写的走，不再拼接。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版本来就有手机号登录。\n- 覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.35-49",
+  "publishedAt": "2026-10-27T15:54:34Z",
+  "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.36-50",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.35+49-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.36+50-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk"
       ],
-      "size": 32228738,
-      "sha256": "7604b73556e93e4e666dd247b30620c92e614021a3a20986c23eaccfe82deb43",
-      "notes": "**TV 版 3.0.35+49**\n\n这一版补上**手机号 + 验证码登录**（电视端 + 手机遥控网页），并修掉网页上的一个隐私问题。\n\n---\n\n### 1. 电视上：红果账号页多了「手机号 + 验证码登录」\n\n跟手机版一样，扫码旁边多一颗按钮。\n\n输入框和登录按钮**一直都在**，不藏在「下一步」后面 —— 因为**发码基本发不出去**（红果那边固定拦），实际流程是：\n\n1. 打开手机上的红果 App，在账号安全里取一条验证码；\n2. 在电视上选好区号、填手机号和这条码；\n3. 点登录。\n\n### 2. 手机遥控网页：同样支持\n\n电视上打开遥控二维码，手机扫码进网页 →「设置」→「红果账号」→ 现在有**扫码登录**和**手机号登录**两颗。\n\n网页上的流程更顺：\n\n- 先选区号，再填号码 →「下一步」拿到登录会话；\n- 「发验证码」会试一次自动发，**发不出去也不影响**，页面会提示你去红果 App 取码；\n- 把码填进来点「登录」。\n\n### 3. 区号改成下拉选择\n\n之前网页上把示例号码写死成 `+60 …`，等于把使用者的所在地写给别人看。现在：\n\n- 区号是**下拉选择**，跟手机版同一份列表；\n- 默认**中国大陆 +86**；\n- 输入框提示只写「手机号」，不带任何国家示例；\n- 选过一次会**记住**，下次打开自动回到上次的区号。\n\n如果你自己直接在号码前面打了 `+`，就按你写的走，不再拼接。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版本来就有手机号登录。\n- 覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 32231434,
+      "sha256": "fc0dc12deda4bd8557093ad08e4a643122dd26c5da31f572d3ae7b009c5d2325",
+      "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.35+49-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.36+50-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.35-49/duanjuzhijiatv-3.0.35%2B49-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk"
       ],
-      "size": 40822466,
-      "sha256": "aa9481271ad3164d65e16542c67a4d746ba3414a2fd1bc5cc7421ad5c432e5aa",
-      "notes": "**TV 版 3.0.35+49**\n\n这一版补上**手机号 + 验证码登录**（电视端 + 手机遥控网页），并修掉网页上的一个隐私问题。\n\n---\n\n### 1. 电视上：红果账号页多了「手机号 + 验证码登录」\n\n跟手机版一样，扫码旁边多一颗按钮。\n\n输入框和登录按钮**一直都在**，不藏在「下一步」后面 —— 因为**发码基本发不出去**（红果那边固定拦），实际流程是：\n\n1. 打开手机上的红果 App，在账号安全里取一条验证码；\n2. 在电视上选好区号、填手机号和这条码；\n3. 点登录。\n\n### 2. 手机遥控网页：同样支持\n\n电视上打开遥控二维码，手机扫码进网页 →「设置」→「红果账号」→ 现在有**扫码登录**和**手机号登录**两颗。\n\n网页上的流程更顺：\n\n- 先选区号，再填号码 →「下一步」拿到登录会话；\n- 「发验证码」会试一次自动发，**发不出去也不影响**，页面会提示你去红果 App 取码；\n- 把码填进来点「登录」。\n\n### 3. 区号改成下拉选择\n\n之前网页上把示例号码写死成 `+60 …`，等于把使用者的所在地写给别人看。现在：\n\n- 区号是**下拉选择**，跟手机版同一份列表；\n- 默认**中国大陆 +86**；\n- 输入框提示只写「手机号」，不带任何国家示例；\n- 选过一次会**记住**，下次打开自动回到上次的区号。\n\n如果你自己直接在号码前面打了 `+`，就按你写的走，不再拼接。\n\n---\n\n### 说明\n\n- 这版只动 TV 版。手机版、电脑版本来就有手机号登录。\n- 覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 40825522,
+      "sha256": "5828494cedf561fd8d535a8e1da5347dd228c4ecee27f996e9fae26a97a2841d",
+      "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
