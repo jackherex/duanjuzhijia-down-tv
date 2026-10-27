@@ -1,13 +1,13 @@
 {
-  "version": "3.0.29+43",
-  "versionName": "3.0.29",
-  "build": 43,
-  "versionCode": 30029,
+  "version": "3.0.30+44",
+  "versionName": "3.0.30",
+  "build": 44,
+  "versionCode": 30030,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T01:38:28Z",
-  "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.29-43-beta",
+  "publishedAt": "2026-10-27T09:46:00Z",
+  "notes": "**TV 版 3.0.30+44**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.30-44-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.29+43-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.30+44-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-arm64-v8a.apk"
       ],
-      "size": 32009262,
-      "sha256": "53a207a17b7483d9f8d7beb275cc585ec9caa297bd7894a694c4a6212a2d3084",
-      "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 32148878,
+      "sha256": "60500fe053d88360369e44d05a26bc9943eba79a9187b02ef370b2ad8466afd4",
+      "notes": "**TV 版 3.0.30+44**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.29+43-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.30+44-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.29-43-beta/duanjuzhijiatv-3.0.29%2B43-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.30-44-beta/duanjuzhijiatv-3.0.30%2B44-armeabi-v7a.apk"
       ],
-      "size": 40585542,
-      "sha256": "9c242306e3cc0266702bc2c9b695094d3053a06c76cd98de7c45968fc7ba0c29",
-      "notes": "**TV 版 3.0.29+43**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。\n- 根因：取流有多条线路互为备份，主线路当时只剩 **1/4** 的成功率；而「换到备用线路」这段代码里少写了 `https://`，拼出来的地址没有协议头，请求直接失败 —— 也就是说**这套兜底从来没生效过**，主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**自动切下一集**时的整链重试、下一集提前准备的递增重试（3 秒 / 8 秒 / 20 秒）。\n- 保留：**观看统计**（顶部「分类」那一行最右边的按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。"
+      "size": 40730162,
+      "sha256": "10590371b37f1af984675b60679726266d53283aa4aaaae397af2d5217808108",
+      "notes": "**TV 版 3.0.30+44**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，TV 版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**（遥控器方向键能到、OK 键能按）。想补剧名和封面就点它，最多 25 秒、一次补 40 部，补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。包名没变，可直接覆盖安装，设置、观看记录与下载的文件都保留；本软件全免费，无捐赠、无隐藏收费，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     }
   ]
 }
