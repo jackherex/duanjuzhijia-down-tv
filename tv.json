@@ -1,13 +1,13 @@
 {
-  "version": "3.0.36+50",
-  "versionName": "3.0.36",
-  "build": 50,
-  "versionCode": 30036,
+  "version": "3.0.37+51",
+  "versionName": "3.0.37",
+  "build": 51,
+  "versionCode": 30037,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T15:54:34Z",
-  "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.36-50",
+  "publishedAt": "2026-10-28T03:00:13Z",
+  "notes": "**TV 版 3.0.37+51**\n\n详情页去掉两颗按钮：**评论** 和 **相关作品**。\n\n---\n\n### 为什么去掉\n\n- **评论**：点「查看剧评」打开的面板里本来就有「本集评论」那一页，单开一颗是重复的；\n- **相关作品**：用起来没达到预期，去掉之后详情页也少一次后台请求。\n\n现在操作区是：加入追剧 / 全 10 季 / 预约第 11 季 / 云预约 / 查看剧评。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v3.0.37-51",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-3.0.36+50-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-3.0.37+51-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-arm64-v8a.apk"
       ],
-      "size": 32231434,
-      "sha256": "fc0dc12deda4bd8557093ad08e4a643122dd26c5da31f572d3ae7b009c5d2325",
-      "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 32227674,
+      "sha256": "79e1c0b01516969090195e1fcd159a2102ac6306807bb0fd14f33e4c7ebc49b4",
+      "notes": "**TV 版 3.0.37+51**\n\n详情页去掉两颗按钮：**评论** 和 **相关作品**。\n\n---\n\n### 为什么去掉\n\n- **评论**：点「查看剧评」打开的面板里本来就有「本集评论」那一页，单开一颗是重复的；\n- **相关作品**：用起来没达到预期，去掉之后详情页也少一次后台请求。\n\n现在操作区是：加入追剧 / 全 10 季 / 预约第 11 季 / 云预约 / 查看剧评。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-3.0.36+50-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-3.0.37+51-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.36-50/duanjuzhijiatv-3.0.36%2B50-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v3.0.37-51/duanjuzhijiatv-3.0.37%2B51-armeabi-v7a.apk"
       ],
-      "size": 40825522,
-      "sha256": "5828494cedf561fd8d535a8e1da5347dd228c4ecee27f996e9fae26a97a2841d",
-      "notes": "**TV 版 3.0.36+50**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n### 手机遥控网页\n\n同一处也修好了，并且加上了「拉取剧名封面」按钮 —— 之前网页那边根本没有这个入口，只能看着一排编号。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 40819070,
+      "sha256": "182f2a446df0443f4fdbc0db5dd18829eea7bbca82bfe6811ad3465346c50f7e",
+      "notes": "**TV 版 3.0.37+51**\n\n详情页去掉两颗按钮：**评论** 和 **相关作品**。\n\n---\n\n### 为什么去掉\n\n- **评论**：点「查看剧评」打开的面板里本来就有「本集评论」那一页，单开一颗是重复的；\n- **相关作品**：用起来没达到预期，去掉之后详情页也少一次后台请求。\n\n现在操作区是：加入追剧 / 全 10 季 / 预约第 11 季 / 云预约 / 查看剧评。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
