@@ -1,13 +1,13 @@
 {
-  "version": "4.5.0+76",
-  "versionName": "4.5.0",
-  "build": 76,
-  "versionCode": 42500,
+  "version": "4.6.5+82",
+  "versionName": "4.6.5",
+  "build": 82,
+  "versionCode": 42605,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-28T14:53:23Z",
-  "notes": "## 4.5.0 电视版\n\n### 新增功能\n\n**排行榜**\n- 新增「排行榜」页签，接入红果官方榜单：热播榜、臻果榜、预约榜、新剧榜、热搜榜、必看榜、收藏榜。\n- 电视上采用单列列表，遥控器上下即可逐条浏览，不做领奖台式排版。\n- 榜单支持自动续载，可一键直达「预约」页。\n\n**新剧榜**\n- 新增「上新日历」：按天查看待上线剧集，支持预约 / 取消预约。\n- 已上线的剧集显示绿色「已上线」标签，右侧直接给「观看」按钮。\n- 新增「新剧推荐」：滑到底自动续载下一页。\n\n**详情页**\n- 新增「演职员」模块：头像、姓名、饰演角色，可进入创作者主页。\n- 简介缺失时自动回退到红果官方简介。\n\n**播放页**\n- 遥控器控制条新增「评论」按钮，可直接打开当前剧集的评论区。\n\n**手机遥控**\n- 遥控网页新增「新剧」「找剧」两个页签，手机上即可浏览和预约。\n- 「预约」页分为「本机预约 / 红果预约」两块，用分段切换。\n- 「榜单」页改用红果官方榜单。\n- 「找剧」的筛选支持按维度展开，手机上好滑好用。\n\n### 界面调整\n- 顶栏导航精简为：发现 / 追剧 / 最近观看 /（下载）/ 排行榜 / 新剧榜。\n- 「找剧」不在电视顶栏出现，只在手机遥控里提供入口。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.5.0-76",
+  "publishedAt": "2026-10-29T07:35:09Z",
+  "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.5-82",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.5.0+76-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.5+82-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk"
       ],
-      "size": 32336294,
-      "sha256": "7fc02d15b8f59f4127781e8b5ad80e5291fd8a70b0f28471abebbdd1c1d97144",
-      "notes": "## 4.5.0 电视版\n\n### 新增功能\n\n**排行榜**\n- 新增「排行榜」页签，接入红果官方榜单：热播榜、臻果榜、预约榜、新剧榜、热搜榜、必看榜、收藏榜。\n- 电视上采用单列列表，遥控器上下即可逐条浏览，不做领奖台式排版。\n- 榜单支持自动续载，可一键直达「预约」页。\n\n**新剧榜**\n- 新增「上新日历」：按天查看待上线剧集，支持预约 / 取消预约。\n- 已上线的剧集显示绿色「已上线」标签，右侧直接给「观看」按钮。\n- 新增「新剧推荐」：滑到底自动续载下一页。\n\n**详情页**\n- 新增「演职员」模块：头像、姓名、饰演角色，可进入创作者主页。\n- 简介缺失时自动回退到红果官方简介。\n\n**播放页**\n- 遥控器控制条新增「评论」按钮，可直接打开当前剧集的评论区。\n\n**手机遥控**\n- 遥控网页新增「新剧」「找剧」两个页签，手机上即可浏览和预约。\n- 「预约」页分为「本机预约 / 红果预约」两块，用分段切换。\n- 「榜单」页改用红果官方榜单。\n- 「找剧」的筛选支持按维度展开，手机上好滑好用。\n\n### 界面调整\n- 顶栏导航精简为：发现 / 追剧 / 最近观看 /（下载）/ 排行榜 / 新剧榜。\n- 「找剧」不在电视顶栏出现，只在手机遥控里提供入口。\n"
+      "size": 32347942,
+      "sha256": "4ef57e68ec6ff10a84df931eca0cd82cacccd0b203613f572575e01be44a68c9",
+      "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.5.0+76-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.5+82-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.5.0-76/duanjuzhijiatv-4.5.0%2B76-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk"
       ],
-      "size": 40937662,
-      "sha256": "c7ae2221568fba0f0b865b4911999e3e61183954fe515dd08b061183f34e6ab3",
-      "notes": "## 4.5.0 电视版\n\n### 新增功能\n\n**排行榜**\n- 新增「排行榜」页签，接入红果官方榜单：热播榜、臻果榜、预约榜、新剧榜、热搜榜、必看榜、收藏榜。\n- 电视上采用单列列表，遥控器上下即可逐条浏览，不做领奖台式排版。\n- 榜单支持自动续载，可一键直达「预约」页。\n\n**新剧榜**\n- 新增「上新日历」：按天查看待上线剧集，支持预约 / 取消预约。\n- 已上线的剧集显示绿色「已上线」标签，右侧直接给「观看」按钮。\n- 新增「新剧推荐」：滑到底自动续载下一页。\n\n**详情页**\n- 新增「演职员」模块：头像、姓名、饰演角色，可进入创作者主页。\n- 简介缺失时自动回退到红果官方简介。\n\n**播放页**\n- 遥控器控制条新增「评论」按钮，可直接打开当前剧集的评论区。\n\n**手机遥控**\n- 遥控网页新增「新剧」「找剧」两个页签，手机上即可浏览和预约。\n- 「预约」页分为「本机预约 / 红果预约」两块，用分段切换。\n- 「榜单」页改用红果官方榜单。\n- 「找剧」的筛选支持按维度展开，手机上好滑好用。\n\n### 界面调整\n- 顶栏导航精简为：发现 / 追剧 / 最近观看 /（下载）/ 排行榜 / 新剧榜。\n- 「找剧」不在电视顶栏出现，只在手机遥控里提供入口。\n"
+      "size": 40951282,
+      "sha256": "566c627cf60559b76f3c82a19b99823dc175599e7e25d35972696954f52a177d",
+      "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n"
     }
   ]
 }
