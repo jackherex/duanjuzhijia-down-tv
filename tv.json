@@ -1,13 +1,13 @@
 {
-  "version": "4.6.5+82",
-  "versionName": "4.6.5",
-  "build": 82,
-  "versionCode": 42605,
+  "version": "4.6.8+85",
+  "versionName": "4.6.8",
+  "build": 85,
+  "versionCode": 42608,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-29T07:35:09Z",
-  "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.5-82",
+  "publishedAt": "2026-10-29T12:42:37Z",
+  "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.8-85",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.5+82-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.8+85-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk"
       ],
-      "size": 32347942,
-      "sha256": "4ef57e68ec6ff10a84df931eca0cd82cacccd0b203613f572575e01be44a68c9",
-      "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n"
+      "size": 32344534,
+      "sha256": "a281f688b3403389201e94905dc954c4130caacdcbe5b3c96fbb8157392b9753",
+      "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.5+82-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.8+85-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.5-82/duanjuzhijiatv-4.6.5%2B82-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk"
       ],
-      "size": 40951282,
-      "sha256": "566c627cf60559b76f3c82a19b99823dc175599e7e25d35972696954f52a177d",
-      "notes": "## 短剧之家 TV 版 4.6.5\n\n### 手机遥控（手机当遥控器）\n\n- **检测更新**：手机上直接看到当前 / 最新版本和完整更新说明，点一下就**在电视上开始更新**\n- **更新密码**：4 位密码在手机上输入即可解锁，不用再拿遥控器一位一位按\n- **评论区**：播放条新增「查看评论区」，本集评论 + 剧评都能看，**滑到底自动接着加载**\n- **新剧页**：已上线的剧也能点进详情；「已上线」标记改成绿色\n- **详情页**：新增**演职人员**（头像 + 姓名 + 角色），简介不再空白\n\n### 电视端\n\n- **播放器评论**：评论区改成**右侧面板**，遥控器上下滚动评论、左右切换「本集评论 / 剧评」\n- **预约按钮**：新剧榜与预约榜的预约按钮支持遥控器直接选中\n- **详情页按钮**：主操作（追剧）实心高亮，其余按钮收小退到第二层，不再是一面按键墙\n- **更新密钥**：电视弹不出输入法时，可以直接用**手机扫二维码**输入\n\n### 说明\n\n- 支持 `armeabi-v7a` 与 `arm64-v8a`，按设备选择对应安装包\n- 升级直接覆盖安装即可，观看记录与本机预约都会保留\n"
+      "size": 40947522,
+      "sha256": "45c58e99e2acfe36639fdae700c805e2133e315ce1b04072d3881de958d29f14",
+      "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n"
     }
   ]
 }
