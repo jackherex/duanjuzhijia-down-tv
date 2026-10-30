@@ -1,13 +1,13 @@
 {
-  "version": "4.6.8+85",
-  "versionName": "4.6.8",
-  "build": 85,
-  "versionCode": 42608,
+  "version": "4.6.10+87",
+  "versionName": "4.6.10",
+  "build": 87,
+  "versionCode": 42610,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-29T12:42:37Z",
-  "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.8-85",
+  "publishedAt": "2026-10-30T12:08:27Z",
+  "notes": "## 本次更新\n\n### 播放\n\n- 修复：部分用户点播放提示「红果 App 接口未返回有效数据」，换线路也没用，只有卸载重装才能恢复。\n  原因是红果服务端把这台设备的身份作废了，而客户端注册一次之后不会再注册。\n  现在取流失败时会自动换一台「只用来取流」的备用设备重试，收藏、观看记录和账号登录都不受影响。\n- 去掉了一个没用的第三方备用取流源。它在失败时还会在提示里多带一条 TLS 报错，让问题看起来更严重。\n\n### 站源管理\n\n- 新增「设备身份」区块和「重置设备 ID」按钮。\n  遇到上面那种播放失败、自动重试也没恢复时，点一下就能重新注册设备身份，不用卸载重装。\n  平时不需要点。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.10-87",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.8+85-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.10+87-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-arm64-v8a.apk"
       ],
-      "size": 32344534,
-      "sha256": "a281f688b3403389201e94905dc954c4130caacdcbe5b3c96fbb8157392b9753",
-      "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n"
+      "size": 32348618,
+      "sha256": "f782dc54f722b4dacf6ba949692122b9c1df7eccc727154dd48d8bc0c4e929d9",
+      "notes": "## 本次更新\n\n### 播放\n\n- 修复：部分用户点播放提示「红果 App 接口未返回有效数据」，换线路也没用，只有卸载重装才能恢复。\n  原因是红果服务端把这台设备的身份作废了，而客户端注册一次之后不会再注册。\n  现在取流失败时会自动换一台「只用来取流」的备用设备重试，收藏、观看记录和账号登录都不受影响。\n- 去掉了一个没用的第三方备用取流源。它在失败时还会在提示里多带一条 TLS 报错，让问题看起来更严重。\n\n### 站源管理\n\n- 新增「设备身份」区块和「重置设备 ID」按钮。\n  遇到上面那种播放失败、自动重试也没恢复时，点一下就能重新注册设备身份，不用卸载重装。\n  平时不需要点。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.8+85-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.10+87-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.8-85/duanjuzhijiatv-4.6.8%2B85-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.10-87/duanjuzhijiatv-4.6.10%2B87-armeabi-v7a.apk"
       ],
-      "size": 40947522,
-      "sha256": "45c58e99e2acfe36639fdae700c805e2133e315ce1b04072d3881de958d29f14",
-      "notes": "## 本次更新\n\n### 搜索\n\n- 在「新剧榜」「排行榜」等页面搜索后，自动切到「发现」页显示结果，不用再自己切回去\n- 修掉搜索完回到首页时顶部多出一个搜索框、遥控器移不出去、按返回直接退出软件的问题\n\n### 详情页\n\n- 「加入追剧」按钮改成与页面统一的中性配色，不再是一整块橙色\n- 这个按钮现在有清晰的焦点框，遥控器选中时一眼能看出来\n- 点开后可以选择「想看 / 在看 / 已看」，遥控器按确定立即生效（之前点了没有反应）\n- 选择器打开时焦点默认停在当前状态上，直接按确定即可\n"
+      "size": 40950582,
+      "sha256": "32b7ada12c9b96d4828345ce4584631b24f40ab38c50357bdb12f176c4e8b382",
+      "notes": "## 本次更新\n\n### 播放\n\n- 修复：部分用户点播放提示「红果 App 接口未返回有效数据」，换线路也没用，只有卸载重装才能恢复。\n  原因是红果服务端把这台设备的身份作废了，而客户端注册一次之后不会再注册。\n  现在取流失败时会自动换一台「只用来取流」的备用设备重试，收藏、观看记录和账号登录都不受影响。\n- 去掉了一个没用的第三方备用取流源。它在失败时还会在提示里多带一条 TLS 报错，让问题看起来更严重。\n\n### 站源管理\n\n- 新增「设备身份」区块和「重置设备 ID」按钮。\n  遇到上面那种播放失败、自动重试也没恢复时，点一下就能重新注册设备身份，不用卸载重装。\n  平时不需要点。\n"
     }
   ]
 }
