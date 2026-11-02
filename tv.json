@@ -1,13 +1,13 @@
 {
-  "version": "4.6.12+89",
-  "versionName": "4.6.12",
-  "build": 89,
-  "versionCode": 42612,
+  "version": "4.6.13+90",
+  "versionName": "4.6.13",
+  "build": 90,
+  "versionCode": 42613,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-01T04:44:01Z",
-  "notes": "## 本次更新\n\n### 1. 新增「播放内核」可选：内置播放器 / ExoPlayer（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**。格式兼容面最宽，解不动会自动退到软解。\n- **ExoPlayer** 走系统解码器。如果你的盒子用内置播放器卡顿、花屏或黑屏，\n  可以换它对比一下；更流畅就用它，黑屏 / 无声就换回来。\n- 切换后**重开这一集**才生效。\n\n⚠️ 为了让它能播，这一版在本地播放代理里加了 **CENC 解密**\n（红果片源是加密的，ExoPlayer 自己解不了）。解出来的明文两个内核共用。\n\n⚠️ 已知限制：\n- **已下载的剧集仍只能用内置播放器**（下载的是加密文件，只有 mpv 能解）。\n- 亮度调节对 ExoPlayer 画面无效（弹幕、控制条不受影响）。\n\n### 2. 「找到下一季」提示改成可操作横幅\n\n以前播完最后一集弹的是一条 8 秒自动消失的提示，**遥控器焦点到不了「去观看」**，\n而且它挂在全局，换剧也不消失。\n\n现在改成播放页底部的一条横幅：\n\n- 出现时**焦点直接落在「去观看」**上，右移一格是「关闭」\n- **不会自动消失** —— 你走开一会儿回来还能点\n- 换集 / 换片 / 退出播放页时才收起\n\n### 3. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n### 4. 播放页自动恢复改成分两段\n\n- 快段：1 / 2.5 / 5 秒各试一次\n- 慢段：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的恢复。\n\n### 5. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie，真机取流时会带上。\n以前只读了响应内容、把这四条丢了。现在会保存并在取流时带上\n（老用户第一次启动会自动补注册一次）。\n\n### 6. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n错误页会把内核报的原文带出来（「技术细节：…」那一行）。\n如果仍然失败，请截图那一行并说明：哪部剧、第几集、转了多久才报错。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.12-89",
+  "publishedAt": "2026-11-02T00:45:24Z",
+  "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.13-90",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.12+89-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.13+90-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk"
       ],
-      "size": 33320577,
-      "sha256": "baa0197ddb5b61074be4ff3c2fa33bd6efeb69905028b74ea5836bb1ca163e28",
-      "notes": "## 本次更新\n\n### 1. 新增「播放内核」可选：内置播放器 / ExoPlayer（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**。格式兼容面最宽，解不动会自动退到软解。\n- **ExoPlayer** 走系统解码器。如果你的盒子用内置播放器卡顿、花屏或黑屏，\n  可以换它对比一下；更流畅就用它，黑屏 / 无声就换回来。\n- 切换后**重开这一集**才生效。\n\n⚠️ 为了让它能播，这一版在本地播放代理里加了 **CENC 解密**\n（红果片源是加密的，ExoPlayer 自己解不了）。解出来的明文两个内核共用。\n\n⚠️ 已知限制：\n- **已下载的剧集仍只能用内置播放器**（下载的是加密文件，只有 mpv 能解）。\n- 亮度调节对 ExoPlayer 画面无效（弹幕、控制条不受影响）。\n\n### 2. 「找到下一季」提示改成可操作横幅\n\n以前播完最后一集弹的是一条 8 秒自动消失的提示，**遥控器焦点到不了「去观看」**，\n而且它挂在全局，换剧也不消失。\n\n现在改成播放页底部的一条横幅：\n\n- 出现时**焦点直接落在「去观看」**上，右移一格是「关闭」\n- **不会自动消失** —— 你走开一会儿回来还能点\n- 换集 / 换片 / 退出播放页时才收起\n\n### 3. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n### 4. 播放页自动恢复改成分两段\n\n- 快段：1 / 2.5 / 5 秒各试一次\n- 慢段：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的恢复。\n\n### 5. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie，真机取流时会带上。\n以前只读了响应内容、把这四条丢了。现在会保存并在取流时带上\n（老用户第一次启动会自动补注册一次）。\n\n### 6. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n错误页会把内核报的原文带出来（「技术细节：…」那一行）。\n如果仍然失败，请截图那一行并说明：哪部剧、第几集、转了多久才报错。\n"
+      "size": 33320877,
+      "sha256": "3519b22bbf75eca5d65be08c2e220df9d9e41a6639e31720a9461a0982ffefc9",
+      "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.12+89-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.13+90-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.12-89/duanjuzhijiatv-4.6.12%2B89-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk"
       ],
-      "size": 41925061,
-      "sha256": "5b5d4d0a456c5088110079715a71069b0d8884e6d7672429af8866aec6402dfd",
-      "notes": "## 本次更新\n\n### 1. 新增「播放内核」可选：内置播放器 / ExoPlayer（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**。格式兼容面最宽，解不动会自动退到软解。\n- **ExoPlayer** 走系统解码器。如果你的盒子用内置播放器卡顿、花屏或黑屏，\n  可以换它对比一下；更流畅就用它，黑屏 / 无声就换回来。\n- 切换后**重开这一集**才生效。\n\n⚠️ 为了让它能播，这一版在本地播放代理里加了 **CENC 解密**\n（红果片源是加密的，ExoPlayer 自己解不了）。解出来的明文两个内核共用。\n\n⚠️ 已知限制：\n- **已下载的剧集仍只能用内置播放器**（下载的是加密文件，只有 mpv 能解）。\n- 亮度调节对 ExoPlayer 画面无效（弹幕、控制条不受影响）。\n\n### 2. 「找到下一季」提示改成可操作横幅\n\n以前播完最后一集弹的是一条 8 秒自动消失的提示，**遥控器焦点到不了「去观看」**，\n而且它挂在全局，换剧也不消失。\n\n现在改成播放页底部的一条横幅：\n\n- 出现时**焦点直接落在「去观看」**上，右移一格是「关闭」\n- **不会自动消失** —— 你走开一会儿回来还能点\n- 换集 / 换片 / 退出播放页时才收起\n\n### 3. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n### 4. 播放页自动恢复改成分两段\n\n- 快段：1 / 2.5 / 5 秒各试一次\n- 慢段：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的恢复。\n\n### 5. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie，真机取流时会带上。\n以前只读了响应内容、把这四条丢了。现在会保存并在取流时带上\n（老用户第一次启动会自动补注册一次）。\n\n### 6. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n错误页会把内核报的原文带出来（「技术细节：…」那一行）。\n如果仍然失败，请截图那一行并说明：哪部剧、第几集、转了多久才报错。\n"
+      "size": 41929253,
+      "sha256": "3841e806d8946ac11f06e71af947cce8a910400f5222a829baf6b0419ed684a0",
+      "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n"
     }
   ]
 }
