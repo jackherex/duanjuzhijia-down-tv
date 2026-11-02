@@ -1,13 +1,13 @@
 {
-  "version": "4.6.14+91",
-  "versionName": "4.6.14",
-  "build": 91,
-  "versionCode": 42614,
+  "version": "4.6.15+92",
+  "versionName": "4.6.15",
+  "build": 92,
+  "versionCode": 42615,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-02T10:06:43Z",
+  "publishedAt": "2026-11-02T10:25:41Z",
   "notes": "修复播放接口失效。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.14-91",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.15-92",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,31 +19,31 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.14+91-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.15+92-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-arm64-v8a.apk"
       ],
-      "size": 33320581,
-      "sha256": "6ca3a9c39c349f326ac4e9b1786667effa2544c60f72db32affdc3b28f5067a8",
+      "size": 33328765,
+      "sha256": "5943ffe1e4ec8c0a9bc04dd85ff436d4e1b4ee4faef7135d27e3c6e7549c12e6",
       "notes": "修复播放接口失效。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.14+91-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.15+92-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.15-92/duanjuzhijiatv-4.6.15%2B92-armeabi-v7a.apk"
       ],
-      "size": 41929109,
-      "sha256": "336e7c7a2c757a7722bcba2bc8f82a8a0662e8410ee608a68e1abe93e0efc0c9",
+      "size": 41942757,
+      "sha256": "f7dd2ba904a9027f714dc4fd90a8d50bdd634d4aacdea2c92021def319bbd00b",
       "notes": "修复播放接口失效。\n"
     }
   ]
