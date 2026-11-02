@@ -1,13 +1,13 @@
 {
-  "version": "4.6.16+93",
-  "versionName": "4.6.16",
-  "build": 93,
-  "versionCode": 42616,
+  "version": "4.6.17+94",
+  "versionName": "4.6.17",
+  "build": 94,
+  "versionCode": 42617,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-02T13:58:57Z",
-  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.16-93-beta",
+  "publishedAt": "2026-11-02T14:50:16Z",
+  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n- **「系统解码器直出」现在功能和内置播放器一样**：弹幕、选集、倍速、清晰度、自动连播、手机遥控全都能用（上一版的原生播放页只能放单集）\n- 画面仍然由系统解码器直接出到屏幕，不经过界面层合成，低配盒子更省\n- 修复部分剧集用「系统解码器直出」报错播不了（时长较长的集数更容易遇到）\n- 更新弹窗重新设计：版本对比更清楚，按钮更大，遥控器焦点一眼能看到\n\n## 怎么切换\n\n设置 → 界面与播放 → 播放设置 → 播放内核，选「系统解码器直出（实验）」，**然后重启应用**才生效。\n想换回来就选「内置播放器（mpv）」。\n\n## 已知限制\n\n- 「系统解码器直出」没有画质增强；已下载的剧集仍用内置播放器\n- 更新后第一次播放如果提示「重启应用后生效」，退出应用再打开即可\n\n## 请重点帮我们试这些\n\n1. 直出模式下：弹幕、选集、倍速、切清晰度、自动下一集是否都正常\n2. 同一部剧和内置播放器对比：清晰度、流畅度、有没有黑屏 / 无声\n3. 从直出切回内置播放器（不重启）后，能不能正常出画面\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.17-94-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.16+93-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.17+94-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-arm64-v8a.apk"
       ],
-      "size": 33297565,
-      "sha256": "444d048462c8e0626045e401ad1ac2ecdcb961547b830ab1d09cb77b7ee3964b",
-      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
+      "size": 33308065,
+      "sha256": "fbfe1814891293849f2e85394540857d4a19492649b475b3b8b70ba12bfd6900",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n- **「系统解码器直出」现在功能和内置播放器一样**：弹幕、选集、倍速、清晰度、自动连播、手机遥控全都能用（上一版的原生播放页只能放单集）\n- 画面仍然由系统解码器直接出到屏幕，不经过界面层合成，低配盒子更省\n- 修复部分剧集用「系统解码器直出」报错播不了（时长较长的集数更容易遇到）\n- 更新弹窗重新设计：版本对比更清楚，按钮更大，遥控器焦点一眼能看到\n\n## 怎么切换\n\n设置 → 界面与播放 → 播放设置 → 播放内核，选「系统解码器直出（实验）」，**然后重启应用**才生效。\n想换回来就选「内置播放器（mpv）」。\n\n## 已知限制\n\n- 「系统解码器直出」没有画质增强；已下载的剧集仍用内置播放器\n- 更新后第一次播放如果提示「重启应用后生效」，退出应用再打开即可\n\n## 请重点帮我们试这些\n\n1. 直出模式下：弹幕、选集、倍速、切清晰度、自动下一集是否都正常\n2. 同一部剧和内置播放器对比：清晰度、流畅度、有没有黑屏 / 无声\n3. 从直出切回内置播放器（不重启）后，能不能正常出画面\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.16+93-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.17+94-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.17-94-beta/duanjuzhijiatv-4.6.17%2B94-armeabi-v7a.apk"
       ],
-      "size": 41903653,
-      "sha256": "a9c8f20b07174e416e1ed1be6912e09ec2791fd2c1fe5eb39520fd51eb060560",
-      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
+      "size": 41922613,
+      "sha256": "15a2ed0e7a43aca0e5a9490f30848a284d7a8776d2f0a8a856839fd077c39c04",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n- **「系统解码器直出」现在功能和内置播放器一样**：弹幕、选集、倍速、清晰度、自动连播、手机遥控全都能用（上一版的原生播放页只能放单集）\n- 画面仍然由系统解码器直接出到屏幕，不经过界面层合成，低配盒子更省\n- 修复部分剧集用「系统解码器直出」报错播不了（时长较长的集数更容易遇到）\n- 更新弹窗重新设计：版本对比更清楚，按钮更大，遥控器焦点一眼能看到\n\n## 怎么切换\n\n设置 → 界面与播放 → 播放设置 → 播放内核，选「系统解码器直出（实验）」，**然后重启应用**才生效。\n想换回来就选「内置播放器（mpv）」。\n\n## 已知限制\n\n- 「系统解码器直出」没有画质增强；已下载的剧集仍用内置播放器\n- 更新后第一次播放如果提示「重启应用后生效」，退出应用再打开即可\n\n## 请重点帮我们试这些\n\n1. 直出模式下：弹幕、选集、倍速、切清晰度、自动下一集是否都正常\n2. 同一部剧和内置播放器对比：清晰度、流畅度、有没有黑屏 / 无声\n3. 从直出切回内置播放器（不重启）后，能不能正常出画面\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     }
   ]
 }
