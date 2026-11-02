@@ -1,13 +1,13 @@
 {
-  "version": "4.6.13+90",
-  "versionName": "4.6.13",
-  "build": 90,
-  "versionCode": 42613,
+  "version": "4.6.14+91",
+  "versionName": "4.6.14",
+  "build": 91,
+  "versionCode": 42614,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-02T00:45:24Z",
-  "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.13-90",
+  "publishedAt": "2026-11-02T10:06:43Z",
+  "notes": "修复播放接口失效。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.14-91",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.13+90-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.14+91-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-arm64-v8a.apk"
       ],
-      "size": 33320877,
-      "sha256": "3519b22bbf75eca5d65be08c2e220df9d9e41a6639e31720a9461a0982ffefc9",
-      "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n"
+      "size": 33320581,
+      "sha256": "6ca3a9c39c349f326ac4e9b1786667effa2544c60f72db32affdc3b28f5067a8",
+      "notes": "修复播放接口失效。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.13+90-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.14+91-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.13-90/duanjuzhijiatv-4.6.13%2B90-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.14-91/duanjuzhijiatv-4.6.14%2B91-armeabi-v7a.apk"
       ],
-      "size": 41929253,
-      "sha256": "3841e806d8946ac11f06e71af947cce8a910400f5222a829baf6b0419ed684a0",
-      "notes": "## 播放结束后的「下一季」提示重做\n\n**原来的样子**：播完最后一季，屏幕底部弹一条窄横幅。十尺外看不清，遥控器也点不到上面的按钮。\n\n**现在**：直接在画面**正中**弹出卡片 —— 图标 + 「本季已播完」+ 下一季剧名 + 两颗按钮。遥控器一出现就停在「去观看」上，右移一格是「关闭」，两格之间来回切换。\n\n### 修复：遥控器焦点到不了「去观看 / 关闭」\n\n前两版没修对。真正的原因不在按钮本身，而在播放页的控制条：\n\n> 控制条收起时，它会把「上 / 下 / OK」全部吃掉，用来实现「按一下唤出控制条」。\n> 只要它这么做，同一页面上**任何其他按钮都拿不到焦点** —— 即使刚抢到，按一下方向键也会被抢回去。\n\n这一版把这件事彻底改掉：卡片出现期间控制条整体让位（不绘制、不参与焦点），卡片的两个按钮由播放页直接管理焦点，方向键在卡片内部处理。\n\n现在：\n\n- 卡片弹出 → 焦点直接在「去观看」\n- 左右（上下也行）→ 在「去观看」「关闭」之间切换\n- OK → 执行\n- 返回键 → 关掉卡片\n- 点「关闭」后，控制条会重新出现，焦点落在「暂停」上，接着操作不用再摸一次方向键\n\n### 新增：播放参数跟着上一季走\n\n以前点「去观看」，下一季会回到默认设置 —— 关掉的弹幕又开了、调过的倍速又变回 1x。\n\n现在点「去观看」时，会把**这一季正在用的**倍速、画质、弹幕开关写到下一季名下并记住，跳过去直接沿用。\n\n### 其它\n\n- 卡片不再自动消失（上一版已改）。播完时人可能正好走开，回来还能点。\n- 换集、换片、离开播放页都会收起卡片。\n\n---\n\n本次只更新 TV 版，手机版和电脑版不变。\n"
+      "size": 41929109,
+      "sha256": "336e7c7a2c757a7722bcba2bc8f82a8a0662e8410ee608a68e1abe93e0efc0c9",
+      "notes": "修复播放接口失效。\n"
     }
   ]
 }
