@@ -1,13 +1,13 @@
 {
-  "version": "4.6.11+88",
-  "versionName": "4.6.11",
-  "build": 88,
-  "versionCode": 42611,
+  "version": "4.6.16+93",
+  "versionName": "4.6.16",
+  "build": 93,
+  "versionCode": 42616,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-01T02:34:41Z",
-  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.11-88-beta",
+  "publishedAt": "2026-11-02T13:58:57Z",
+  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.16-93-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.11+88-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.16+93-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-arm64-v8a.apk"
       ],
-      "size": 32353390,
-      "sha256": "9be74879b0d01ad89e7e7e0eaba9e0648def4cb0f8536c2af4ff7f4f2222788b",
-      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
+      "size": 33297565,
+      "sha256": "444d048462c8e0626045e401ad1ac2ecdcb961547b830ab1d09cb77b7ee3964b",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.11+88-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.16+93-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.11-88-beta/duanjuzhijiatv-4.6.11%2B88-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.16-93-beta/duanjuzhijiatv-4.6.16%2B93-armeabi-v7a.apk"
       ],
-      "size": 40955062,
-      "sha256": "65153eb6200e6a2996241a8824c37f129f225b0f6eb596e977f6de3c2ecc9078",
-      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
+      "size": 41903653,
+      "sha256": "a9c8f20b07174e416e1ed1be6912e09ec2791fd2c1fe5eb39520fd51eb060560",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 「播放内核」改为：内置播放器（mpv）/ 原生播放页（实验）\n\n设置 → 播放设置 → 播放内核；详情页「播放卡顿？」里也能直接换。\n\n- **内置播放器（mpv）仍是默认**，行为与上一版完全一致。\n- **原生播放页**：系统解码器直接出画面到屏幕，不再经过界面层的二次合成，\n  低配盒子上理论上更省、更流畅。\n  - 遥控器：确定 = 播放 / 暂停，左右 = 后退 / 前进 10 秒，上下 = 显示 / 隐藏进度条，返回 = 退出。\n  - 一集播完会自动接下一集（跟「自动连播」开关走）；按返回会记住进度并回到详情页。\n- 切换后**重开这一集**才生效。\n\n### 2. 去掉了 ExoPlayer 内核\n\n实测它在电视上反而比内置播放器多一遍画面合成，低配盒子更吃力，已删除。\n之前选了 ExoPlayer 的，更新后会自动回到内置播放器。\n\n## 已知限制（原生播放页）\n\n- 没有弹幕、倍速、清晰度切换、亮度调节。\n- **已下载的剧集仍用内置播放器**（下载的是加密文件，只有内置播放器能解）。\n\n## 请重点帮我们试这些\n\n1. 切到「原生播放页」后，同一部剧和内置播放器比：**清晰度、流畅度、有没有掉帧 / 黑屏 / 无声**\n2. 遥控器各个键是否都有反应，快进快退是否准确\n3. 一集播完能否自动接下一集；中途按返回，再进来是否从刚才的位置继续\n4. 低配盒子上 720P / 1080P 的表现\n\n## 出问题时请提供\n\n截图并说明：**盒子型号、哪部剧第几集、用的哪个内核、现象（黑屏 / 卡顿 / 无声 / 按键没反应）**。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     }
   ]
 }
