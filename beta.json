@@ -1,13 +1,13 @@
 {
-  "version": "4.6.18+95",
-  "versionName": "4.6.18",
-  "build": 95,
-  "versionCode": 42618,
+  "version": "4.6.19+96",
+  "versionName": "4.6.19",
+  "build": 96,
+  "versionCode": 42619,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-02T15:06:30Z",
-  "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了\n- 更新弹窗重新设计\n\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.18-95-beta",
+  "publishedAt": "2026-11-03T00:18:01Z",
+  "notes": "- 修复直出内核自动播放下一集时提示「本地视频读取失败」\n- 「播放卡顿？」弹窗重新设计\n- 电视上输入更新密钥改用屏幕数字键盘，不再弹出系统键盘挡住弹窗\n- 更新弹窗在电视上能完整显示更新内容\n\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.19-96-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.18+95-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.19+96-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-arm64-v8a.apk"
       ],
-      "size": 33310629,
-      "sha256": "894e4686af48d348516841f09fb042b8f83b3f0137fa61162310eda509ea27fd",
-      "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了\n- 更新弹窗重新设计\n\n> 测试版，正式版用户不受影响\n"
+      "size": 33316157,
+      "sha256": "d2b7c1ded2998d0492d5df659a04fe97c40b685a6cc8c7a5e5c98f25498fbac6",
+      "notes": "- 修复直出内核自动播放下一集时提示「本地视频读取失败」\n- 「播放卡顿？」弹窗重新设计\n- 电视上输入更新密钥改用屏幕数字键盘，不再弹出系统键盘挡住弹窗\n- 更新弹窗在电视上能完整显示更新内容\n\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.18+95-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.19+96-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.18-95-beta/duanjuzhijiatv-4.6.18%2B95-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.19-96-beta/duanjuzhijiatv-4.6.19%2B96-armeabi-v7a.apk"
       ],
-      "size": 41925073,
-      "sha256": "47b15888ebca1999e487607077f84bba7cdff735c599e4f117d21181f474c2cb",
-      "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了\n- 更新弹窗重新设计\n\n> 测试版，正式版用户不受影响\n"
+      "size": 41928201,
+      "sha256": "5cf622bb5ab656e58abef43550a825e224b9680bde283978b0c88bdcaa49deff",
+      "notes": "- 修复直出内核自动播放下一集时提示「本地视频读取失败」\n- 「播放卡顿？」弹窗重新设计\n- 电视上输入更新密钥改用屏幕数字键盘，不再弹出系统键盘挡住弹窗\n- 更新弹窗在电视上能完整显示更新内容\n\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
