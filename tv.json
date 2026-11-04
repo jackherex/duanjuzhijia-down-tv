@@ -1,13 +1,13 @@
 {
-  "version": "4.6.21+98",
-  "versionName": "4.6.21",
-  "build": 98,
-  "versionCode": 42621,
+  "version": "4.6.25+102",
+  "versionName": "4.6.25",
+  "build": 102,
+  "versionCode": 42625,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-03T00:46:59Z",
-  "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了、自动下一集报错\n- 「播放卡顿？」和更新弹窗重新设计，电视遥控更顺手\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.21-98",
+  "publishedAt": "2026-11-04T08:32:07Z",
+  "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.25-102",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.21+98-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.25+102-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk"
       ],
-      "size": 33318145,
-      "sha256": "9aca6e894a293abc379410272348effdfaf2a68d1e3f18fd1af85fba6ea0a0d2",
-      "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了、自动下一集报错\n- 「播放卡顿？」和更新弹窗重新设计，电视遥控更顺手\n"
+      "size": 33333437,
+      "sha256": "55e062bf61467f3b248bb747d856a1905a103c9044e09eea931d7ed9e66ab96c",
+      "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.21+98-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.25+102-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.21-98/duanjuzhijiatv-4.6.21%2B98-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk"
       ],
-      "size": 41929885,
-      "sha256": "0f987741a801d1401973c331217989e5fbf31a22181e0fdf7e382fbc14b01859",
-      "notes": "- 新增「系统解码器直出」播放内核，画面更省资源，弹幕、选集、倍速都能用\n- 切换播放内核后一键自动重启\n- 修复部分剧集用直出内核播不了、自动下一集报错\n- 「播放卡顿？」和更新弹窗重新设计，电视遥控更顺手\n"
+      "size": 41948149,
+      "sha256": "eb1b9411d386174ba7013db7ecfad8441dff9f25e5e735828ef27f4bb6a8da86",
+      "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n"
     }
   ]
 }
