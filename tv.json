@@ -1,13 +1,13 @@
 {
-  "version": "4.6.25+102",
-  "versionName": "4.6.25",
-  "build": 102,
-  "versionCode": 42625,
+  "version": "4.6.26+103",
+  "versionName": "4.6.26",
+  "build": 103,
+  "versionCode": 42626,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-04T08:32:07Z",
-  "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.25-102",
+  "publishedAt": "2026-11-06T12:49:50Z",
+  "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.26-103",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.25+102-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.26+103-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk"
       ],
-      "size": 33333437,
-      "sha256": "55e062bf61467f3b248bb747d856a1905a103c9044e09eea931d7ed9e66ab96c",
-      "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n"
+      "size": 32513141,
+      "sha256": "cf453630288ed117f42fe2e358e71e748e683779639146981596e3cd1ac580a9",
+      "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.25+102-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.26+103-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.25-102/duanjuzhijiatv-4.6.25%2B102-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk"
       ],
-      "size": 41948149,
-      "sha256": "eb1b9411d386174ba7013db7ecfad8441dff9f25e5e735828ef27f4bb6a8da86",
-      "notes": "- 全新玻璃风格界面，遥控器选中项改为白底黑字；顶栏按钮大小统一，追剧页筛选并成一行\n- 遥控器连按右键可以连续快进，不会再跳到「下一集」\n- 系统解码器直出：自动下一集原地接上不黑屏，播放时保持亮屏\n- 在线更新换线路时接着下，不再从头重下，并显示当前用的线路\n- 弹幕在暂停、缓冲、调倍速时不再往回跳；首页轮播放慢\n"
+      "size": 41020313,
+      "sha256": "5dc04559a876c46f0080b7c3e183c1f8dd28d82cbf641f6f9054a97423e88611",
+      "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n"
     }
   ]
 }
