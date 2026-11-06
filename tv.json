@@ -1,13 +1,13 @@
 {
-  "version": "4.6.26+103",
-  "versionName": "4.6.26",
-  "build": 103,
-  "versionCode": 42626,
+  "version": "4.6.27+104",
+  "versionName": "4.6.27",
+  "build": 104,
+  "versionCode": 42627,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-06T12:49:50Z",
-  "notes": "- 细节改进，为后续版本做准备\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.26-103",
+  "publishedAt": "2026-11-06T14:14:01Z",
+  "notes": "- 闪退和报错会自动上报给作者，问题修得更快\n- 匿名上报，不会带上账号、IP 等任何个人信息\n- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.27-104",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.26+103-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.27+104-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-arm64-v8a.apk"
       ],
-      "size": 32513141,
-      "sha256": "cf453630288ed117f42fe2e358e71e748e683779639146981596e3cd1ac580a9",
-      "notes": "- 细节改进，为后续版本做准备\n"
+      "size": 32527749,
+      "sha256": "82e44d8eece351e36d4c92aa068b9b0b486808cd4e5784defb1d1661dcaaea53",
+      "notes": "- 闪退和报错会自动上报给作者，问题修得更快\n- 匿名上报，不会带上账号、IP 等任何个人信息\n- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.26+103-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.27+104-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.26-103/duanjuzhijiatv-4.6.26%2B103-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.27-104/duanjuzhijiatv-4.6.27%2B104-armeabi-v7a.apk"
       ],
-      "size": 41020313,
-      "sha256": "5dc04559a876c46f0080b7c3e183c1f8dd28d82cbf641f6f9054a97423e88611",
-      "notes": "- 细节改进，为后续版本做准备\n"
+      "size": 41038129,
+      "sha256": "0415803147dbe0a621eed0e711c77999115d1cd1d8ad42b159c35b40629f4d37",
+      "notes": "- 闪退和报错会自动上报给作者，问题修得更快\n- 匿名上报，不会带上账号、IP 等任何个人信息\n- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n"
     }
   ]
 }
