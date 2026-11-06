@@ -6,7 +6,7 @@
   "minVersion": "",
   "force": false,
   "publishedAt": "2026-11-06T12:49:50Z",
-  "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n",
+  "notes": "- 细节改进，为后续版本做准备\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.26-103",
   "gate": {
     "salt": "djzj-2115cfea85b3",
@@ -29,7 +29,7 @@
       ],
       "size": 32513141,
       "sha256": "cf453630288ed117f42fe2e358e71e748e683779639146981596e3cd1ac580a9",
-      "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n"
+      "notes": "- 细节改进，为后续版本做准备\n"
     },
     {
       "edition": "duanjuzhijiatv",
@@ -44,7 +44,7 @@
       ],
       "size": 41020313,
       "sha256": "5dc04559a876c46f0080b7c3e183c1f8dd28d82cbf641f6f9054a97423e88611",
-      "notes": "- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名使用统计」可以随时关闭\n"
+      "notes": "- 细节改进，为后续版本做准备\n"
     }
   ]
 }
