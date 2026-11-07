@@ -1,13 +1,13 @@
 {
-  "version": "4.6.28+105",
-  "versionName": "4.6.28",
-  "build": 105,
-  "versionCode": 42628,
+  "version": "4.6.29+106",
+  "versionName": "4.6.29",
+  "build": 106,
+  "versionCode": 42629,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-07T03:55:26Z",
-  "notes": "- 换上全新图标和启动动画\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.28-105",
+  "publishedAt": "2026-11-07T11:17:45Z",
+  "notes": "- 弹幕更流畅，从画面右边自然滑入\n- 首页推荐自动轮播，背景跟着海报变换\n- 页面切换和加载动画全面升级\n- 默认使用系统解码器直出，播放更顺更省\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.29-106",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.28+105-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.29+106-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-arm64-v8a.apk"
       ],
-      "size": 32681133,
-      "sha256": "aaa8304523e03da2ecc7afd747d194719536072813ea30699f0ce28342edcdc4",
-      "notes": "- 换上全新图标和启动动画\n"
+      "size": 32701837,
+      "sha256": "02514acc706455668d0d94fbe2efba48245bd0c073cdd8e7a5ea043273368f93",
+      "notes": "- 弹幕更流畅，从画面右边自然滑入\n- 首页推荐自动轮播，背景跟着海报变换\n- 页面切换和加载动画全面升级\n- 默认使用系统解码器直出，播放更顺更省\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.28+105-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.29+106-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.28-105/duanjuzhijiatv-4.6.28%2B105-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.29-106/duanjuzhijiatv-4.6.29%2B106-armeabi-v7a.apk"
       ],
-      "size": 41196521,
-      "sha256": "d971c0c21ed9e76e0e874bbc25d8f4f576ce7d86bafcbe7c782d0e69333a2260",
-      "notes": "- 换上全新图标和启动动画\n"
+      "size": 41217977,
+      "sha256": "fa0cb170400e27ef72db82e8268a6da9e467b586428650c23a7c5c2975025f90",
+      "notes": "- 弹幕更流畅，从画面右边自然滑入\n- 首页推荐自动轮播，背景跟着海报变换\n- 页面切换和加载动画全面升级\n- 默认使用系统解码器直出，播放更顺更省\n"
     }
   ]
 }
