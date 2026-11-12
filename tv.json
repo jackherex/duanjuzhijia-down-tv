@@ -1,13 +1,13 @@
 {
-  "version": "4.6.31+108",
-  "versionName": "4.6.31",
-  "build": 108,
-  "versionCode": 42631,
+  "version": "4.6.32+109",
+  "versionName": "4.6.32",
+  "build": 109,
+  "versionCode": 40632,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-08T02:16:54Z",
-  "notes": "- 自动下一集时，上一集没飞完的弹幕接着飞完，不再突然消失\n- 打开应用进入首页更顺滑，不再卡一下\n- 支持手机遥控：手机版 4.6.5 起，同一 Wi-Fi 下自动发现电视，一键遥控\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.31-108",
+  "publishedAt": "2026-11-12T13:50:03Z",
+  "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.32-109",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.31+108-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.32+109-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk"
       ],
-      "size": 32706873,
-      "sha256": "ba51038dda5e6608f841b1572c6e70c4a561b50dc745e6d3d51ccc3a1faa1547",
-      "notes": "- 自动下一集时，上一集没飞完的弹幕接着飞完，不再突然消失\n- 打开应用进入首页更顺滑，不再卡一下\n- 支持手机遥控：手机版 4.6.5 起，同一 Wi-Fi 下自动发现电视，一键遥控\n"
+      "size": 32706877,
+      "sha256": "3b2c00cdd6f778995b5518d4bd87af1fb48557168a14b740f67a76fbf948384d",
+      "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.31+108-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.32+109-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.31-108/duanjuzhijiatv-4.6.31%2B108-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk"
       ],
-      "size": 41225937,
-      "sha256": "e1c120751e9e4337843a0f7eec619c546b108d96f1a1c502f7f1831d1155e485",
-      "notes": "- 自动下一集时，上一集没飞完的弹幕接着飞完，不再突然消失\n- 打开应用进入首页更顺滑，不再卡一下\n- 支持手机遥控：手机版 4.6.5 起，同一 Wi-Fi 下自动发现电视，一键遥控\n"
+      "size": 41225869,
+      "sha256": "579c830acf544ab9cb714dc9d815a5dae36d06e61f8ba580d74cb013dce85cca",
+      "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
