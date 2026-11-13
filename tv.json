@@ -1,13 +1,13 @@
 {
-  "version": "4.6.32+109",
-  "versionName": "4.6.32",
-  "build": 109,
-  "versionCode": 40632,
+  "version": "4.6.33+110",
+  "versionName": "4.6.33",
+  "build": 110,
+  "versionCode": 40633,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-12T13:50:03Z",
-  "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.32-109",
+  "publishedAt": "2026-11-13T10:11:18Z",
+  "notes": "**TV 版 4.6.33+110（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：画面比例、重复弹幕合并、换集时弹幕不再顿一下、看完最后一集自动标记看完\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.33-110",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.32+109-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.33+110-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-arm64-v8a.apk"
       ],
-      "size": 32706877,
-      "sha256": "3b2c00cdd6f778995b5518d4bd87af1fb48557168a14b740f67a76fbf948384d",
-      "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 32725877,
+      "sha256": "6ba84cc89d2253f4d4d783233093f4b4e959fd9fea761e2d72a5bf5a21e5681a",
+      "notes": "**TV 版 4.6.33+110（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：画面比例、重复弹幕合并、换集时弹幕不再顿一下、看完最后一集自动标记看完\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.32+109-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.33+110-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.32-109/duanjuzhijiatv-4.6.32%2B109-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.33-110/duanjuzhijiatv-4.6.33%2B110-armeabi-v7a.apk"
       ],
-      "size": 41225869,
-      "sha256": "579c830acf544ab9cb714dc9d815a5dae36d06e61f8ba580d74cb013dce85cca",
-      "notes": "**TV 版 4.6.32+109**\n\n修复部分剧集**点开就报「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n有些剧集，红果下发的片源全是它自家的私有编码，盒子读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。\n\n实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n---\n\n### 顺手一起修好的\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的\n部分集数以前也是同一个毛病，只是没人报上来。这次一起好了。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 41245925,
+      "sha256": "5729ef97f65e8fb914b2ccc7d518f28abc33d9c604c5dfe97a4441f711ac7e85",
+      "notes": "**TV 版 4.6.33+110（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：画面比例、重复弹幕合并、换集时弹幕不再顿一下、看完最后一集自动标记看完\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
