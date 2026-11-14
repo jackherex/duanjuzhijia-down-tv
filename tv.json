@@ -1,13 +1,13 @@
 {
-  "version": "4.6.34+111",
-  "versionName": "4.6.34",
-  "build": 111,
-  "versionCode": 40634,
+  "version": "4.6.35+112",
+  "versionName": "4.6.35",
+  "build": 112,
+  "versionCode": 42635,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-13T12:14:36Z",
-  "notes": "**TV 版 4.6.34+111（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.34-111",
+  "publishedAt": "2026-11-14T00:11:52Z",
+  "notes": "- 播放更快，下一集预加载更稳，卡一下也不会白准备\n- 弹幕铺满整个屏幕，从最右边飘到最左边\n- 修复显示进度条时屏幕两侧漏出两条竖条\n- 播放设置新增「调试信息」开关，方便反馈问题\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.35-112",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.34+111-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.35+112-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-arm64-v8a.apk"
       ],
-      "size": 32725825,
-      "sha256": "b0e60a2755ef459800737fcbc97af1f7b720eb9d3eb5fc4afc086f1a67d31342",
-      "notes": "**TV 版 4.6.34+111（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 32736793,
+      "sha256": "5f339a5718120a72e034446ba3627ce2bd82200048e3801646200123d8347fb7",
+      "notes": "- 播放更快，下一集预加载更稳，卡一下也不会白准备\n- 弹幕铺满整个屏幕，从最右边飘到最左边\n- 修复显示进度条时屏幕两侧漏出两条竖条\n- 播放设置新增「调试信息」开关，方便反馈问题\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.34+111-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.35+112-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.34-111/duanjuzhijiatv-4.6.34%2B111-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.35-112/duanjuzhijiatv-4.6.35%2B112-armeabi-v7a.apk"
       ],
-      "size": 41245813,
-      "sha256": "6acbe441dd7b7b39c3e98e27e4a7e3ecb87d8c7efd4de5eecb345242f775458a",
-      "notes": "**TV 版 4.6.34+111（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 41259297,
+      "sha256": "f89e7a2d72c7a1e03b6077468c43ffc90ed546a6d6e91c19e86bc1a177525522",
+      "notes": "- 播放更快，下一集预加载更稳，卡一下也不会白准备\n- 弹幕铺满整个屏幕，从最右边飘到最左边\n- 修复显示进度条时屏幕两侧漏出两条竖条\n- 播放设置新增「调试信息」开关，方便反馈问题\n"
     }
   ]
 }
