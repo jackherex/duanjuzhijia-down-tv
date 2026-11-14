@@ -1,27 +1,27 @@
 {
   "_comment": "短剧之家投屏端（低性能老机顶盒用，最低安卓 4.4）的在线更新清单。投屏端读 versionCode 比较。",
-  "version": "1.0.5+6",
-  "versionName": "1.0.5",
-  "build": 6,
-  "versionCode": 6,
-  "publishedAt": "2026-11-14T10:27:30Z",
-  "notes": "- 首个正式版：给低性能、低版本（最低安卓 4.4）老机顶盒用的投屏接收端\n- 手机版播放页「推送到其他设备」→「推送到短剧之家投屏端」，连播无缝、弹幕和表情都有、可远程拖进度\n- 遥控器按上打开弹幕开关、倍速；支持在线更新\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/cast-v1.0.5-6",
+  "version": "1.0.6+7",
+  "versionName": "1.0.6",
+  "build": 7,
+  "versionCode": 7,
+  "publishedAt": "2026-11-14T15:48:41Z",
+  "notes": "- 播放控制条改成和 TV 端一样：上一集、播放 / 暂停、下一集、播放设置\n- 进度条改为白色；自动播放下一集时不再弹出进度条\n- 返回键按两次才结束投屏，回到配对页\n- 「上一集」需要手机端 4.6.12 及以上\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/cast-v1.0.6-7",
   "assets": [
     {
       "edition": "duanjuzhijia-cast",
       "abi": "universal",
-      "name": "duanjuzhijia-cast-1.0.5+6.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.5-6/duanjuzhijia-cast-1.0.5.6.apk",
+      "name": "duanjuzhijia-cast-1.0.6+7.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.5-6/duanjuzhijia-cast-1.0.5.6.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.5-6/duanjuzhijia-cast-1.0.5.6.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.5-6/duanjuzhijia-cast-1.0.5.6.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.5-6/duanjuzhijia-cast-1.0.5.6.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk"
       ],
-      "size": 579831,
-      "sha256": "047b009f98cc7b5c2289f29d714be0dce0d3dd6661f3a3b11a08fe41f9272ad7",
-      "notes": "- 首个正式版：给低性能、低版本（最低安卓 4.4）老机顶盒用的投屏接收端\n- 手机版播放页「推送到其他设备」→「推送到短剧之家投屏端」，连播无缝、弹幕和表情都有、可远程拖进度\n- 遥控器按上打开弹幕开关、倍速；支持在线更新\n"
+      "size": 582014,
+      "sha256": "eb436db71debaf37ca00783af21eeab60573dafb6d0223a8bdee83f53191a262",
+      "notes": "- 播放控制条改成和 TV 端一样：上一集、播放 / 暂停、下一集、播放设置\n- 进度条改为白色；自动播放下一集时不再弹出进度条\n- 返回键按两次才结束投屏，回到配对页\n- 「上一集」需要手机端 4.6.12 及以上\n"
     }
   ]
 }
