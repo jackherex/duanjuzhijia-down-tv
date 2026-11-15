@@ -1,13 +1,13 @@
 {
-  "version": "4.6.44+121",
-  "versionName": "4.6.44",
-  "build": 121,
-  "versionCode": 42644,
+  "version": "4.6.45+131",
+  "versionName": "4.6.45",
+  "build": 131,
+  "versionCode": 42645,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-15T07:40:58Z",
-  "notes": "- 只有新编码（ByteVC2）的剧集现在也能播\n- 遥控器从顶栏按下直接到第一张海报；追剧筛选、本机 / 红果账户更好用，字更清楚\n- 新剧榜打开不用等，上新日历在海报上按左右就能换日期，新剧推荐可以一直往下翻；首页每排最后加了「查看全部」\n- 设置里可打开「详情页预加载」，点播放基本秒开，从中间续播也一样\n- 修复换季后黑屏只有声音\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.44-121",
+  "publishedAt": "2026-11-15T12:28:22Z",
+  "notes": "- 右上角新增「红果账户」：红果的观看历史、收藏、预约都在这里，首页和追剧只放本机\n- 红果观看历史按时间排好、显示看到第几集，点一下从上次的位置接着播\n- 「新剧日历」「新剧推荐」各自一页，不登录也能看；左右换日期带动画\n- 遥控器更顺手：海报往上能回到「继续观看」和筛选，焦点框不再被切掉\n- 设置里新增「继续观看自动预加载」，首页标题旁的闪电显示准备进度\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.45-131",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.44+121-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.45+131-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-arm64-v8a.apk"
       ],
-      "size": 32797613,
-      "sha256": "c93ecd7f81cf78cc8f163e31d0d473b389efd2dfc5041ea4f95c428837872d05",
-      "notes": "- 只有新编码（ByteVC2）的剧集现在也能播\n- 遥控器从顶栏按下直接到第一张海报；追剧筛选、本机 / 红果账户更好用，字更清楚\n- 新剧榜打开不用等，上新日历在海报上按左右就能换日期，新剧推荐可以一直往下翻；首页每排最后加了「查看全部」\n- 设置里可打开「详情页预加载」，点播放基本秒开，从中间续播也一样\n- 修复换季后黑屏只有声音\n"
+      "size": 32818421,
+      "sha256": "6a364fd711443f56d2d4cf32f51d104b2ff9ef5425d02597401a35d32a9f57e4",
+      "notes": "- 右上角新增「红果账户」：红果的观看历史、收藏、预约都在这里，首页和追剧只放本机\n- 红果观看历史按时间排好、显示看到第几集，点一下从上次的位置接着播\n- 「新剧日历」「新剧推荐」各自一页，不登录也能看；左右换日期带动画\n- 遥控器更顺手：海报往上能回到「继续观看」和筛选，焦点框不再被切掉\n- 设置里新增「继续观看自动预加载」，首页标题旁的闪电显示准备进度\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.44+121-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.45+131-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.44-121/duanjuzhijiatv-4.6.44%2B121-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.45-131/duanjuzhijiatv-4.6.45%2B131-armeabi-v7a.apk"
       ],
-      "size": 41319697,
-      "sha256": "b40bf433a964790342c12d429d07818aac6602935461c856166e9aaa18284ae2",
-      "notes": "- 只有新编码（ByteVC2）的剧集现在也能播\n- 遥控器从顶栏按下直接到第一张海报；追剧筛选、本机 / 红果账户更好用，字更清楚\n- 新剧榜打开不用等，上新日历在海报上按左右就能换日期，新剧推荐可以一直往下翻；首页每排最后加了「查看全部」\n- 设置里可打开「详情页预加载」，点播放基本秒开，从中间续播也一样\n- 修复换季后黑屏只有声音\n"
+      "size": 41347213,
+      "sha256": "3ae87cc7303914fb7bd27e1b2f85613912630cff751485a877958f6c036258aa",
+      "notes": "- 右上角新增「红果账户」：红果的观看历史、收藏、预约都在这里，首页和追剧只放本机\n- 红果观看历史按时间排好、显示看到第几集，点一下从上次的位置接着播\n- 「新剧日历」「新剧推荐」各自一页，不登录也能看；左右换日期带动画\n- 遥控器更顺手：海报往上能回到「继续观看」和筛选，焦点框不再被切掉\n- 设置里新增「继续观看自动预加载」，首页标题旁的闪电显示准备进度\n"
     }
   ]
 }
