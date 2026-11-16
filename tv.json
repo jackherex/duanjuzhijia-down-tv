@@ -1,13 +1,13 @@
 {
-  "version": "4.6.47+135",
-  "versionName": "4.6.47",
-  "build": 135,
-  "versionCode": 42647,
+  "version": "4.6.48+136",
+  "versionName": "4.6.48",
+  "build": 136,
+  "versionCode": 42648,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-16T11:04:39Z",
-  "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.47-135",
+  "publishedAt": "2026-11-16T13:46:59Z",
+  "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.48-136",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.47+135-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.48+136-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk"
       ],
-      "size": 32857453,
-      "sha256": "cdc3e69adaa5273fd70a2eb16cae15e711e189574822ebdbe82f44a34fe294de",
-      "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n"
+      "size": 32858337,
+      "sha256": "dd2dd65790de6967c4836d4a82aec88cb6618e005c83fd9399075510c43cdf4b",
+      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.47+135-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.48+136-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk"
       ],
-      "size": 41388777,
-      "sha256": "2aafddbd10986178bc79d6ca92a274115de2cb6c8f45f28666001fa4e8b014cd",
-      "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n"
+      "size": 41388689,
+      "sha256": "36fa1aebb21281f0c1b64a3f9ae6e1294918add63b8013e6d49c7190764bd405",
+      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
     }
   ]
 }
