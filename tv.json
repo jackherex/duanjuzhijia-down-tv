@@ -1,13 +1,13 @@
 {
-  "version": "4.6.46+134",
-  "versionName": "4.6.46",
-  "build": 134,
-  "versionCode": 42646,
+  "version": "4.6.47+135",
+  "versionName": "4.6.47",
+  "build": 135,
+  "versionCode": 42647,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-16T07:12:49Z",
-  "notes": "- 新增：内置遥控器键盘搜索，输入拼音首字母即出联想，不再弹系统键盘\n- 新增：播放时左右键快进并显示进度条；可在播放设置开启「上下键切换上一集 / 下一集」\n- 修复：部分盒子用「系统解码器直出」播放黑屏 / 闪退，现在会自动重建或换成内置播放器；自动切下一集卡在 0:00 也会自己恢复\n- 优化：设置页焦点更清楚（数值看得见、左侧移动右侧跟随、选中项带对勾），排行榜分类栏加大，弹幕字号上限提高\n- 优化：在线更新不再中途自动换线路（避免安装包损坏），下载慢可手动点「切换线路」\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.46-134",
+  "publishedAt": "2026-11-16T11:04:39Z",
+  "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.47-135",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.46+134-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.47+135-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-arm64-v8a.apk"
       ],
-      "size": 32832589,
-      "sha256": "7cbc5e857143924c985077a823174ca2f72e18bdaf8383648524f5fbb99ce2de",
-      "notes": "- 新增：内置遥控器键盘搜索，输入拼音首字母即出联想，不再弹系统键盘\n- 新增：播放时左右键快进并显示进度条；可在播放设置开启「上下键切换上一集 / 下一集」\n- 修复：部分盒子用「系统解码器直出」播放黑屏 / 闪退，现在会自动重建或换成内置播放器；自动切下一集卡在 0:00 也会自己恢复\n- 优化：设置页焦点更清楚（数值看得见、左侧移动右侧跟随、选中项带对勾），排行榜分类栏加大，弹幕字号上限提高\n- 优化：在线更新不再中途自动换线路（避免安装包损坏），下载慢可手动点「切换线路」\n"
+      "size": 32857453,
+      "sha256": "cdc3e69adaa5273fd70a2eb16cae15e711e189574822ebdbe82f44a34fe294de",
+      "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.46+134-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.47+135-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.46-134/duanjuzhijiatv-4.6.46%2B134-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.47-135/duanjuzhijiatv-4.6.47%2B135-armeabi-v7a.apk"
       ],
-      "size": 41360393,
-      "sha256": "7cff95281b4c448adbe62184f711445421ebb6793d4f3d166b5dfc673f600a7d",
-      "notes": "- 新增：内置遥控器键盘搜索，输入拼音首字母即出联想，不再弹系统键盘\n- 新增：播放时左右键快进并显示进度条；可在播放设置开启「上下键切换上一集 / 下一集」\n- 修复：部分盒子用「系统解码器直出」播放黑屏 / 闪退，现在会自动重建或换成内置播放器；自动切下一集卡在 0:00 也会自己恢复\n- 优化：设置页焦点更清楚（数值看得见、左侧移动右侧跟随、选中项带对勾），排行榜分类栏加大，弹幕字号上限提高\n- 优化：在线更新不再中途自动换线路（避免安装包损坏），下载慢可手动点「切换线路」\n"
+      "size": 41388777,
+      "sha256": "2aafddbd10986178bc79d6ca92a274115de2cb6c8f45f28666001fa4e8b014cd",
+      "notes": "- 修复：红果短剧全部无法播放（能搜索、能进详情，一点播放就失败）的问题\n"
     }
   ]
 }
