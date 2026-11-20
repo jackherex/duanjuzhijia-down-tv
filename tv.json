@@ -1,13 +1,13 @@
 {
-  "version": "4.6.48+136",
-  "versionName": "4.6.48",
-  "build": 136,
-  "versionCode": 42648,
+  "version": "4.6.50+138",
+  "versionName": "4.6.50",
+  "build": 138,
+  "versionCode": 42650,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-16T13:46:59Z",
-  "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.48-136",
+  "publishedAt": "2026-11-20T02:50:00Z",
+  "notes": "- 新增：搜索页换成新的输入键盘，支持拼音 / 注音和语音输入\n- 新增：红果观看记录同步开关\n- 优化：没有安装权限页的电视上，更新也能继续安装\n- 修复：系统解码器直出解码失败时自动改用内置播放器，切下一集偶发无法播放会自动重试\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.50-138",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.48+136-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.50+138-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-arm64-v8a.apk"
       ],
-      "size": 32858337,
-      "sha256": "dd2dd65790de6967c4836d4a82aec88cb6618e005c83fd9399075510c43cdf4b",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
+      "size": 32871065,
+      "sha256": "49258391848a2e4f93455cd890336d688a6f998b9dad4c86020727e2d12b8aaa",
+      "notes": "- 新增：搜索页换成新的输入键盘，支持拼音 / 注音和语音输入\n- 新增：红果观看记录同步开关\n- 优化：没有安装权限页的电视上，更新也能继续安装\n- 修复：系统解码器直出解码失败时自动改用内置播放器，切下一集偶发无法播放会自动重试\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.48+136-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.50+138-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.48-136/duanjuzhijiatv-4.6.48%2B136-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.50-138/duanjuzhijiatv-4.6.50%2B138-armeabi-v7a.apk"
       ],
-      "size": 41388689,
-      "sha256": "36fa1aebb21281f0c1b64a3f9ae6e1294918add63b8013e6d49c7190764bd405",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
+      "size": 41406781,
+      "sha256": "07a736390371be71d6e6fb157e9669bf1dfa993d1ed363bf4a0ea3a6e49f28a8",
+      "notes": "- 新增：搜索页换成新的输入键盘，支持拼音 / 注音和语音输入\n- 新增：红果观看记录同步开关\n- 优化：没有安装权限页的电视上，更新也能继续安装\n- 修复：系统解码器直出解码失败时自动改用内置播放器，切下一集偶发无法播放会自动重试\n"
     }
   ]
 }
