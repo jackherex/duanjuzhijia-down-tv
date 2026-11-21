@@ -1,13 +1,13 @@
 {
-  "version": "4.6.52+140",
-  "versionName": "4.6.52",
-  "build": 140,
-  "versionCode": 42652,
+  "version": "4.6.53+141",
+  "versionName": "4.6.53",
+  "build": 141,
+  "versionCode": 42653,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-21T05:26:12Z",
-  "notes": "- 新增：红果登录页「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 优化：排行榜左侧分类按右键进入列表更稳定\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.52-140-beta",
+  "publishedAt": "2026-11-21T12:10:04Z",
+  "notes": "- 优化：系统解码器直出下预加载下一集仅缓冲开头片段，大幅降低连续多集播放的内存占用，保留无感切集体验\n- 优化：使用系统解码器直出时不再创建空闲内置播放器，控制条隐藏时减少无谓重绘，缓解连播几集后画面、弹幕与遥控器卡死\n- 优化：不再擅自将播放内核自动切回内置播放器，需要切核可自行在播放设置中切换\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.53-141-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.52+140-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.53+141-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-arm64-v8a.apk"
       ],
-      "size": 32921517,
-      "sha256": "5107d7ec63f098c244256f7f04828a77fd4f991576588535e788a1d51bba19ce",
-      "notes": "- 新增：红果登录页「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 优化：排行榜左侧分类按右键进入列表更稳定\n> 测试版，正式版用户不受影响\n"
+      "size": 32919733,
+      "sha256": "693ac499ca8062717d1aa355a1d4e7a5b57cf642c733c7cb5584fd431b00404c",
+      "notes": "- 优化：系统解码器直出下预加载下一集仅缓冲开头片段，大幅降低连续多集播放的内存占用，保留无感切集体验\n- 优化：使用系统解码器直出时不再创建空闲内置播放器，控制条隐藏时减少无谓重绘，缓解连播几集后画面、弹幕与遥控器卡死\n- 优化：不再擅自将播放内核自动切回内置播放器，需要切核可自行在播放设置中切换\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.52+140-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.53+141-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.52-140-beta/duanjuzhijiatv-4.6.52%2B140-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.53-141-beta/duanjuzhijiatv-4.6.53%2B141-armeabi-v7a.apk"
       ],
-      "size": 41457281,
-      "sha256": "d54c91535c9631ffdcc13cc6f3d4c23b6d4747e93cf12d82b6a0ca38fd1b7d8b",
-      "notes": "- 新增：红果登录页「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 优化：排行榜左侧分类按右键进入列表更稳定\n> 测试版，正式版用户不受影响\n"
+      "size": 41452693,
+      "sha256": "f31cf23ef30f11b10ec9dcbcf454332b717be598db5ca14a9fb05f88d8c3a456",
+      "notes": "- 优化：系统解码器直出下预加载下一集仅缓冲开头片段，大幅降低连续多集播放的内存占用，保留无感切集体验\n- 优化：使用系统解码器直出时不再创建空闲内置播放器，控制条隐藏时减少无谓重绘，缓解连播几集后画面、弹幕与遥控器卡死\n- 优化：不再擅自将播放内核自动切回内置播放器，需要切核可自行在播放设置中切换\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
