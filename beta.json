@@ -9,8 +9,8 @@
   "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.57-160-beta",
   "gate": {
-    "salt": "djzj-2115cfea85b3",
-    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
+    "salt": "djzj-2285498e2ed7",
+    "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
     "iterations": 2000,
     "group": "https://t.me/duanjuzhijia",
     "hint": "4 位数字"
