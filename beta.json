@@ -1,13 +1,13 @@
 {
-  "version": "4.6.55+158",
-  "versionName": "4.6.55",
-  "build": 158,
-  "versionCode": 42655,
+  "version": "4.6.57+160",
+  "versionName": "4.6.57",
+  "build": 160,
+  "versionCode": 42657,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-22T10:49:46Z",
-  "notes": "- 优化：封面加载更快，滑动更流畅；首页轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标\n- 修复：封面一直转圈或显示「重试」的问题\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.55-158-beta",
+  "publishedAt": "2026-11-22T13:20:51Z",
+  "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.57-160-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.55+158-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.57+160-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk"
       ],
-      "size": 33009722,
-      "sha256": "c220975bec3c29299e6a9b0d23cf639a02344d59d4fb3557ab8a1a1ff0d3425a",
-      "notes": "- 优化：封面加载更快，滑动更流畅；首页轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标\n- 修复：封面一直转圈或显示「重试」的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 33013186,
+      "sha256": "dcec508afeaa8b8c4c4d85e70cdbd169dd3195259eec0e69a14251771feae89d",
+      "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.55+158-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.57+160-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-armeabi-v7a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-armeabi-v7a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.55-158-beta/duanjuzhijiatv-4.6.55%2B158-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk"
       ],
-      "size": 41549798,
-      "sha256": "1233859cf2c7c5e87cae35b94ee62f952042d7ba51cf3515f130a111cd51999d",
-      "notes": "- 优化：封面加载更快，滑动更流畅；首页轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标\n- 修复：封面一直转圈或显示「重试」的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 41550742,
+      "sha256": "57c4f56255391baee1bc3d376bfca00206ddb474c9f1b7fb4734a4a0197d020d",
+      "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
