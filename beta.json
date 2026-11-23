@@ -1,13 +1,13 @@
 {
-  "version": "4.6.59+162",
-  "versionName": "4.6.59",
-  "build": 162,
-  "versionCode": 40659,
+  "version": "4.6.60+163",
+  "versionName": "4.6.60",
+  "build": 163,
+  "versionCode": 40660,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-23T03:10:35Z",
-  "notes": "TV 版 4.6.59+162 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.59-162-beta",
+  "publishedAt": "2026-11-23T04:01:38Z",
+  "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.60-163-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.59+162-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.60+163-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk"
       ],
-      "size": 33223926,
-      "sha256": "8fbc9f5b053a9276f51cbabac6fb310c5346c1090e8497c0de4327bfaed62379",
-      "notes": "TV 版 4.6.59+162 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
+      "size": 33232026,
+      "sha256": "163a3785316afb65aff2bbe930d07d4f4e267a904382ac1593d04f9b1ab485b1",
+      "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.59+162-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.60+163-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.59-162-beta/duanjuzhijiatv-4.6.59%2B162-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk"
       ],
-      "size": 41772470,
-      "sha256": "4e37a83a22c8e2819ebadaede2299d91540c69b1bad13bf3f79d4fcd7a685281",
-      "notes": "TV 版 4.6.59+162 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
+      "size": 41773662,
+      "sha256": "e626188babb5a3ca16ecdcf56ae79b0cb6395baf89d61a061670dd004f927bc2",
+      "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
     }
   ]
 }
