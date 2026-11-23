@@ -1,13 +1,13 @@
 {
-  "version": "4.6.57+160",
-  "versionName": "4.6.57",
-  "build": 160,
-  "versionCode": 42657,
+  "version": "4.6.58+161",
+  "versionName": "4.6.58",
+  "build": 161,
+  "versionCode": 40658,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-22T13:20:51Z",
-  "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.57-160-beta",
+  "publishedAt": "2026-11-23T02:39:09Z",
+  "notes": "## TV 版 4.6.58+161 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、`xiaozhi.me` 扫码与 `ESP BOX 3` 标识上报）\n- 新增：遥控器全焦点交互对话弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）\n- 新增：TV 大屏 5 步配对教程页与后台自动检测绑定完成\n- 新增：支持在播放页通过语音控制播放/暂停、跳转进度与上下集切换",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.58-161-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.57+160-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.58+161-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-arm64-v8a.apk"
       ],
-      "size": 33013186,
-      "sha256": "dcec508afeaa8b8c4c4d85e70cdbd169dd3195259eec0e69a14251771feae89d",
-      "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n"
+      "size": 33219666,
+      "sha256": "adfab2febe969cee2b20534ea8a03efe18f7adff1a0aebfa026b741f1bf4b8bb",
+      "notes": "## TV 版 4.6.58+161 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、`xiaozhi.me` 扫码与 `ESP BOX 3` 标识上报）\n- 新增：遥控器全焦点交互对话弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）\n- 新增：TV 大屏 5 步配对教程页与后台自动检测绑定完成\n- 新增：支持在播放页通过语音控制播放/暂停、跳转进度与上下集切换"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.57+160-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.58+161-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.57-160-beta/duanjuzhijiatv-4.6.57%2B160-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.58-161-beta/duanjuzhijiatv-4.6.58%2B161-armeabi-v7a.apk"
       ],
-      "size": 41550742,
-      "sha256": "57c4f56255391baee1bc3d376bfca00206ddb474c9f1b7fb4734a4a0197d020d",
-      "notes": "- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求滑块验证时，不再提示「验证码已发送」但实际没发，改为提示用扫码登录\n> 测试版，正式版用户不受影响\n"
+      "size": 41766078,
+      "sha256": "09c28644638cc2239155370a943d1632495e499013285fa4d9f777f5f1429202",
+      "notes": "## TV 版 4.6.58+161 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、`xiaozhi.me` 扫码与 `ESP BOX 3` 标识上报）\n- 新增：遥控器全焦点交互对话弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）\n- 新增：TV 大屏 5 步配对教程页与后台自动检测绑定完成\n- 新增：支持在播放页通过语音控制播放/暂停、跳转进度与上下集切换"
     }
   ]
 }
