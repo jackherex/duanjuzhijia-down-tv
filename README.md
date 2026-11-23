@@ -8,7 +8,7 @@
 
 **免费使用 · 当前版本 2.0.6+7**
 
-[**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
+[**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)　｜　[❤️ 爱发电赞助支持](https://afdian.com/a/duanjuzhijia)
 
 适用于**安卓电视盒子 / 智能电视**（安卓 8.0 及以上），安装包约 **30.3 MB**。
 普通使用**只需要下载 `.apk`**，不需要下载页面里的其它文件。
@@ -67,6 +67,12 @@ c2092e8dede107387c36263dec7d064ceecedd98aaa81fe3b2417c1269e136f3
 > 请以页面上的为准（按钮永远指向最新版）。
 
 [全部版本与更新内容](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
+
+## 赞助支持
+
+如果觉得软件好用，欢迎通过爱发电赞助支持项目持续维护与更新（自愿支持，不影响免费使用）：
+
+- 爱发电主页：[**https://afdian.com/a/duanjuzhijia**](https://afdian.com/a/duanjuzhijia)
 
 ## 关于本仓库
 
