@@ -1,13 +1,13 @@
 {
-  "version": "4.6.60+163",
-  "versionName": "4.6.60",
-  "build": 163,
-  "versionCode": 40660,
+  "version": "4.6.61+164",
+  "versionName": "4.6.61",
+  "build": 164,
+  "versionCode": 40661,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-23T04:01:38Z",
-  "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.60-163-beta",
+  "publishedAt": "2026-11-23T12:59:34Z",
+  "notes": "- 修复：部分电视/盒子使用遥控器蓝牙语音麦克风说话无响应的问题（完善 Bluetooth SCO 录音链路、外接麦克风自动路由及音频重采样适配）\n- 修复：播放页「播放设置」菜单点选任一开关或选项后不再自动退出（如关闭「下一集预加载」「显示弹幕」等），修改实时生效且保留页面，可连续设置后自行返回退出\n- 优化：AI 助手强化「AI 短剧助手」身份定位与智能播控能力，取消闲置无响应时突兀播报“我先去休息啦，晚安”，关闭弹窗即断开会话\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.61-164-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.60+163-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.61+164-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-arm64-v8a.apk"
       ],
-      "size": 33232026,
-      "sha256": "163a3785316afb65aff2bbe930d07d4f4e267a904382ac1593d04f9b1ab485b1",
-      "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
+      "size": 33253374,
+      "sha256": "6a794698da3bc5fbc35184bb8b2a9a6a414d4cc26095327ffae6328d81318043",
+      "notes": "- 修复：部分电视/盒子使用遥控器蓝牙语音麦克风说话无响应的问题（完善 Bluetooth SCO 录音链路、外接麦克风自动路由及音频重采样适配）\n- 修复：播放页「播放设置」菜单点选任一开关或选项后不再自动退出（如关闭「下一集预加载」「显示弹幕」等），修改实时生效且保留页面，可连续设置后自行返回退出\n- 优化：AI 助手强化「AI 短剧助手」身份定位与智能播控能力，取消闲置无响应时突兀播报“我先去休息啦，晚安”，关闭弹窗即断开会话\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.60+163-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.61+164-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.60-163-beta/duanjuzhijiatv-4.6.60%2B163-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-armeabi-v7a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-armeabi-v7a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.61-164-beta/duanjuzhijiatv-4.6.61%2B164-armeabi-v7a.apk"
       ],
-      "size": 41773662,
-      "sha256": "e626188babb5a3ca16ecdcf56ae79b0cb6395baf89d61a061670dd004f927bc2",
-      "notes": "TV 版 4.6.60+163 Beta\n\n- 新增：设置页支持「遥控器语音快捷键」自定义绑定（捕获语音/菜单/搜索/彩色功能键/数字键等，保留方向与系统键防误触），软件任意页面按下直接弹出 AI 助手并开始语音识别；窗口已打开时再按一次即可发送或继续说话\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、xiaozhi.me 扫码，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索系列剧自动补全全部季避免遗漏\n- 新增：遥控器全焦点交互弹窗（按确认键说话 / 挂断式「打电话」连续语音 / 文字找剧与横向海报卡片）及播放页语音播控\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载"
+      "size": 41799470,
+      "sha256": "ba3e2639c82c3e3004ade59d75f0e171f53d0b8518ca9bb851c4ce322c936396",
+      "notes": "- 修复：部分电视/盒子使用遥控器蓝牙语音麦克风说话无响应的问题（完善 Bluetooth SCO 录音链路、外接麦克风自动路由及音频重采样适配）\n- 修复：播放页「播放设置」菜单点选任一开关或选项后不再自动退出（如关闭「下一集预加载」「显示弹幕」等），修改实时生效且保留页面，可连续设置后自行返回退出\n- 优化：AI 助手强化「AI 短剧助手」身份定位与智能播控能力，取消闲置无响应时突兀播报“我先去休息啦，晚安”，关闭弹窗即断开会话\n- 修复：保持与历史包一致的签名证书，TV 端可直接覆盖升级无需卸载\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
