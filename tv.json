@@ -1,13 +1,13 @@
 {
-  "version": "4.6.62+165",
-  "versionName": "4.6.62",
-  "build": 165,
-  "versionCode": 42662,
+  "version": "4.6.63+166",
+  "versionName": "4.6.63",
+  "build": 166,
+  "versionCode": 42663,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T10:05:19Z",
+  "publishedAt": "2026-11-24T10:35:14Z",
   "notes": "修复播放接口\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.62-165",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.63-166",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,31 +19,31 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.62+165-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.63+166-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-arm64-v8a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-arm64-v8a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-arm64-v8a.apk"
       ],
-      "size": 33274754,
-      "sha256": "ba798406c1d2b8e0e4949f99b64d02353d55c06d0fa6d89e7513c891fe69ccef",
+      "size": 33280730,
+      "sha256": "f88a8fb23b46868cb742d24441bfdde5f68f60c311780a514d880f701773c7dd",
       "notes": "修复播放接口\n"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.62+165-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.63+166-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-armeabi-v7a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-armeabi-v7a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.62-165/duanjuzhijiatv-4.6.62%2B165-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-armeabi-v7a.apk",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-armeabi-v7a.apk",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.63-166/duanjuzhijiatv-4.6.63%2B166-armeabi-v7a.apk"
       ],
-      "size": 41822674,
-      "sha256": "0139a1e17a1cad8242359967f92913c05be170a2528d3d1a01938e208dc633e4",
+      "size": 41827650,
+      "sha256": "251253f505ed126dcae2bb249cc678c3cf47ff1b794f4800a8ba36dcd06796cf",
       "notes": "修复播放接口\n"
     }
   ]
