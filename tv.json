@@ -9,8 +9,8 @@
   "notes": "修复播放接口\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.62-165",
   "gate": {
-    "salt": "djzj-2115cfea85b3",
-    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
+    "salt": "djzj-2285498e2ed7",
+    "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
     "iterations": 2000,
     "group": "https://t.me/duanjuzhijia",
     "hint": "4 位数字"
