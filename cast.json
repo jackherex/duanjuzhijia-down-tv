@@ -1,27 +1,27 @@
 {
   "_comment": "短剧之家投屏端（低性能老机顶盒用，最低安卓 4.4）的在线更新清单。投屏端读 versionCode 比较。",
-  "version": "1.0.6+7",
-  "versionName": "1.0.6",
-  "build": 7,
-  "versionCode": 7,
-  "publishedAt": "2026-11-14T15:48:41Z",
-  "notes": "- 播放控制条改成和 TV 端一样：上一集、播放 / 暂停、下一集、播放设置\n- 进度条改为白色；自动播放下一集时不再弹出进度条\n- 返回键按两次才结束投屏，回到配对页\n- 「上一集」需要手机端 4.6.12 及以上\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/cast-v1.0.6-7",
+  "version": "1.0.7+8",
+  "versionName": "1.0.7",
+  "build": 8,
+  "versionCode": 8,
+  "publishedAt": "2026-11-25T12:41:02Z",
+  "notes": "- 新增：本地 200MB LRU 磁盘缓存与后台串行预加载（自动提前缓存未来 2～3 集），弱网播放与切集更流畅\n- 优化：新增多集预排队列（/queue）与秒切跳转（jump），切集时保留后续已缓存剧集与弹幕同步\n- 兼容：旧版手机端仍自动兼容，无需额外配置\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/cast-v1.0.7-8",
   "assets": [
     {
       "edition": "duanjuzhijia-cast",
       "abi": "universal",
-      "name": "duanjuzhijia-cast-1.0.6+7.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
+      "name": "duanjuzhijia-cast-1.0.7+8.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.7-8/duanjuzhijia-cast-1.0.7.8.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.6-7/duanjuzhijia-cast-1.0.6.7.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.7-8/duanjuzhijia-cast-1.0.7.8.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.7-8/duanjuzhijia-cast-1.0.7.8.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.7-8/duanjuzhijia-cast-1.0.7.8.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/cast-v1.0.7-8/duanjuzhijia-cast-1.0.7.8.apk"
       ],
-      "size": 582014,
-      "sha256": "eb436db71debaf37ca00783af21eeab60573dafb6d0223a8bdee83f53191a262",
-      "notes": "- 播放控制条改成和 TV 端一样：上一集、播放 / 暂停、下一集、播放设置\n- 进度条改为白色；自动播放下一集时不再弹出进度条\n- 返回键按两次才结束投屏，回到配对页\n- 「上一集」需要手机端 4.6.12 及以上\n"
+      "size": 600684,
+      "sha256": "f24decdfdbda4655b2456844436bec3cd4351fad8b4cee53ecf67c0fd680e550",
+      "notes": "- 新增：本地 200MB LRU 磁盘缓存与后台串行预加载（自动提前缓存未来 2～3 集），弱网播放与切集更流畅\n- 优化：新增多集预排队列（/queue）与秒切跳转（jump），切集时保留后续已缓存剧集与弹幕同步\n- 兼容：旧版手机端仍自动兼容，无需额外配置\n"
     }
   ]
 }
