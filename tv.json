@@ -1,13 +1,13 @@
 {
-  "version": "4.6.65+168",
-  "versionName": "4.6.65",
-  "build": 168,
-  "versionCode": 42665,
+  "version": "4.6.66+169",
+  "versionName": "4.6.66",
+  "build": 169,
+  "versionCode": 40666,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T12:56:30Z",
-  "notes": "再次修复播放接口失效（再失效就倒闭吧）",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.65-168",
+  "publishedAt": "2026-11-25T05:49:23Z",
+  "notes": "- 修复：播放接口失效与红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 新增：小智 AI 电视语音找剧助手（支持遥控器一键语音/系统语音找剧、播控与海报卡片选择）\n- 修复：TV 端小智「文字找剧」弹窗内输入框方向键焦点卡死的问题\n- 优化：WebDAV 云端同步提速并新增同步设备管理，优化封面与目录缓存策略\n- 优化：遥控器焦点流畅度、搜索体验与播放稳定性提升",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.66-169",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.65+168-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.66+169-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-arm64-v8a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-arm64-v8a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-arm64-v8a.apk"
       ],
-      "size": 33294354,
-      "sha256": "20ebf45c3173d28c4c8bc21e105ad1ded1a0dcf930294a81a1afb8711b705df0",
-      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
+      "size": 33355574,
+      "sha256": "23b255f67a5a108494d2c0a354e3e4bc5d29f1dcd5848924244f7d70ed67f61e",
+      "notes": "- 修复：播放接口失效与红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 新增：小智 AI 电视语音找剧助手（支持遥控器一键语音/系统语音找剧、播控与海报卡片选择）\n- 修复：TV 端小智「文字找剧」弹窗内输入框方向键焦点卡死的问题\n- 优化：WebDAV 云端同步提速并新增同步设备管理，优化封面与目录缓存策略\n- 优化：遥控器焦点流畅度、搜索体验与播放稳定性提升"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.65+168-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.66+169-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-armeabi-v7a.apk",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-armeabi-v7a.apk",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.65-168/duanjuzhijiatv-4.6.65%2B168-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.66-169/duanjuzhijiatv-4.6.66%2B169-armeabi-v7a.apk"
       ],
-      "size": 41846650,
-      "sha256": "0263f78fd8a24f2234e30a87663a5e36b7a35d515d3df91263572c4ca60eb1a5",
-      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
+      "size": 41909154,
+      "sha256": "22853b27d63a2787f50a2fcc4e8dc9e80513a62c5cd03494527f7f8d61a5959c",
+      "notes": "- 修复：播放接口失效与红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 新增：小智 AI 电视语音找剧助手（支持遥控器一键语音/系统语音找剧、播控与海报卡片选择）\n- 修复：TV 端小智「文字找剧」弹窗内输入框方向键焦点卡死的问题\n- 优化：WebDAV 云端同步提速并新增同步设备管理，优化封面与目录缓存策略\n- 优化：遥控器焦点流畅度、搜索体验与播放稳定性提升"
     }
   ]
 }
