@@ -1,13 +1,13 @@
 {
-  "version": "4.6.67+170",
-  "versionName": "4.6.67",
-  "build": 170,
-  "versionCode": 40667,
+  "version": "4.6.69+172",
+  "versionName": "4.6.69",
+  "build": 172,
+  "versionCode": 40669,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-25T12:43:36Z",
-  "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：云预约网络稳定性与遥控器交互体验",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.67-170",
+  "publishedAt": "2026-11-28T09:38:07Z",
+  "notes": "- 新增：设置页新增「首页继续观看」模式（追剧 / 最近观看 / 关闭），支持 WebDAV 跨端同步\n- 修复：红果账号旧登录态风控不再连累匿名播放取流，重置设备 ID 同步清空主力播放设备缓存与域名熔断记录\n- 修复：排行榜翻页滑过第 10 名后名次重回 1 的问题，现已正确递增显示 11、12、13…",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/tag/tv-app-v4.6.69-172",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijiatv",
       "abi": "arm64-v8a",
-      "name": "duanjuzhijiatv-4.6.67+170-arm64-v8a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-arm64-v8a.apk",
+      "name": "duanjuzhijiatv-4.6.69+172-arm64-v8a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-arm64-v8a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-arm64-v8a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-arm64-v8a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-arm64-v8a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-arm64-v8a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-arm64-v8a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-arm64-v8a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-arm64-v8a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-arm64-v8a.apk"
       ],
-      "size": 33381722,
-      "sha256": "f9825c28c4172ec3edc3c24d7b2ebfe7fe10566a598d883081b3e904a01459b1",
-      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：云预约网络稳定性与遥控器交互体验"
+      "size": 33421924,
+      "sha256": "d406c826afeab1f6a534959e03f90192cbd7c1187b41f3cc5fca19128ecee903",
+      "notes": "- 新增：设置页新增「首页继续观看」模式（追剧 / 最近观看 / 关闭），支持 WebDAV 跨端同步\n- 修复：红果账号旧登录态风控不再连累匿名播放取流，重置设备 ID 同步清空主力播放设备缓存与域名熔断记录\n- 修复：排行榜翻页滑过第 10 名后名次重回 1 的问题，现已正确递增显示 11、12、13…"
     },
     {
       "edition": "duanjuzhijiatv",
       "abi": "armeabi-v7a",
-      "name": "duanjuzhijiatv-4.6.67+170-armeabi-v7a.apk",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-armeabi-v7a.apk",
+      "name": "duanjuzhijiatv-4.6.69+172-armeabi-v7a.apk",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-armeabi-v7a.apk",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-armeabi-v7a.apk",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-armeabi-v7a.apk",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-armeabi-v7a.apk",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.67-170/duanjuzhijiatv-4.6.67%2B170-armeabi-v7a.apk"
+        "https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-armeabi-v7a.apk",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-armeabi-v7a.apk",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-armeabi-v7a.apk",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-tv/releases/download/tv-app-v4.6.69-172/duanjuzhijiatv-4.6.69%2B172-armeabi-v7a.apk"
       ],
-      "size": 41938050,
-      "sha256": "8a6a15d9e3d2fe1f9023e9d1838e9c1f445ef74668ff485d7d0fb3f9b135ed0d",
-      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：云预约网络稳定性与遥控器交互体验"
+      "size": 41984608,
+      "sha256": "0a8eae23a471a23f9d9827f6e57a5b31c1740254a69f44a1a3f52bce8add2cb3",
+      "notes": "- 新增：设置页新增「首页继续观看」模式（追剧 / 最近观看 / 关闭），支持 WebDAV 跨端同步\n- 修复：红果账号旧登录态风控不再连累匿名播放取流，重置设备 ID 同步清空主力播放设备缓存与域名熔断记录\n- 修复：排行榜翻页滑过第 10 名后名次重回 1 的问题，现已正确递增显示 11、12、13…"
     }
   ]
 }
